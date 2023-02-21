@@ -5,32 +5,27 @@ var docMenu = [
   }, {
 		divider: true
   }, {
-		fr_FR: "Plugin Rosee",
+		fr_FR: "Action",
 		submenu: [
 			{
-				link: "/documentation/plugin-rosee/#LANG#/index",
+				link: "/documentation/widget/#LANG#/action/other",
 				icon: "fas fa-book",
-				fr_FR: "Documentation"
+				fr_FR: "Other"
 			},
 			{
-				link: "/documentation/plugin-rosee/#LANG#/changelog",
+				link: "/documentation/widget/#LANG#/action/slider",
 				icon: "fas fa-edit",
-				fr_FR: "Changelog"
+				fr_FR: "Slider"
 			},
 			{
-				link: "/documentation/plugin-rosee/#LANG#/exemple",
+				link: "/documentation/widget/#LANG#/action/select",
 				icon: "fas fa-paint-brush",
-				fr_FR: "Exemples"
+				fr_FR: "Select"
 			},
 			{
-				link: "/documentation/plugin-rosee/#LANG#/faq",
+				link: "/documentation/widget/#LANG#/action/message",
 				icon: "fas fa-question",
-				fr_FR: "FAQ"
-			},
-			{
-				link: "/documentation/plugin-rosee/#LANG#/troubleshotting",
-				icon: "fas fa-life-ring",
-				fr_FR: "Troubleshotting"
+				fr_FR: "Message"
 			}
     ]
   }, {
