@@ -5,7 +5,7 @@ var docMenu = [
   }, {
 		divider: true
   }, {
-		fr_FR: "Action",
+		fr_FR: "Widgets Action",
 		submenu: [
 			{
 				link: "/documentation/widget/#LANG#/action/other",
@@ -28,7 +28,28 @@ var docMenu = [
 				fr_FR: "Message"
 			}
     ]
-  }, {
+  },
+  {
+		fr_FR: "Widgets Info",
+		submenu: [
+			{
+				link: "/documentation/widget/#LANG#/info/binary",
+				icon: "fab fa-creative-commons-zero",
+				fr_FR: "Binary"
+			},
+			{
+				link: "/documentation/widget/#LANG#/info/numeric",
+				icon: "fab fa-creative-commons-zero",
+				fr_FR: "Numeric"
+			},
+			{
+				link: "/documentation/widget/#LANG#/info/string",
+				icon: "fas fa-font-case",
+				fr_FR: "String"
+			}
+    ]
+  },
+  {
 		divider: true
   },
 ]
