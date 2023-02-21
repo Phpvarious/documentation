@@ -123,7 +123,7 @@ for (var i in docMenu) {
 		}
 	}
 }
-html += '<li class="small"><small>JAG Plugins</small></li>'
+//html += '<li class="small"><small>Phpvarious Plugins</small></li>'
 $('#ul_menu').empty().html(html);
 
 function genText(_menu, _lang) {
