@@ -9,22 +9,22 @@ var docMenu = [
 		submenu: [
 			{
 				link: "/documentation/widget/#LANG#/action/other",
-				icon: "fas fa-book",
+				icon: "fas fa-power-off ",
 				fr_FR: "Other"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/slider",
-				icon: "fas fa-edit",
+				icon: "fas fa-sliders-h",
 				fr_FR: "Slider"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/select",
-				icon: "fas fa-paint-brush",
+				icon: "fas fa-list",
 				fr_FR: "Select"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/message",
-				icon: "fas fa-question",
+				icon: "fab fa-facebook-messenger",
 				fr_FR: "Message"
 			}
     ]
