@@ -1,5 +1,6 @@
 var docMenu = [
 	{
+		icon: "fab fa-github ",
 		fr_FR: "Github",
 		link: "https://github.com/Phpvarious/"
   }, {
@@ -151,7 +152,7 @@ function genText(_menu, _lang) {
 }
 
 $(function () {
-	document.title = 'Phvarious Documentation'
+	document.title = 'Phvarious Widgets'
 	$('.sidenav').sidenav();
 	setTimeout(function () {
 		if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
