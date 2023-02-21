@@ -1,7 +1,7 @@
 var docMenu = [
 	{
 		fr_FR: "Github",
-		link: "https://github.com/JEALG/"
+		link: "https://github.com/Phpvarious/"
   }, {
 		divider: true
   }, {
@@ -135,7 +135,7 @@ function genText(_menu, _lang) {
 }
 
 $(function () {
-	document.title = 'JAG Documentation'
+	document.title = 'Phvarious Documentation'
 	$('.sidenav').sidenav();
 	setTimeout(function () {
 		if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
