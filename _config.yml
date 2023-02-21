@@ -1,0 +1,36 @@
+---
+languages: [fr_FR, en_US, es_ES, de_DE]
+baseurl: "/"
+url: "/" # the base hostname & protocol for your site
+sass:
+  sass_dir: css
+  style: compressed
+markdown: kramdown
+permalink: /404.html
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude:
+  - vendor
+plugins:
+  - jekyll-seo-tag
+title: "Documentations des widgets de Phpvarious"
+description: "Ceci est la documentation des widgets créés par Phpvarious de la solution domotique Jeedom."
+author: "Phpvarious"
+image: https://doc.jeedom.com/images/logo.png
+twitter:
+  username: Jeedom_domotic
+social:
+  name: Jeedom
+community: https://community.jeedom.com
+market: https://market.jeedom.com
+blog: https://blog.jeedom.com
+doc: https://doc.jeedom.com
+help: "help"
+archive: "widget_archive"
+widget: "widget"
+img: "images"
