@@ -1,7 +1,7 @@
 ---
 languages: [fr_FR, en_US, es_ES, de_DE]
-baseurl: "/"
-url: "/" # the base hostname & protocol for your site
+baseurl: "https://github.com/Phpvarious"
+url: "/documentation" # the base hostname & protocol for your site
 sass:
   sass_dir: css
   style: compressed
