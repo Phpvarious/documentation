@@ -1,6 +1,6 @@
 ---
 languages: [fr_FR, en_US, es_ES, de_DE]
-baseurl: "https://github.com/Phpvarious"
+baseurl: "/"
 url: "/" # the base hostname & protocol for your site
 sass:
   sass_dir: css
