@@ -1,5 +1,5 @@
 
-# Les Widgets
+# Documenatation
 
 Ici vous trouverez l'ensemble de la documentation des Widgets pour Jeedom
 

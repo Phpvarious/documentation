@@ -33,4 +33,6 @@ doc: https://doc.jeedom.com
 help: "help"
 archive: "widget_archive"
 widget: "widget"
+doc_widget: "widget/documentation"
+model_widget: "model_widget"
 img: "images"
