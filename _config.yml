@@ -1,7 +1,7 @@
 ---
 languages: [fr_FR, en_US, es_ES, de_DE]
 baseurl: "/"
-url: "https://github.com/Phpvarious" # the base hostname & protocol for your site
+url: "https://phpvarious.github.io/" # the base hostname & protocol for your site
 sass:
   sass_dir: css
   style: compressed
@@ -36,3 +36,4 @@ widget: "widget"
 doc_widget: "widget/documentation"
 model_widget: "model_widget"
 img: "images"
+url_git: "https://github.com/Phpvarious"
