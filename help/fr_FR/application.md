@@ -1,4 +1,4 @@
-<a href="../">Aide</a> → <a href="./">Téléchargement d'un widget</a> → ***Application d'un widget***
+<a href="../">Aide</a> → <a href="./download">Téléchargement d'un widget</a> → ***Application d'un widget***
 
 # Application d'un widget
 
@@ -33,6 +33,8 @@
 - Selectionner l'onglet 'Affichage'. *(6)*
 - Selectionner le widget que vous voulez appliquer a la commande. *(7)*
 
+<img src="../{{site.img}}/application_2.png" alt="application_2" />
+
 > Si ils sont disponible dans le widget, la liste des paramètres optionnels seront affichés *(8)* après selection du widget.
 
 ## 3) Paramètres optionnels
@@ -58,4 +60,4 @@ Pour notre exemple [cmd.action.slider.Widget_Switch1]({{site.url}}/documentation
 
 <hr />
 
-<a href="../">Aide</a> → <a href="./">Téléchargement d'un widget</a> → ***Application d'un widget***
+<a href="../">Aide</a> → <a href="./download">Téléchargement d'un widget</a> → ***Application d'un widget***
