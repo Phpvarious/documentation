@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → Téléchargement d'un widget
+<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → ***Téléchargement d'un widget*** → <a href="{{site.url}}/documentation/{{site.help}}/fr_FR/application">Application d'un widget</a>
 
 # Récupérer les sources
 
@@ -6,8 +6,8 @@
 
 Dans le dossier du widget :
 
-  1. cliquer sur le bouton [<i>&lt;&gt; Code</i>].
-  2. cliquer sur <i>[Download ZIP]</i>.
+  1. Cliquer sur le bouton [<i>&lt;&gt; Code</i>].
+  2. Cliquer sur <i>[Download ZIP]</i>.
 
 <img src="{{site.url}}/documentation/{{site.help}}/{{site.img}}/download_1.png" alt="download_1" />
 
@@ -36,4 +36,5 @@ Cliquer ensuite sur <i>Sélectionner les fichiers à envoyer</i> ou pour envoyer
 <img src="{{site.url}}/documentation/{{site.help}}/{{site.img}}/install_3.png" alt="Install_3" />
 
 <hr />
-<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → Téléchargement d'un widget
+
+<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → ***Téléchargement d'un widget*** → <a href="{{site.url}}/documentation/{{site.help}}/fr_FR/application">Application d'un widget</a>
