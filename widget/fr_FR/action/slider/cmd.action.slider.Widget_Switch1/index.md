@@ -6,7 +6,7 @@
 
 
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/dashboard/action.slider.switch1_light_visuel.png" alt="cmd.action.slider.Widget_Switch1" />
+<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/dashboard/action.slider.switch1_light_visuel.png" alt="cmd.action.slider.Widget_Switch1" /> <img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/dashboard/action.slider.switch1_light_visuel2.png" alt="cmd.action.slider.Widget_Switch1" />
 
 ## Télécharger la source
 > - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.Widget_Switch1)
