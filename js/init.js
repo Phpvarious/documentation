@@ -45,7 +45,7 @@ var docMenu = [
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/string",
-				icon: "fas fa-font-case",
+				icon: "fas fa-text-height",
 				fr_FR: "String"
 			}
     ]
