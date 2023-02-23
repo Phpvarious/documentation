@@ -3,6 +3,7 @@
 # Récupérer les sources
 
 ## Téléchargement
+
 Dans le dossier du widget :
 
   1) cliquer sur le bouton [<i>&lt;&gt; Code</i>].
