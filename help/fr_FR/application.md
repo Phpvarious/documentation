@@ -7,7 +7,7 @@
 
 > Exemple pour appliquer le widget [cmd.action.slider.Widget_Switch1]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider/cmd.action.slider.Widget_Switch1).
 
-## 1) Création d'un virtuel
+## Création d'un virtuel
 - Créer un nouvel équipement 'virtuel' *(Widget_Switch1)*
   - Activer et rendre visible puis sauvegarder.
 - Ajouter une 'Action virtuel' *(1)*.
@@ -24,7 +24,7 @@
 
 <img src="../{{site.img}}/virtuel_2.png" alt="Virtuel_2" />
 
-## 2) Application du widget sur la commande
+## Application du widget sur une commande
 
 - Ouvrer la configuration avancée de la commande action.
 
@@ -37,7 +37,7 @@
 
 > Si ils sont disponible dans le widget, la liste des paramètres optionnels seront affichés *(8)* après selection du widget.
 
-## 3) Paramètres optionnels
+## Paramètres optionnels
 
 Sur certains widget, il est possible d'ajouter des paramètres optionnels.<br>
 Pour notre exemple [cmd.action.slider.Widget_Switch1]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider/cmd.action.slider.Widget_Switch1), il est possible de modifier la longueur (width) du widget.
@@ -51,9 +51,15 @@ Pour notre exemple [cmd.action.slider.Widget_Switch1]({{site.url}}/documentation
 
 <img src="../{{site.img}}/parametre_1.png" alt="parametre_1" />
 
-# Troubleshotting
+## Troubleshotting
 
-### L’option "Afficher les statistiques" est non visible dans la configuration de la commande sur les widgets de type info.
+### Je n'est pas de statistique affichée sur le widget.
+Vérifiez que l'option *Afficher les statistiques* est bien active dans la configuration de la commande.
+
+<img src="../{{site.img}}/stat_2.png" alt="stat_2" />
+
+### l'option *Afficher les statistiques* n'existe pas dans la configuration de la commande.
+
 Il faut vérifier que l’option "Afficher les statistiques sur les widgets" est active.<br>
 **Réglages→Système→Configuration** onglet **Equipements**.
 
@@ -64,12 +70,6 @@ Il faut vérifier que l’option "Icônes widgets colorées" est active.<br>
 **Réglages→Système→Configuration** onglet **Interface**.
 
 <img src="../{{site.img}}/interface_1.png" alt="interface_1" />
-
-
-
-
-
-
 
 <hr />
 
