@@ -51,6 +51,19 @@ Pour notre exemple [cmd.action.slider.Widget_Switch1]({{site.url}}/documentation
 
 <img src="../{{site.img}}/parametre_1.png" alt="parametre_1" />
 
+# Troubleshotting
+
+### L’option "Afficher les statistiques" est non visible dans la configuration de la commande sur les widgets de type info.
+Il faut vérifier que l’option "Afficher les statistiques sur les widgets" est active.<br>
+**Réglages→Système→Configuration** onglet **Equipements**.
+
+<img src="../{{site.img}}/stat_1.png" alt="stat_1" />
+
+### Les couleurs ne sont pas appliquées sur les widgets.
+Il faut vérifier que l’option "Icônes widgets colorées" est active.<br>
+**Réglages→Système→Configuration** onglet **Interface**.
+
+<img src="../{{site.img}}/interface_1.png" alt="interface_1" />
 
 
 
