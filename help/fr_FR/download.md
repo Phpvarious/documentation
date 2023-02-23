@@ -6,8 +6,8 @@
 
 Dans le dossier du widget :
 
-  1) cliquer sur le bouton [<i>&lt;&gt; Code</i>].
-  2) cliquer sur <i>[Download ZIP]</i>.
+  1. cliquer sur le bouton [<i>&lt;&gt; Code</i>].
+  2. cliquer sur <i>[Download ZIP]</i>.
 
 <img src="{{site.url}}/documentation/{{site.help}}/{{site.img}}/download_1.png" alt="download_1" />
 
