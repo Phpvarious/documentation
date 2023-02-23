@@ -17,8 +17,8 @@
 <img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/dashboard/action.slider.switch1_light_param2.png" alt="Paramètres optionnels" />
 
 ## Aide
-> - [Comment récupérer les sources ?]({{site.url}}/{{site.help}}/{{site.lang}}/download)
-> - [Comment ajouter des paramètres ?]({{site.url}}/{{site.help}}/{{site.lang}}/download)
+> - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
+> - [Comment ajouter des paramètres ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
 
 <hr />
 
