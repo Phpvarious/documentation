@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → ***Téléchargement d'un widget*** → <a href="{{site.url}}/documentation/{{site.help}}/fr_FR/application">Application d'un widget</a>
+<a href="../">Aide</a> → ***Téléchargement d'un widget*** → <a href="./application">Application d'un widget</a>
 
 # Récupérer les sources
 
@@ -37,4 +37,4 @@ Cliquer ensuite sur <i>Sélectionner les fichiers à envoyer</i> ou pour envoyer
 
 <hr />
 
-<a href="{{site.url}}/documentation/{{site.help}}">Aide</a> → ***Téléchargement d'un widget*** → <a href="{{site.url}}/documentation/{{site.help}}/fr_FR/application">Application d'un widget</a>
+<a href="../">Aide</a> → ***Téléchargement d'un widget*** → <a href="./application">Application d'un widget</a>
