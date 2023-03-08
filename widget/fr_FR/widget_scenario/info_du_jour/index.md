@@ -82,7 +82,7 @@ Créer un nouveau scénario puis ajouter un template :
   - Appliquez les modifications (2).
   - Demande de confirmation, cliquez sur OK puis sauvegardez le scénario.
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario3.png" alt="Scénario 4" />
+<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario4.png" alt="Scénario 4" />
 
 Le scénario a un CRON de cinq minutes par défaut.
 
