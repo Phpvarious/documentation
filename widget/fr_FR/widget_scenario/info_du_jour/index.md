@@ -88,6 +88,10 @@ Créer un nouveau scénario puis ajouter un template :
 
 Le scénario a un CRON de cinq minutes par défaut.
 
+> **Bug**
+>
+> Il est possible, après sauvegarde, que le scénario apparaisse vide, actualiser la page, pour faire apparaître le contenu.
+
 ## 4) Configuration
 Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez la zone vous concernant pour les vacances scolaires.
 
@@ -154,6 +158,8 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 ### Exemple dans le Scénario
 
 <img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario5_1.png" alt="scenario5_1" />
+
+---------------------
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
