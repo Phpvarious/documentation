@@ -153,7 +153,7 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 
 ### Exemple dans le Scénario
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/config2.png" alt="scenario5_1" />
+<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario5_1.png" alt="scenario5_1" />
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
