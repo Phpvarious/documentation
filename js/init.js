@@ -159,7 +159,7 @@ function genText(_menu, _lang) {
 }
 
 $(function () {
-	document.title = 'Phvarious Widgets'
+	document.title = 'Phpvarious Widgets'
 	$('.sidenav').sidenav();
 	setTimeout(function () {
 		if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
