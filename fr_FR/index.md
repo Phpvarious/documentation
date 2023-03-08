@@ -1,6 +1,8 @@
 
-# Documenatation
+# Documentation
 
-Ici vous trouverez l'ensemble de la documentation des Widgets pour Jeedom
+- [Documentation]({{site.baseurl}}/{{site.help}}/{{page.lang}})
 
-- [Documentation]({{site.baseurl}}/{{site.widget}}/{{page.lang}})
+# Widgets
+
+- [Widgets]({{site.baseurl}}/{{site.widget}}/{{page.lang}})

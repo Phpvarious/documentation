@@ -53,6 +53,13 @@ var docMenu = [
   {
 		divider: true
   },
+  {
+	fr_FR: "Widgets / Scénarios",
+	link: "/documentation/widget/#LANG#/widget_scenario"
+  },
+  {
+	divider: true
+  }
 ]
 
 if (getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark') {
