@@ -4,4 +4,4 @@
 
 | Nom du Widget  | Visuel         | Docs/Téléchargement     | Compatibilité     |
 |----------------|----------------|-------------------------|-------------------|
-|  |  |  |
+| Info du jour | <img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/capture1_2.png" alt="Info du jour" /> | <a href="./info_du_jour"><i class="fas fa-file-download"></i> Lien</a> | ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4-green.svg) |
