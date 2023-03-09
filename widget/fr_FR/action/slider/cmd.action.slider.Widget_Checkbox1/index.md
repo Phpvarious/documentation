@@ -1,7 +1,7 @@
 
 <a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider">Slider</a> --> cmd.action.slider.Widget_Checkbox1
 
-# Widget [cmd.action.slider.Widget_Checkbox1] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4-green.svg)
+# Widget [cmd.action.slider.Widget_Checkbox1] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
 
 
 

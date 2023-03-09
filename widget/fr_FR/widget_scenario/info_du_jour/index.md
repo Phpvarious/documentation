@@ -3,9 +3,9 @@
 
 ------------
 
-# Widget [Info du jour] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4-green.svg)
+# Widget [Info du jour] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/capture1_2.png" alt="Info du jour" />
+<img src="../../../images/info_du_jour/capture1_2.png" alt="Info du jour" />
 
 - Informations disponibles sur le widget :
   - Date du jour.
@@ -27,7 +27,7 @@
 - Déposer le fichier cmd.info.string.Info_du_jour.html dans le dossier :
   - /html/data/customTemplates/dashboard/
 
-  <img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/capture2.png" alt="Téléchargement du widget" />
+  <img src="../../../images/info_du_jour/capture2.png" alt="Téléchargement du widget" />
 
 ### Version mobile
 
@@ -42,8 +42,8 @@
 - Attention, ne pas historiser (2).
 - Associez le widget à la commande Info/Autre,(3, 4 et 5).
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/installation_virtuel2.png" alt="Virtuel 1" />
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/installation_virtuel3.png" alt="Virtuel 2" />
+<img src="../../../images/info_du_jour/installation_virtuel2.png" alt="Virtuel 1" />
+<img src="../../../images/info_du_jour/installation_virtuel3.png" alt="Virtuel 2" />
 
 
 ## Paramètres optionnels
@@ -68,23 +68,23 @@
 
 Créer un nouveau scénario puis ajouter un template :
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario1.png" alt="Scénario 1" />
+<img src="../../../images/info_du_jour/scenario1.png" alt="Scénario 1" />
 
 - Selectionnez "Charger un template" puis ajoutez le fichier téléchargé précedemment (Info du jour.json):
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario2.png" alt="Scénario 2" />
+<img src="../../../images/info_du_jour/scenario2.png" alt="Scénario 2" />
 
 
 - Une fois chargé, celui-ci devrait apparaître dans le menu de gauche, cliquez dessus :
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario3.png" alt="Scénario 3" />
+<img src="../../../images/info_du_jour/scenario3.png" alt="Scénario 3" />
 
 - Dans la nouvelle fenêtre :
   - Recherchez le virtuel créé précedemment (1).
   - Appliquez les modifications (2).
   - Demande de confirmation, cliquez sur OK puis sauvegardez le scénario.
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario4.png" alt="Scénario 4" />
+<img src="../../../images/info_du_jour/scenario4.png" alt="Scénario 4" />
 
 Le scénario a un CRON de cinq minutes par défaut.
 
@@ -95,13 +95,13 @@ Le scénario a un CRON de cinq minutes par défaut.
 ## 4) Configuration
 Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez la zone vous concernant pour les vacances scolaires.
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/config1_2.png" alt="Config 1" />
+<img src="../../../images/info_du_jour/config1_2.png" alt="Config 1" />
 
 Ensuite configurez la zone géographique dans la configuration Jeedom :
 - Rendez-vous dans Réglages/Sytème/Configuration.
 - Puis dans l'onglet général, en bas renseignez les informations :
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/config2.png" alt="Config 2" />
+<img src="../../../images/info_du_jour/config2.png" alt="Config 2" />
 
 ## 5) Options
 
@@ -158,7 +158,7 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 
 ### Exemple dans le Scénario
 
-<img src="{{site.url}}/documentation/{{site.widget}}/{{site.img}}/info_du_jour/scenario5_1.png" alt="scenario5_1" />
+<img src="../../../images/info_du_jour/scenario5_1.png" alt="scenario5_1" />
 
 ---------------------
 
