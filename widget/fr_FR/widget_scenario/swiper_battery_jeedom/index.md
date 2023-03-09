@@ -32,8 +32,11 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/swiper_battery_jeedom/parametres.png" alt="Virtuel 2" />
+<img src="../../../images/swiper_battery_jeedom/parametres.png" alt="Paramètre 1" />
 
+- Exemple de paramètres optionnels :
+
+<img src="../../../images/swiper_battery_jeedom/installation_virtuel4.png" alt="Paramètre 2" />
 ---------------------
 
 ## Aide
