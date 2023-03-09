@@ -48,19 +48,7 @@
 
 ## Paramètres optionnels
 
-     colorBackgroundNight : Couleur du fond lorsque le widget est en Mode nuit [ Exemple : #fffff, white ... (accepte linear-gradient...) ]
-     colorBackgroundDay : Couleur du fond lorsque le widget est en Mode jour [ Exemple : #fffff, white ... (accepte linear-gradient...) ]
-     colorTextNight : Couleur du texte lorsque le widget est en Mode nuit [ Exemple : #fffff, white ... (Défaut : couleur du core) ]
-     colorTextDay : Couleur du texte lorsque le widget est en Mode jour [ Exemple : #fffff, white ... (Défaut : couleur du core) ]
-     colorLogoNight : Couleur du logo saison lorsque le widget est en Mode nuit [ Exemple : #fffff, white ... (Défaut : couleur du core) ]
-     colorLogoDay : Couleur du logo saison lorsque le widget est en Mode jour [ Exemple : #fffff, white ... (Défaut : couleur du core) ]
-     opacityLogo : opacité du logo saison [ Exemple : 10, 20 ... (Défaut : 50) ]
-     borderRadius : Taille arrondi du widget [ Exemple : 10, 20 ... (Défaut : 30) ]
-     displaySaisonText : Affiche/cache le texte saison [ 1=Afficher, 0=cacher (défaut : 1) ]
-     displaySaisonLogo : Affiche/cache le logo saison [ 1=Afficher, 0=cacher (défaut : 1) ]
-     displayLeverCoucher : Affiche/cache le div Lever/Coucher du soleil [ 1=Afficher, 0=cacher (défaut : 1) ]
-     displayDureeJour : Affiche/cache la durée du jour dans le widget [ 1=Afficher, 0=cacher (défaut : 1) ]
-     themeJeedom : Le widget se base sur le theme Jeedom pour basculer en mode Day/Night [ 1=Jeedom, 0=scénario(widget) (défaut : 0) ]
+<img src="../../../images/info_du_jour/parametres.png" alt="Info du jour" />
 
 ---------------------
 
