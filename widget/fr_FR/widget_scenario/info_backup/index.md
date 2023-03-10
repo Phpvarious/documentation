@@ -70,12 +70,6 @@ Créer un nouveau scénario puis ajouter un template :
 ## 4) Configuration
 Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez, DANS LE SECOND BLOC CODE ,la taille mini de la sauvegarde en octet pour déclencher une erreur. [Défaut : 100Mo]
 
-<img src="../../../images/info_du_jour/config1_2.png" alt="Config 1" />
-
-Ensuite configurez la zone géographique dans la configuration Jeedom :
-- Rendez-vous dans Réglages/Sytème/Configuration.
-- Puis dans l'onglet général, en bas renseignez les informations :
-
 <img src="../../../images/info_backup/config1.png" alt="Config 2" />
 
 ## 5) Options
