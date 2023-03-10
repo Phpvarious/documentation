@@ -68,7 +68,7 @@ Créer un nouveau scénario puis ajouter un template :
 > Il est possible, après sauvegarde, que le scénario apparaisse vide, actualiser la page, pour faire apparaître le contenu.
 
 ## 4) Configuration
-Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez, DANS LE SECOND BLOC CODE ,la taille mini de la sauvegarde en octet pour déclencher une erreur. [Défaut : 100Mo]
+Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez, DANS LE BLOC CODE ,la taille mini de la sauvegarde en octet pour déclencher une erreur. [Défaut : 100Mo]
 
 <img src="../../../images/info_backup/config1.png" alt="Config 2" />
 
