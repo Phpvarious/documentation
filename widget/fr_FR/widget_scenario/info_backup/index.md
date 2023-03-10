@@ -5,7 +5,7 @@
 
 # Widget [Info backup] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
 
-<img src="../../../images/info_backup/capture1.png" alt="Info backup" />
+<img src="../../../images/info_backup/capture2_2.png" alt="Info backup" />
 <img src="../../../images/info_backup/capture2.gif" alt="Info backup" />
 
 - Informations disponibles sur le widget :
