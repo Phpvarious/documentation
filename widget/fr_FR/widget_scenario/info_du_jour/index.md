@@ -5,7 +5,7 @@
 
 # Widget [Info du jour] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
 
-<img src="../../../images/info_du_jour/capture1_2.png" alt="Info du jour" />
+<img src="../../../images/info_du_jour/capture1_3.png" alt="Info du jour" />
 
 - Informations disponibles sur le widget :
   - Date du jour.
@@ -48,7 +48,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/info_du_jour/parametres.png" alt="Info du jour" />
+<img src="../../../images/info_du_jour/parametres_2.png" alt="Info du jour" />
 
 ---------------------
 
