@@ -115,12 +115,24 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 | tag(saintJour) | Autre | Saint du jour |
 | tag(saintDemain) | Autre| Saint du lendemain |
 
-### SOLEIL / JOUR
+### JOUR
 
 | Tag scénario | Type Info virtuel | Détail |
 | ------ | ------ | ------ |
 | tag(dateDuJour) | Autre | Ex : 2022-09-18 |
 | tag(daynumber) | Numérique | |
+| tag(weekend) | Binaire | 1=WE |
+| tag(ferie) | Binaire | 1=Férié |
+| tag(libelleFerie) | Autre | Ex : Toussaint |
+| tag(dateProchainFerie) | Autre | Ex : 2022-11-01 |
+| tag(libelleProchainFerie) | Autre| Ex : Toussaint |
+| tag(nbProchainFerie) | Numérique | Ex : 44 (44jours restant avant prochain jour férié |
+| tag(saison) |Autre | Printemps/Eté... |
+
+### SOLEIL
+
+| Tag scénario | Type Info virtuel | Détail |
+| ------ | ------ | ------ |
 | tag(leverSoleilScenario) | Numérique | Exemple : 831 (8h31) |
 | tag(zenithSoleilScenario) | Numérique | Exemple : 1249 (12h49) |
 | tag(coucherSoleilScenario) | Numérique | Exemple : 1707 (17h07) |
@@ -136,26 +148,20 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 | tag(dureeJourSeconde) |  Numérique | Exemple : 41203
 | tag(dureeJourEcart) | Autre | Exemple : -207 (-207 secondes) |
 | tag(modeJourBinaire) | Binaire | 1=Jour |
-| tag(weekend) | Binaire | 1=WE |
-| tag(ferie) | Binaire | 1=Férié |
-| tag(libelleFerie) | Autre | Ex : Toussaint |
-| tag(dateProchainFerie) | Autre | Ex : 2022-11-01 |
-| tag(libelleProchainFerie) | Autre| Ex : Toussaint |
-| tag(nbProchainFerie) | Numérique | Ex : 44 (44jours restant avant prochain jour férié |
-| tag(saison) |Autre | Printemps/Eté... |
+| tag(modeJour) | Autre | Jour ou Nuit |
 
 ### LUNE
 
 | Tag scénario | Type Info virtuel | Détail |
 | ------ | ------ | ------ |
-| tag(Moon_Phase) | Autre | Ex : montante |
+| tag(Moon_Phase) | Autre | Croissante ou Décroissante |
 | tag(Moon_PhaseName) | Autre | Ex : Premier croissant |
 | tag(Moon_Age) | Numérique | Ex : 5.2 |
 | tag(Next_Full_Moon) | Autre | Ex : jeudi 06/04/2023 |
 | tag(Next_Full_Moon2) | Autre | Ex : vendredi 05/05/2023 |
 | tag(Next_New_Moon) | Autre | Ex : jeudi 20/04/2023 |
-| tag(Moon_Distance) | Numérique | Ex : 394213 |
-| tag(Moon_Illumination) | Numérique | Ex : 28 |
+| tag(Moon_Distance) | Numérique | Ex : 394213 (kms)|
+| tag(Moon_Illumination) | Numérique | Ex : 28 (%)|
 
 
 ### Exemple dans le Scénario
