@@ -164,7 +164,7 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 
 ### Changelog
 
-<a href="change_log.md">Changelog</a>
+<a href="./changelog">Changelog</a>
 
 ---------------------
 
