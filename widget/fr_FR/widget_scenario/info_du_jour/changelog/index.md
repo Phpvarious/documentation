@@ -1,9 +1,10 @@
 <a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario">Widgets / Scénarios</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario/info_du_jour">Info du Jour</a> --> [ChangeLog]
 
+--------------------
+
 # Journal des modifications
 
-     
-     /!\ Attention, n'oubliez pas de reconfigurer le paramètre "$zone" dans le bloc code, si vous mettez a jour le scénario, car celui-ci sera reconfiguré en zone B par défaut.
+> /!\ Attention, n'oubliez pas de reconfigurer le paramètre "$zone" dans le bloc code, si vous mettez a jour le scénario, car celui-ci sera reconfiguré en zone B par défaut.
      
 
 ## 05/12/2021
@@ -41,5 +42,6 @@
   - Modification du code, celui-ci est plus précis dans les phases lunaire.  [scénario]
   - Ajout de l'animation de la phase lunaire dans le widget. [widget]
 
+-------------------------------
 
 <a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario">Widgets / Scénarios</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario/info_du_jour">Info du Jour</a> --> [ChangeLog]
