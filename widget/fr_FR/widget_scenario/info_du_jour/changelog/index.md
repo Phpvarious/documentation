@@ -4,7 +4,9 @@
 
 # Journal des modifications
 
-> /!\ Attention, n'oubliez pas de reconfigurer le paramètre "$zone" dans le bloc code, si vous mettez a jour le scénario, car celui-ci sera reconfiguré en zone B par défaut.
+> **Important**
+>
+> N'oubliez pas de reconfigurer le paramètre "$zone" dans le bloc code, si vous mettez à jour le scénario, car celui-ci sera reconfiguré en zone B par défaut.
      
 
 ## 05/12/2021
