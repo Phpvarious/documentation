@@ -162,6 +162,10 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 
 <img src="../../../images/info_du_jour/scenario5_1.png" alt="scenario5_1" />
 
+### Changelog
+
+<a href="changelog.md">Changelog</a>
+
 ---------------------
 
 ## Aide
