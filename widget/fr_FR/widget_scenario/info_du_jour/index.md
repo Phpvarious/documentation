@@ -81,6 +81,7 @@ Le scénario a un CRON de cinq minutes par défaut.
 >
 > Il est possible, après sauvegarde, que le scénario apparaisse vide, actualiser la page, pour faire apparaître le contenu.
 
+
 ## 4) Configuration
 Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez la zone vous concernant pour les vacances scolaires.
 
@@ -164,6 +165,14 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 | tag(Moon_Distance) | Numérique | Ex : 394213 (kms)|
 | tag(Moon_Illumination) | Numérique | Ex : 28 (%)|
 
+> **Tip**
+>
+> Pour mettre à jour le template et récuperer vos "event" :
+> - Désactiver le scénario actuel, puis mettre tous les "event" perso dans un seul et meme bloc action.
+> - Créer un nouveau scénario et appliquer le nouveau template sur celui-ci.
+> - Utiliser le copier/coller pour transférer le bloc action qui contient les "event" perso vers le nouveau scénario (icones en haut a droite du bloc action).
+> - Testé le nouveau scénario.
+> - Si le test est concluant, supprimer l’ancien scénario.
 
 ### Exemple dans le Scénario
 
