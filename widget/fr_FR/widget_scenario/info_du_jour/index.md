@@ -16,6 +16,7 @@
   - Vacances (prochaines vacances au survol).
   - Lever/coucher du soleil (avec animation de l'élévation en cours).
   - Saison (représentée par l'image en haut à droite).
+  - Infos de phase lunaire (avec animation).
 
 ## 1) Téléchargement
 
@@ -120,7 +121,7 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 | Tag scénario | Type Info virtuel | Détail |
 | ------ | ------ | ------ |
 | tag(dateDuJour) | Autre | Ex : 2022-09-18 |
-| tag(daynumber) | Numérique | |
+| tag(dayNumber) | Numérique | |
 | tag(weekend) | Binaire | 1=WE |
 | tag(ferie) | Binaire | 1=Férié |
 | tag(libelleFerie) | Autre | Ex : Toussaint |
