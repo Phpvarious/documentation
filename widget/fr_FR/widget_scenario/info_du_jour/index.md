@@ -49,7 +49,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/info_du_jour/parametres_2.png" alt="Info du jour" />
+<img src="../../../images/info_du_jour/parametres_3.png" alt="Info du jour" />
 
 ---------------------
 
