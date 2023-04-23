@@ -10,7 +10,7 @@
 > **Information**
 >
 > - Ce widget est en version béta.
-> - Il est basé sur le travail déja [accomplie](https://github.com/ulic75/power-flow-card).
+> - Il est basé sur le travail déja <a href="https://github.com/ulic75/power-flow-card" target="_blank">accomplie.</a>
 >
 > Je ne maitrise pas la totalité du fonctionnement sur les calculs, je compte sur vous pour me faire des retours d'améliorations, et des retours sur le fonctionnement.
 
