@@ -58,6 +58,9 @@ Si vous avez un équipement, ou déja un virtuel qui calcul votre energie de la 
 Si vous avez déja 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeurs positives !) :
 - Utiliser plutôt les paramètres "BatteryProduction" et "BatteryConsumption", attention dans ce cas les 2 paramètres sont obligatoires !
 
+### Changelog
+
+<a href="./changelog">Changelog</a>
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
