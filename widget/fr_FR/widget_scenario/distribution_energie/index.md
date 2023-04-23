@@ -37,7 +37,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_energie/parametres.png" alt="Info backup" />
+<img src="../../../images/distribution_energie/parametres1_2.png" alt="Info backup" />
 
 ## Exemples :
 
