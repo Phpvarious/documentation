@@ -5,22 +5,24 @@
 
 # Widget [Energie Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
-<center><img src="../../../images/distribution_energie/capture1_2.gif" width="40%" alt="Info backup" /></center>
+<center><img src="../../../images/distribution_energie/capture1_2.gif" width="300px" alt="Info backup" /></center>
 
-- Informations disponibles sur le widget :
-  - Etat de la sauvegarde local.
-  - Etat de la sauvegarde samba (si activée).
-  - Nom de la sauvegarde.
+> **Information**
+>
+> - Ce widget est en version béta.
+> - Il est basé sur le travail déja [accomplie](https://github.com/ulic75/power-flow-card).
+>
+> Je ne maitrise pas la totalité du fonctionnement sur les calculs, je compte sur vous pour me faire des retours d'améliorations, et des retours sur le fonctionnement.
 
 ## 1) Télécharger la source
 
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.sting.info_backup)
+> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.string.distribution_energy)
 
 ### Version dashboard
 
-- Déposer le fichier <b>cmd.info.string.Info_backup.html</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
+- Déposer le fichier <b>cmd.info.string.distribution_energy</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
-  <img src="../../../images/info_backup/capture3.png" alt="Téléchargement du widget" />
+  <img src="../../../images/distribution_energie/capture2.png" alt="Téléchargement du widget" />
 
 ------------------------
 
@@ -30,66 +32,32 @@
 - Attention, ne pas historiser (2).
 - Associez le widget à la commande Info/Autre,(3, 4 et 5).
 
-<img src="../../../images/info_backup/installation_virtuel2.png" alt="Virtuel 1" />
-<img src="../../../images/info_backup/installation_virtuel3.png" alt="Virtuel 2" />
+<img src="../../../images/distribution_energie/installation_virtuel1.png" alt="Virtuel 1" />
+<img src="../../../images/distribution_energie/installation_virtuel2.png" alt="Virtuel 2" />
 
 
 ## Paramètres optionnels
 
-<img src="../../../images/info_backup/parametres.png" alt="Info backup" />
+<img src="../../../images/distribution_energie/parametres.png" alt="Info backup" />
 
----------------------
+## Exemples :
+si j'ai bien compris :-)
+### Réseau
+Si vous avez un équipement, ou déja un virtuel qui calcul votre energie venant du réseau (Grid) :
+- Utilisation du paramètre "Grid" avec l'ID de l'équipement.
+  - Si cette équipement peut renvoyer des valeur négative, il est possible d'utiliser le paramètre "GridInverted" en le passant a 1.
 
-## 3) Création du scénario
+Si vous avez déja 1 ou 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeur positives !) :
+- Utiliser plutôt le paramètre "GridConsumption", si vous avez un autre équipement qui calcul la production (que des valeur positives !), vous pouvez utiliser le paramètre "GridProduction" (pas obligatoire)
 
-Créer un nouveau scénario puis ajouter un template :
+### Batterie
+Si vous avez un équipement, ou déja un virtuel qui calcul votre energie de la batterie :
+- Utilisation du paramètre "Battery" avec l'ID de l'équipement.
+  - Si cette équipement peut renvoyer des valeur négative, il est possible d'utiliser le paramètre "BatteryInverted" en le passant a 1.
 
-<img src="../../../images/info_backup/scenario1.png" alt="Scénario 1" />
+Si vous avez déja 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeur positives !) :
+- Utiliser plutôt les paramètres "BatteryProduction" et "BatteryConsumption", attention dans ce cas les 2 paramètres sont obligatoires !
 
-- Selectionnez "Charger un template" puis ajoutez le fichier téléchargé précedemment (Info backup.json):
-
-<img src="../../../images/info_backup/scenario2.png" alt="Scénario 2" />
-
-
-- Une fois chargé, celui-ci devrait apparaître dans le menu de gauche, cliquez dessus :
-
-<img src="../../../images/info_backup/scenario3.png" alt="Scénario 3" />
-
-- Dans la nouvelle fenêtre :
-  - Recherchez le virtuel créé précedemment (1).
-  - Appliquez les modifications (2).
-  - Demande de confirmation, cliquez sur OK puis sauvegardez le scénario.
-
-<img src="../../../images/info_backup/scenario4.png" alt="Scénario 4" />
-
-> **Bug**
->
-> Il est possible, après sauvegarde, que le scénario apparaisse vide, actualiser la page, pour faire apparaître le contenu.
-
-## 4) Configuration
-Une fois toutes ces étapes accomplies, ouvrez le scénario et modifiez, DANS LE BLOC CODE ,la taille mini de la sauvegarde en octet pour déclencher une erreur. [Défaut : 100Mo]
-
-<img src="../../../images/info_backup/config1.png" alt="Config 2" />
-
-## 5) Options
-
-Il est possible d'extraire plus d'informations du scénario, il faudra créer de nouvelles actions (event) dans celui-ci et ajouter des infos dans votre virtuel :
-
-| Tag scénario | subType | Désignation | Valeurs |
-| --- | --- | --- | --- |
-| tag(action) | Autre| Etape de la sauvegarde| startBackup, endBackup |
-| tag(errorScenario) | Binaire | Erreur dans le scenario | 0-->ok, 1-->erreur |
-| tag(errorLog) | Binaire | Erreur dans le log | 0-->ok, 1-->erreur |
-| tag(errorLocal) | Binaire | Etat backup local | 0-->ok, 1-->erreur |
-| tag(errorSize) | Binaire | Erreur taille de la backup | 0-->ok, 1-->erreur |
-| tag(errorSamba) | Binaire | Etat backup samba | 0-->ok, 1-->erreur, -1-->Désactivé |
-| tag(errorMarket) | Binaire | Etat backup market | 0-->ok, 1-->erreur, -1-->Désactivé |
-
-### Exemple dans le Scénario
-
-<img src="../../../images/info_backup/scenario5.png" alt="scenario5" />
-
----------------------
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
@@ -97,4 +65,4 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 
 -------------------
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario">Widgets / Scénarios</a> --> Info backup
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario">Widgets / Scénarios</a> --> Energie Distribution
