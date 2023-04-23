@@ -7,12 +7,18 @@
 
 <center><img src="../../../images/distribution_energie/capture1_2.gif" width="300px" alt="Info backup" /></center>
 
-> **Information**
+> **---- BETA ----**
 >
 > - Ce widget est en version béta.
 > - Il est basé sur le travail déja <a href="https://github.com/ulic75/power-flow-card" target="_blank">accomplie.</a>
 >
-> Je ne maitrise pas la totalité du fonctionnement sur les calculs, je compte sur vous pour me faire des retours d'améliorations, et des retours sur le fonctionnement.
+> Je ne maitrise pas la totalité du fonctionnement sur les calculs... , je compte sur vous pour me faire des retours d'améliorations, et des retours sur le fonctionnement.
+
+> **Information**
+>
+> - Il n'y a pour le moment aucun refresh automatique du widget, il se mettra a jour seulement au refresh de la page.
+> - Toutes les valeurs d'énergie doivent être sur la même unité.
+> - Evidemment sur l'image d'exemple, la totalité des infos sont affichés, mais si vous n'utilisez pas d'équipement gaz par exemple, le widget s'adaptera et masquera l'animation gaz.
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_energy" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
