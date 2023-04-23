@@ -45,17 +45,17 @@ si j'ai bien compris :-)
 ### Réseau
 Si vous avez un équipement, ou déja un virtuel qui calcul votre energie venant du réseau (Grid) :
 - Utilisation du paramètre "Grid" avec l'ID de l'équipement.
-  - Si cette équipement peut renvoyer des valeur négative, il est possible d'utiliser le paramètre "GridInverted" en le passant a 1.
+  - Si cet équipement peut renvoyer des valeurs négatives, il est possible d'utiliser le paramètre "GridInverted" en le passant a 1.
 
-Si vous avez déja 1 ou 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeur positives !) :
+Si vous avez déja 1 ou 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeurs positives !) :
 - Utiliser plutôt le paramètre "GridConsumption", si vous avez un autre équipement qui calcul la production (que des valeur positives !), vous pouvez utiliser le paramètre "GridProduction" (pas obligatoire)
 
 ### Batterie
 Si vous avez un équipement, ou déja un virtuel qui calcul votre energie de la batterie :
 - Utilisation du paramètre "Battery" avec l'ID de l'équipement.
-  - Si cette équipement peut renvoyer des valeur négative, il est possible d'utiliser le paramètre "BatteryInverted" en le passant a 1.
+  - Si cet équipement peut renvoyer des valeurs négatives, il est possible d'utiliser le paramètre "BatteryInverted" en le passant a 1.
 
-Si vous avez déja 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeur positives !) :
+Si vous avez déja 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeurs positives !) :
 - Utiliser plutôt les paramètres "BatteryProduction" et "BatteryConsumption", attention dans ce cas les 2 paramètres sont obligatoires !
 
 
