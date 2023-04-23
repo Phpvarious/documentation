@@ -15,8 +15,7 @@
 > Je ne maitrise pas la totalité du fonctionnement sur les calculs, je compte sur vous pour me faire des retours d'améliorations, et des retours sur le fonctionnement.
 
 ## 1) Télécharger la source
-
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.string.distribution_energy)
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_energy" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ### Version dashboard
 
@@ -41,6 +40,7 @@
 <img src="../../../images/distribution_energie/parametres.png" alt="Info backup" />
 
 ## Exemples :
+
 si j'ai bien compris :-)
 ### Réseau
 Si vous avez un équipement, ou déja un virtuel qui calcul votre energie venant du réseau (Grid) :
