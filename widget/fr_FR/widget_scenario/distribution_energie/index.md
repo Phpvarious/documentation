@@ -47,24 +47,29 @@
 
 ## Exemples :
 
-si j'ai bien compris :-)
-### Réseau
-Si vous avez un équipement, ou déja un virtuel qui calcul votre energie venant du réseau (Grid) :
-- Utilisation du paramètre "Grid" avec l'ID de l'équipement.
-  - Si cet équipement peut renvoyer des valeurs négatives, il est possible d'utiliser le paramètre "GridInverted" en le passant a 1.
+### Valeurs combinées
+Si vous utilisez un équipement "réseau", "batterie" ou "solaire" qui envoit des valeurs positives pour consommation et des valeurs négatives pour la production :
+- Pour le réseau : utiliser le paramètre "Grid" avec l'ID de l'équipement.
+- Pour la batterie : utiliser le paramètre "Battery" avec l'ID de l'équipement.
+- Pour le Solaire : utiliser le paramètre "Solar" avec l'ID de l'équipement.
 
-Si vous avez déja 1 ou 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeurs positives !) :
-- Utiliser plutôt le paramètre "GridConsumption", si vous avez un autre équipement qui calcul la production (que des valeur positives !), vous pouvez utiliser le paramètre "GridProduction" (pas obligatoire)
+### Valeurs inversées
+Si en revanche un de votre équipement est inversé (négatif = consommation et positif = production) utilisé les même paramètres que combinées, mais en ajoutant un nouveau paramètre :
+- Pour le réseau : ajouter le paramètre "GridInverted" avec valeur = 1.
+- Pour la batterie : ajouter le paramètre "BatteryInverted" avec valeur = 1.
+- Pour le solaire : ajouter le paramètre "SolarInverted" avec valeur = 1.
 
-### Batterie
-Si vous avez un équipement, ou déja un virtuel qui calcul votre energie de la batterie :
-- Utilisation du paramètre "Battery" avec l'ID de l'équipement.
-  - Si cet équipement peut renvoyer des valeurs négatives, il est possible d'utiliser le paramètre "BatteryInverted" en le passant a 1.
+### Valeurs fractionnées
+Si vos équipement "réseau" et "batterie" envoie des valeurs fractionnées, c'est à dire 2 valeurs positives, 1 pour la consommation et 1 pour la production.
+- Pour le réseau, utiliser simplement les paramètres suivant :
+  - "GridProduction" (production vers réseau) avec l'ID de l'équipement.
+  - "GridConsumption" (réseau vers maison) avec l'ID de l'équipement.
+- Pour la batterie, utiliser simplement les paramètres suivant :
+  - "BatteryProduction" (entrée batterie) avec l'ID de l'équipement.
+  - "BatteryConsumption" (sortie batterie) avec l'ID de l'équipement.
 
-Si vous avez déja 2 équipements qui présentent déja des valeurs sur la consommation / production (que des valeurs positives !) :
-- Utiliser plutôt les paramètres "BatteryProduction" et "BatteryConsumption", attention dans ce cas les 2 paramètres sont obligatoires !
 
-### Changelog
+## Changelog
 
 <a href="./changelog">Changelog</a>
 
