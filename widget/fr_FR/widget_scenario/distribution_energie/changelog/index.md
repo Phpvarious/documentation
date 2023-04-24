@@ -6,6 +6,10 @@
 
      
 ## 2023
+
+### 24/04/2023 (v1)
+  - Ajout du ReturnToGrid (retour au réseau) si on utilise le paramètre "Grid".
+
 ### 23/04/2023 (v1)
   - Création.
 
