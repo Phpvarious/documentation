@@ -7,6 +7,14 @@
      
 ## 2023
 
+### 26/04/2023 (v1)
+  - Unité automatique en fonction de l'équipement "Grid" ou "GridConsumption".
+  - Ajout d'un paramètre optionnel pour l'unité. (prioritaire sur Unité automatique).
+  - Ajout de conversion automatique des unités (2000W -> 2Kw).
+  - Les valeurs "Grid" et "Battery" sont convertis en 2 décimales (pas d'arrondi).
+  - Les autres valeurs sont convertis en 3 décimales (pas d'arrondi).
+  - Ajout d'un nouveau paramètre optionnel "BatteryTemp" pour afficher la température de la batterie.
+
 ### 24/04/2023 (v1)
   - Ajout de l'affichage et calcul du ReturnToGrid (retour au réseau) si on utilise le paramètre “Grid”.
 

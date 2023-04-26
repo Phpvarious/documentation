@@ -19,6 +19,9 @@
 > - Il n'y a pour le moment aucun refresh automatique du widget, il se mettra a jour seulement au refresh de la page.
 > - Toutes les valeurs d'énergie doivent être sur la même unité.
 > - Evidemment sur l'image d'exemple, la totalité des infos sont affichés, mais si vous n'utilisez pas d'équipement gaz par exemple, le widget s'adaptera et masquera l'animation gaz.
+> 
+> - le widget ne fait aucun arrondi, mais il tronque la valeur pour qu'elle s'adapte au cercles (Ex: 123.9999 -> 123.99).
+> - Il utilise la même méthode que le core pour convertir les valeurs/unités, (Ex : 1200W sera affiché 1.2Kw)
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_energy" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
@@ -43,7 +46,12 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_energie/parametres1_2.png" alt="Info backup" />
+<img src="../../../images/distribution_energie/parametres1_3.png" alt="Info backup" />
+
+> **Info**
+>
+> - Si le paramètre "GridUnit" n'est pas renseigné, le widget recherchera automatiquement l'unité de votre commande "Grid" ou "GridConsumption".
+> - Le paramètre "GridUnit" est prioritaire sur l'unité des équipements.
 
 ## Exemples :
 
