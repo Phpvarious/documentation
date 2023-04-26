@@ -7,6 +7,10 @@
      
 ## 2023
 
+### 26/04/2023 (23h40)
+  - Correction d'une erreur sur les unités. (Merci @Bison)
+  - Modification du paramètre optionnel GazUnit en GasUnit. (Merci @jpty)
+  
 ### 26/04/2023 (v1)
   - Unité automatique en fonction de l'équipement "Grid" ou "GridConsumption".
   - Ajout d'un paramètre optionnel pour l'unité. (prioritaire sur Unité automatique).
