@@ -68,7 +68,7 @@ Si en revanche un de votre équipement est inversé (négatif = consommation et 
 - Pour le solaire : ajouter le paramètre "SolarInverted" avec valeur = 1.
 
 ### Valeurs fractionnées
-Si vos équipement "réseau" et "batterie" envoie des valeurs fractionnées, c'est à dire 2 valeurs positives, 1 pour la consommation et 1 pour la production.
+Si vos équipements "réseau" ou "batterie" envoient des valeurs fractionnées, c'est à dire 2 valeurs positives, 1 pour la consommation et 1 pour la production.
 - Pour le réseau, utiliser simplement les paramètres suivant :
   - "GridProduction" (production vers réseau) avec l'ID de l'équipement.
   - "GridConsumption" (réseau vers maison) avec l'ID de l'équipement.
