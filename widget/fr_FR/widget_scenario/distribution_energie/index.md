@@ -16,7 +16,6 @@
 
 > **Information**
 >
-> - Il n'y a pour le moment aucun refresh automatique du widget, il se mettra a jour seulement au refresh de la page.
 > - Toutes les valeurs d'énergie doivent être sur la même unité.
 > - Evidemment sur l'image d'exemple, la totalité des infos sont affichés, mais si vous n'utilisez pas d'équipement gaz par exemple, le widget s'adaptera et masquera l'animation gaz.
 > 
@@ -46,7 +45,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_energie/parametres1_4.png" alt="Info backup" />
+<img src="../../../images/distribution_energie/parametres1_5.png" alt="Info backup" />
 
 > **Info**
 >

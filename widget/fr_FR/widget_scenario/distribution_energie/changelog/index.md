@@ -7,6 +7,15 @@
      
 ## 2023
 
+### 29/04/2023 (11h00)
+  - Update automatique des commandes
+    - peux avoir un comportement anormale si les commandes d'origine sont affichées sur la même page que le widget (j'attend vos retours ;-)
+  - Ajout d'un paramètre "Scale".
+  - Les tuiles Gas et Water peuvent être renommées avec les paramètres optionnels "GasRename" et "WaterRename".
+  - Les icones Gas et Water peuvent être personnalisées avec les paramètres optionnels "GasIcon" et "WaterIcon". 
+  - Masquage des valeurs si égales à 0, paramètrable avec "HideIfEmpty" (@m.georgein)
+  - Le code ayant totalement été réadapté pour l'update auto. il n'est plus possible de forcer le refresh par l'update de la commande du widget.
+
 ### 26/04/2023 (23h40)
   - Correction d'une erreur sur les unités. (Merci @Bison)
   - Renommage du paramètre optionnel "GazUnit" en "GasUnit". (Merci @jpty)
