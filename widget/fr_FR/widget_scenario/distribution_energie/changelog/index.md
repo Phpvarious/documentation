@@ -6,6 +6,14 @@
 
      
 ## 2023
+### 01/05/2023 (18h00)
+- Ajout de 2 nouvelles tuiles persos optionnelles.
+- Masquage de la "ligne" battery <-> Grid.
+- Ajout d'un nouveau paramètre pouvant faire clignoter la tuile "Grid" (exemple sur perte secteur).
+- Possibilité de, masquer les "lignes" / "points", inverser le sens, sur tous les éléments perso, gaz et water.
+- Ajout du % d'energie/consommation verte.
+- Possibilité de modifier la taille des textes "Perso1", "Perso2", "Gaz", "Water" et "Solar" (tout ou rien)
+
 
 ### 29/04/2023 (11h00)
   - Update automatique des commandes
