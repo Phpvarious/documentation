@@ -6,6 +6,12 @@
 
      
 ## 2023
+### 02/05/2023 (20h00)
+- Ajout du paramètre optionnel "HideGreenValue" pour masquer le % d'énergie verte.
+- Correction de "InvertedCircleWater" qui ne fonctionnait pas lorsque la tuile Gas était affichée.
+- Ajout d'un "margin-top" pour remonter la position du widget.
+- Ajout d'un "transform-origin: top" pour forcer la position du widget en haut de la tuile.(problème lors d'utilisation de "Scale").
+
 ### 01/05/2023 (18h00)
 - Ajout de 2 nouvelles tuiles persos optionnelles.
 - Masquage de la "ligne" battery <-> Grid.
