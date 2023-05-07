@@ -6,6 +6,14 @@
 
      
 ## 2023
+### 07/05/2023 (18h00)
+- Correction (workaround) pour supprimer le "overflow: auto;" du core v4.4 qui tronquait le widget lors de l'utilisation de "Scale".
+- Correction du "margin-top", celui-ci est désactivé lorsqu'on utilise "BorderWidth"
+- Correction d'une erreur causé par "HideGreenValue" qui empechait le refresh des valeurs.
+- Ajout d'un paramètre optionnel pour arrondir les valeurs individuellements.
+- Tous les paramètres "xxxIcon" peuvent recevoir comme valeur "0", dans ce cas aucune icone ne sera affectée a "xxx".
+- Suppression des paramètres "GasInverted" et "WaterInverted" qui a mon sens ne sont pas necessaires.
+
 ### 02/05/2023 (20h00)
 - Ajout du paramètre optionnel "HideGreenValue" pour masquer le % d'énergie verte.
 - Correction de "InvertedCircleWater" qui ne fonctionnait pas lorsque la tuile Gas était affichée.
