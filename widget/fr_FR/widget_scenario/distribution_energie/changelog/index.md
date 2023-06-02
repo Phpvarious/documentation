@@ -7,8 +7,8 @@
      
 ## 2023
 ### 02/06/2023 (22h00)
-- Ajout d'une condition, pour eviter les erreurs lors de la navigation dans les design (gotoDesign).
-- Ajout d'une condition, pour éviter que l'update (refreshValue) de la commande d'origine n'interfére avec l'update du widget.
+- Ajout d'une condition pour éviter les erreurs lors de la navigation dans les design (gotoDesign).
+- Ajout d'une condition pour éviter que l'update (refreshValue) de la commande d'origine n'interfère avec l'update du widget.
 ### 02/06/2023 (16h00)
 - Correction d'un bug sur valeur négative pour "Gas", "Water", "Perso1" et "Perso2". (Merci @Bison)
 
