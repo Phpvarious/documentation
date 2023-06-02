@@ -6,6 +6,9 @@
 
      
 ## 2023
+### 02/06/2023 (16h00)
+- Correction d'un bug sur valeur négative pour "Gas", "Water", "Perso1" et "Perso2". (Merci @Bison)
+
 ### 07/05/2023 (18h00)
 - Correction (workaround) pour supprimer le "overflow: auto;" du core v4.4 qui tronquait le widget lors de l'utilisation de "Scale".
 - Correction du "margin-top", celui-ci est désactivé lorsqu'on utilise "BorderWidth"
