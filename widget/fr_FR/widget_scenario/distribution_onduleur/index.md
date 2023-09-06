@@ -43,17 +43,12 @@
 
 <img src="../../../images/distribution_onduleur/parametres1_8.png" alt="Info backup" />
 
-> **Info**
->
-> - Si le paramètre "GridUnit" n'est pas renseigné, le widget recherchera automatiquement l'unité de votre commande "Grid" ou "GridConsumption".
-> - Le paramètre "GridUnit" est prioritaire sur l'unité des équipements.
-
 ## 3) Ajout des données
 
 Ce widget utilise les commandes présente dans ce même équipement.
 Il faut donc utilisé des noms de commandes infos prédéfinis suivant le tableau si dessous :
 
- ### Solaire
+### Solaire
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
