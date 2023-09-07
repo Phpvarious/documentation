@@ -45,17 +45,17 @@
 
 ## 3) Ajout des données
 
-Ce widget utilise les commandes présente dans ce même équipement.
-Il faut donc utilisé des noms de commandes infos prédéfinis suivant les tableaux ci-dessous :
+Ce widget utilise les commandes présentent dans ce même équipement.
+Il faut donc utiliser des noms de commandes infos prédéfinis suivant les tableaux ci-dessous :
 
 ### Solaire
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
 | pv1_power | non | Puissance instantanée Pv1 |
-| pv2_power | non | Puissance instantanée Pv1 |
-| pv3_power | non | Puissance instantanée Pv1 |
-| pv3_power | non | Puissance instantanée Pv1 |
+| pv2_power | non | Puissance instantanée Pv2 |
+| pv3_power | non | Puissance instantanée Pv3 |
+| pv3_power | non | Puissance instantanée Pv4 |
 | daily_solar | non | Consommation solaire quotidienne |
 
 > **Info**
@@ -77,7 +77,7 @@ Il faut donc utilisé des noms de commandes infos prédéfinis suivant les table
 
 > **Info**
 >
-> - Contrairement a la partie PV, Si aucune de ces infos est présente, la tuile "Batterie" ne sera pas masqué.
+> - Contrairement a la partie PV, Si aucune de ces infos est présente, la tuile "Batterie" ne sera pas masquée.
 
 ### Réseau
 
