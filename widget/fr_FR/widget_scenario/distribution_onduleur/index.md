@@ -46,7 +46,7 @@
 ## 3) Ajout des données
 
 Ce widget utilise les commandes présente dans ce même équipement.
-Il faut donc utilisé des noms de commandes infos prédéfinis suivant le tableau si dessous :
+Il faut donc utilisé des noms de commandes infos prédéfinis suivant les tableaux ci-dessous :
 
 ### Solaire
 
@@ -57,6 +57,7 @@ Il faut donc utilisé des noms de commandes infos prédéfinis suivant le tablea
 | pv3_power | non | Puissance instantanée Pv1 |
 | pv3_power | non | Puissance instantanée Pv1 |
 | daily_solar | non | Consommation solaire quotidienne |
+
 > **Info**
 >
 > - Si vous possèdez 1 seul reseau PV, utilisez avant tout pv1 power.
