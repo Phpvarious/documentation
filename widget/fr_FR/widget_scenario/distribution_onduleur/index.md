@@ -19,7 +19,7 @@
 > 
 
 ## 1) Télécharger la source
-> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.onduleur_distribution" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ### Version dashboard
 
