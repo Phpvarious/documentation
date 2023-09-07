@@ -115,6 +115,11 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | frequency_state | non | Fréquence de l'onduleur. |
 | current_state | non | Intensité de l'onduleur. |
 
+## Exemple :
+
+<img src="../../../images/distribution_onduleur/widget_help1.png" alt="Help1" />
+
+<img src="../../../images/distribution_onduleur/widget_help2.png" alt="Help2" />
 
 ## Changelog
 
