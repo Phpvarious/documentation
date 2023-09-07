@@ -92,6 +92,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
+| daily_load | non | Consommation des équipements "Load" quotidien. |
 | load_state | non | Puissance instantanée globale. |
 | load1_state | non | Puissance instantanée du recepteur 1. |
 | load2_state | non | Puissance instantanée du recepteur 2. |
