@@ -88,6 +88,22 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | grid_power | non | Puissance instantanée. (positive = conso / négative = injection) |
 | grid_status | non | État de connexion au réseau. (binaire)|
 
+### Load
+
+| Nom | Obligatoire ? | Description |
+| ------ | ------ | ------ |
+| load_state | non | Puissance instantanée globale. |
+| load1_state | non | Puissance instantanée du recepteur 1. |
+| load2_state | non | Puissance instantanée du recepteur 2. |
+
+> **Info**
+>
+> Contrairement a la partie PV, Si aucune de ces infos est présente, la tuile "Load" ne sera pas masquée.
+>
+> Si load_state n'est pas défini, il sera alors calculé par addition de load1_state + load2_state .
+>
+>
+
 ### Onduleur
 
 | Nom | Obligatoire ? | Description |
