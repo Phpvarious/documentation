@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Energie Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
+# Widget [Energie Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
 <center><img src="../../../images/distribution_onduleur/capture1_3.gif" width="300px" alt="Info backup" /></center>
 
