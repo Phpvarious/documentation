@@ -47,6 +47,7 @@
 > **Information**
 >
 > - le paramètre optionnel batteryMaxPower permet , si il est renseigné, de calculer la durée restant / temps de charge.
+
 ## 3) Ajout des données
 
 Ce widget utilise les commandes présentent dans ce même équipement.
