@@ -17,7 +17,7 @@
 >
 > - Pour chaques éléments les unités des commandes doivent être identiques.
 > 
-> - Contrairement au widget <a href="../distribution_energie">Distribution Energie</a> ce widget fait très peu de calculs.
+> - Contrairement au widget <a href="../distribution_energie" target="_blank">Distribution Energie</a> ce widget fait très peu de calculs.
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
