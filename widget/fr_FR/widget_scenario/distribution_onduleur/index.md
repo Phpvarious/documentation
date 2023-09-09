@@ -61,7 +61,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | pv2_power | non | Puissance instantanée Pv2 |
 | pv3_power | non | Puissance instantanée Pv3 |
 | pv3_power | non | Puissance instantanée Pv4 |
-| daily_solar | non | Consommation solaire quotidienne |
+| daily_solar | non | Production solaire quotidienne |
 
 > **Info**
 >
