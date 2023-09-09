@@ -17,7 +17,7 @@
 >
 > - Pour chaques éléments les unités des commandes doivent être identiques.
 > 
-> - Contrairement au widget <a href="./distribution_energie">Distribution Energie</a> ce widget fait très peu de calculs.
+> - Contrairement au widget <a href="../distribution_energie">Distribution Energie</a> ce widget fait très peu de calculs.
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
@@ -128,6 +128,13 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 ## Changelog
 
 <a href="./changelog">Changelog</a>
+
+## Todo
+
+- Gerer les couleurs via paramètres optionnels.
+- Ajout I & U sous chaque Pv via nouvelles commandes.
+- Ajout d'icones pour les Load via un paramètre optionnel.
+- Gérer un mini de battery a X% via un paramètre optionnel.
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
