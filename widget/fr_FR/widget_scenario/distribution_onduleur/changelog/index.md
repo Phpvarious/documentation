@@ -24,6 +24,9 @@
   - ajout des commandes :
     - pv1_voltage, pv2_voltage, pv3_voltage, pv4_voltage
     - pv1_current, pv2_current, pv3_current, pv4_current
+- Bugfix :
+  - Problème d’affichage quand Centrage vertical des tuiles est actif (verticalAlign).
+  - Paramètres optionnels des daily n’accepte pas les '
 
 ### 09/09/2023 (v1)
   - Création.
