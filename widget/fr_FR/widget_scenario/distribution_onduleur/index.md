@@ -42,7 +42,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres1_8.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres1.png" alt="Info backup" />
 
 > **Information**
 >
@@ -51,16 +51,24 @@
 ## 3) Ajout des données
 
 Ce widget utilise les commandes présentent dans ce même équipement.
-Il faut donc utiliser des noms de commandes infos prédéfinis suivant les tableaux ci-dessous :
+Il faut donc utiliser des noms de commandes infos prédéfinis suivant les tableaux ci-dessous, les unités  :
 
 ### Solaire
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
 | pv1_power | non | Puissance instantanée Pv1 |
+| pv1_voltage | non | Tension Pv1 |
+| pv1_current | non | Intensité Pv1 |
 | pv2_power | non | Puissance instantanée Pv2 |
+| pv2_voltage | non | Tension Pv2 |
+| pv2_current | non | Intensité Pv2 |
 | pv3_power | non | Puissance instantanée Pv3 |
-| pv3_power | non | Puissance instantanée Pv4 |
+| pv3_voltage | non | Tension Pv3 |
+| pv3_current | non | Intensité Pv3 |
+| pv4_power | non | Puissance instantanée Pv4 |
+| pv4_voltage | non | Tension Pv4 |
+| pv4_current | non | Intensité Pv4 |
 | daily_solar | non | Production solaire quotidienne |
 
 > **Info**
@@ -132,10 +140,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Todo
 
-- Gerer les couleurs via paramètres optionnels.
-- Ajout I & U sous chaque Pv via nouvelles commandes.
-- Ajout d'icones pour les Load via un paramètre optionnel.
-- Gérer un mini de battery a X% via un paramètre optionnel.
+- Ajout de plus d'icones pour les Load via un paramètre optionnel.
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
