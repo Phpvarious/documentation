@@ -13,7 +13,7 @@
   - Possibilité d'afficher l'energie de chaque "load".
   - Possibilité d'afficher l'energie de chaque "pv".
   - Ajout d'animation sur les "load".
-- Paramètre optionnel
+- Ajout paramètre optionnel :
   - loadAnimate qui permet de désactiver l'animation des "Load".
   - load3Icon (Choix icone a afficher).
   - load4Icon (Choix icone a afficher).
