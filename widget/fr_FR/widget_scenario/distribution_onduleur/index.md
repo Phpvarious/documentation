@@ -143,9 +143,12 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 <img src="../../../images/distribution_onduleur/widget_help3.png" alt="Help1" />
 
 > **Légende** : 
-<br><b>Noir :</b> Commandes a renseigner dans l'équipement.
-<br><font color="red"><b>Rouge :</b> Paramètres optionnels.</font>
+> <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
+> <br><font color="red"><b>Rouge :</b> Paramètres optionnels.</font>
+>
+
 -------------------------
+
 <img src="../../../images/distribution_onduleur/widget_help2.png" alt="Help2" />
 
 ## Changelog
