@@ -7,6 +7,19 @@
      
 ## 2023
 
+### 17/09/2023 (16h00)
+- Widget
+  - Ajout de 2 "load" supplémentaires.
+  - Possibilité d'afficher l'energie de chaque "load".
+  - Possibilité d'afficher l'energie de chaque "pv".
+  - Ajout d'animation sur les "load".
+- Paramètre optionnel
+  - loadAnimate qui permet de désactiver l'animation des "Load".
+  - load3Icon (Choix icone a afficher).
+  - load4Icon (Choix icone a afficher).
+  - load3Name (Nom du Load3).
+  - load4Name (Nom du Load3).
+
 ### 12/09/2023 (15h30)
 - Ajout paramètre optionnel :
   - load1Icon (Choix icone a afficher).

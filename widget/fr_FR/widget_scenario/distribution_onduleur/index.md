@@ -5,7 +5,7 @@
 
 # Widget [Onduleur Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
-<center><img src="../../../images/distribution_onduleur/capture1_4.gif" width="400px" alt="Info backup" /></center>
+<center><img src="../../../images/distribution_onduleur/capture1_5.gif" width="400px" alt="Info backup" /></center>
 
 > **---- BETA ----**
 >
@@ -42,7 +42,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres1.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres2.png" alt="Info backup" />
 
 > **Information**
 >
@@ -58,15 +58,19 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
 | pv1_power | non | Puissance instantanée Pv1 |
+| pv1_energy | non | Energie PV1 |
 | pv1_voltage | non | Tension Pv1 |
 | pv1_current | non | Intensité Pv1 |
 | pv2_power | non | Puissance instantanée Pv2 |
+| pv2_energy | non | Energie PV2 |
 | pv2_voltage | non | Tension Pv2 |
 | pv2_current | non | Intensité Pv2 |
 | pv3_power | non | Puissance instantanée Pv3 |
+| pv3_energy | non | Energie PV3 |
 | pv3_voltage | non | Tension Pv3 |
 | pv3_current | non | Intensité Pv3 |
 | pv4_power | non | Puissance instantanée Pv4 |
+| pv4_energy | non | Energie PV4 |
 | pv4_voltage | non | Tension Pv4 |
 | pv4_current | non | Intensité Pv4 |
 | daily_solar | non | Production solaire quotidienne |
@@ -108,7 +112,13 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | daily_load | non | Consommation des équipements "Load" quotidien. |
 | load_state | non | Puissance instantanée globale. |
 | load1_state | non | Puissance instantanée du recepteur 1. |
+| load1_energy | non | Energie recepteur 1. |
 | load2_state | non | Puissance instantanée du recepteur 2. |
+| load2_energy | non | Energie recepteur 2. |
+| load3_state | non | Puissance instantanée du recepteur 3. |
+| load3_energy | non | Energie recepteur 3. |
+| load4_state | non | Puissance instantanée du recepteur 4. |
+| load4_energy | non | Energie recepteur 4. |
 
 > **Info**
 >
@@ -130,8 +140,12 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Exemple :
 
-<img src="../../../images/distribution_onduleur/widget_help1.png" alt="Help1" />
+<img src="../../../images/distribution_onduleur/widget_help3.png" alt="Help1" />
 
+> **Légende** : 
+<br><b>Noir :</b> Commandes a renseigner dans l'équipement.
+<br><font color="red"><b>Rouge :</b> Paramètres optionnels.</font>
+-------------------------
 <img src="../../../images/distribution_onduleur/widget_help2.png" alt="Help2" />
 
 ## Changelog
