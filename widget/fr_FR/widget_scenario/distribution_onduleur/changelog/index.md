@@ -7,6 +7,22 @@
      
 ## 2023
 
+### 21/09/2023 (23h00)
+- Widget :
+  - Ajout 'aux_power' pour afficher un générateur auxiliaire.
+  - daily_aux (energie du générateur).
+  - battery_mppt_power pour afficher un Pv sur la batterie.
+  - battery_mppt_energy pour afficher lénergie du Pv de la batterie.
+- Ajout paramètre optionnel :
+  - mpptName (nom du générateur auxiliaire)
+  - auxColor (Couleur des éléments de catégorie "aux").
+- Modification du visuel :
+  - Modification onduleur.
+  - deplacement V, A, Hz dans l'onduleur'.
+  - déplacement des incones "Load" sur la droite.
+  - Masque de la tuile "Load" si aucune commande n'est renseignée.
+  - Masque de la tuile "Batterie" si aucune commande n'est renseignée.
+
 ### 17/09/2023 (16h00)
 - Widget
   - Ajout de 2 "load" supplémentaires.

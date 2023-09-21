@@ -5,7 +5,7 @@
 
 # Widget [Onduleur Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
-<center><img src="../../../images/distribution_onduleur/capture1_5.gif" width="400px" alt="Info backup" /></center>
+<center><img src="../../../images/distribution_onduleur/capture1_6.gif" width="400px" alt="Info backup" /></center>
 
 > **---- BETA ----**
 >
@@ -42,7 +42,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres2.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres3.png" alt="Info backup" />
 
 > **Information**
 >
@@ -91,10 +91,25 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | battery_power | non | Puissance instantanée. (positive = décharge / négative = charge)|
 | daily_battery_charge | non | Consommation de charge quotidienne. |
 | daily_battery_discharge | non | Consommation de décharge quotidienne. |
+| battery_mppt_power | non | Puissance instantanée du mppt de la batterie. |
+| battery_mppt_energy | non | Consommation du mppt de la batterie. |
 
 > **Info**
 >
-> - Contrairement a la partie PV, Si aucune de ces infos est présente, la tuile "Batterie" ne sera pas masquée.
+> - Si "battery_power" n'est renseigné, la partie "batterie" sera automatiquement masquée.
+>
+
+### Aux
+
+| Nom | Obligatoire ? | Description |
+| ------ | ------ | ------ |
+| aux_power | non | Puissance instantanée. |
+| daily_aux | non | Production auxiliaire quotidienne. |
+
+> **Info**
+>
+> - Si "aux_power" n'est renseigné, la partie "Aux" sera automatiquement masquée.
+>
 
 ### Réseau
 
@@ -122,9 +137,9 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 > **Info**
 >
-> Contrairement a la partie PV, Si aucune de ces infos est présente, la tuile "Load" ne sera pas masquée.
+> - Si "load_state" et "load1_state" ne sont pas renseignés, la partie "Load" sera automatiquement masquée.
 >
-> Si load_state n'est pas défini, il sera alors calculé par addition de load1_state + load2_state .
+> - Si load_state n'est pas défini, il sera alors calculé par addition de load1_state + load2_state .
 >
 >
 
@@ -140,7 +155,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Exemple :
 
-<img src="../../../images/distribution_onduleur/widget_help3.png" alt="Help1" />
+<img src="../../../images/distribution_onduleur/widget_help4.png" alt="Help1" />
 
 > **Légende** : 
 > <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
