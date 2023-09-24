@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Onduleur Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
+# Widget [HygroThermographe_svg] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
 <center><img src="images/capture1_4.png" width="300px" alt="HygroThermographe_svg" /></center>
 
@@ -26,6 +26,7 @@
 ## 2) Application du widget
 
 - Ce widget est a appliqué sur la commande info numérique de votre température.
+- In ne necessite aucune images et autres fichiers, il est entièrement conçu en svg.
 - Il utilise les commandes présentent dans ce même équipement grace aux génériques types.
 
 ## 3) Les génériques :
