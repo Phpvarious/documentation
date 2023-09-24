@@ -26,7 +26,7 @@
 ## 2) Application du widget
 
 - Ce widget est a appliqué sur la commande info numérique de votre température.
-- Il utilise les commandes présentent dans ce même équipement grace au générique.
+- Il utilise les commandes présentent dans ce même équipement grace aux génériques types.
 
 ## 3) Les génériques :
 
@@ -35,8 +35,8 @@ Il faudra bien enregistrer les génériques pour chaque commandes :
 - Pour l'état de la batterie : Batterie / Batterie
 - Pour l'état de connection : 
   ### 2 choix :
-   1) Si la commande est de type "binaire", utilisez le générique "Autre / Connecté".<br>Si ce générique n'est pas disponible (en 4.3 et <), vous pouvez utiliser "Multimédia / Etat".
-   2) Si la commande est de type "numérique", utilisez le générique "Generic /  Générique".
+   1) Si la commande est de type "binaire", utiliser le générique "Autre / Connecté".<br>Si ce générique n'est pas disponible (en 4.3 et <), vous pouvez utiliser "Multimédia / Etat".
+   2) Si la commande est de type "numérique", utiliser le générique "Generic /  Générique".
 
 - ### Exemple pour Batterie :
   <img src="images/capture2.png" alt="Générique batterie" />
