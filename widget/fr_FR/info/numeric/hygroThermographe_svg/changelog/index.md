@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric">Info / Numérique</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric/HygroThermographe_svgdistribution_onduleur">HygroThermographe_svg</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric">Info / Numérique</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric/hygroThermographe_svg">HygroThermographe_svg</a> --> [ChangeLog]
 
 --------------------
 
@@ -13,4 +13,4 @@
 
 -------------------------------
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric">Info / Numérique</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric/HygroThermographe_svgdistribution_onduleur">HygroThermographe_svg</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric">Info / Numérique</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric/hygroThermographe_svg">HygroThermographe_svg</a> --> [ChangeLog]
