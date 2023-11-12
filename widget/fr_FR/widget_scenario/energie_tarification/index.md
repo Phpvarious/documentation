@@ -17,7 +17,7 @@
 
 ### Version dashboard
 
-- Déposer le fichier <b>cmd.info.string.distribution_energy</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
+- Déposer le fichier <b>cmd.info.string.Energie_tarification</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
   <img src="../../../images/energie_tarification/capture1_2.png" alt="Téléchargement du widget" />
 
