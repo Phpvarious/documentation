@@ -22,7 +22,7 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 -------------------------------
 
-## 💖 Pour m'encourager ##
+### 💖 Pour m'encourager ###
 Vous pouvez faire des dons via PayPal
 
 [![{{site.paypal.name}}]({{site.url}}/documentation/{{site.widget}}/images/paypal.svg)]({{site.paypal.url}})
