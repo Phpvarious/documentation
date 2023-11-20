@@ -61,7 +61,7 @@ var docMenu = [
 	divider: true
   },
   {
-	fr_FR: "Faire un don",
+	fr_FR: "Faire un don ❤️",
 	link: "https://www.paypal.me/Phpvarious72",
 	icon: "fab fa-paypal"
   },
