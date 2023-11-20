@@ -11,22 +11,22 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/action/other",
 				icon: "fas fa-power-off ",
-				fr_FR: "Other"
+				fr_FR: "Other (2)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/slider",
 				icon: "fas fa-sliders-h",
-				fr_FR: "Slider"
+				fr_FR: "Slider (2)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/select",
 				icon: "fas fa-list",
-				fr_FR: "Select"
+				fr_FR: "Select (0)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/message",
 				icon: "fab fa-facebook-messenger",
-				fr_FR: "Message"
+				fr_FR: "Message (0)"
 			}
     ]
   },
@@ -36,17 +36,17 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/binary",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Binary"
+				fr_FR: "Binary (0)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/numeric",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Numeric"
+				fr_FR: "Numeric (1)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/string",
 				icon: "fas fa-text-height",
-				fr_FR: "String"
+				fr_FR: "String (0)"
 			}
     ]
   },
@@ -54,7 +54,7 @@ var docMenu = [
 		divider: true
   },
   {
-	fr_FR: "Widgets / Scénarios",
+	fr_FR: "Widgets / Scénarios (6)",
 	link: "/documentation/widget/#LANG#/widget_scenario"
   },
   {
