@@ -5,20 +5,20 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 ## Widgets Action
 
-- [Other]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/other).
-- [Slider]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider).
-- [Select]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/select).
-- [Message]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/message).
+- [Other (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/other).
+- [Slider (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider).
+- [Select (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/select).
+- [Message (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/message).
 
 ## Widget Info
 
-- [Binary]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/binary).
-- [Numeric]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric).
-- [String]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
+- [Binary (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/binary).
+- [Numeric (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric).
+- [String (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
 
 ## Widget Scénario
 
-- [Widgets]({{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario).
+- [Widgets et scénarios (6)]({{site.url}}/documentation/{{site.widget}}/fr_FR/widget_scenario).
 
 -------------------------------
 
