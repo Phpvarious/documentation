@@ -59,6 +59,14 @@ var docMenu = [
   },
   {
 	divider: true
+  },
+  {
+	fr_FR: "Faire un don",
+	link: "{{site.paypal.url}}",
+	icon: "fa-brands fa-cc-paypal"
+  },
+  {
+	divider: true
   }
 ]
 
