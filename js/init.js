@@ -63,7 +63,7 @@ var docMenu = [
   {
 	fr_FR: "Faire un don ❤️",
 	link: "https://www.paypal.me/Phpvarious72",
-	icon: "fab fa-paypal"
+	icon: "fa-2x fab fa-paypal"
   },
   {
 	divider: true
