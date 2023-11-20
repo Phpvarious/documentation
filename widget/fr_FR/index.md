@@ -22,4 +22,4 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 -------------------------------
 
-[![paypal.me/Phpvarious72]({{site.url}}/documentation/{{site.widget}}/images/paypal.svg)](https://www.paypal.me/Phpvarious72)
+[![{{site.paypal.name}}]({{site.url}}/documentation/{{site.widget}}/images/paypal.svg)](site.paypal.url)
