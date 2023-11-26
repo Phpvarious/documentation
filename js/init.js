@@ -151,7 +151,7 @@ for (var i in docMenu) {
 				continue;
 			}
 			if (menu.target) {
-				html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '"target="_blank">' + genText(menu, lang) + '</a></li>';
+				html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '" target="_blank">' + genText(menu, lang) + '</a></li>';
 			}
 			else html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '">' + genText(menu, lang) + '</a></li>';
 		} else {
