@@ -63,6 +63,7 @@ var docMenu = [
   {
 	fr_FR: "Faire un don ❤️",
 	link: "https://www.paypal.me/Phpvarious72",
+	target: "_blank",
 	icon: "fa-2x fab fa-paypal"
   },
   {
@@ -149,7 +150,10 @@ for (var i in docMenu) {
 			if (menu.link == '') {
 				continue;
 			}
-			html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '">' + genText(menu, lang) + '</a></li>';
+			if (menu.target) {
+				html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '"target="_blank">' + genText(menu, lang) + '</a></li>';
+			}
+			else html += '<li><a href="' + menu.link.replace('#LANG#', lang).replace('#VERSION#', jeedomVersion) + '">' + genText(menu, lang) + '</a></li>';
 		} else {
 			html += '<li><strong style="margin-left:5px;" href="#!">' + genText(menu, lang) + '</strong></li>';
 		}
