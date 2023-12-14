@@ -16,7 +16,7 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/action/slider",
 				icon: "fas fa-sliders-h",
-				fr_FR: "Slider (2)"
+				fr_FR: "Slider (3)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/select",
