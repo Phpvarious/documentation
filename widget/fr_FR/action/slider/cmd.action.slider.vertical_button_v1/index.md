@@ -4,9 +4,13 @@
 # Widget [cmd.action.slider.vertical_button_v1] ![Generic badge](https://img.shields.io/badge/Version-4.3-green.svg)
 
 
-
-
 <img src="../../../../images/dashboard/action.slider.vertical_button_v1_visuel.png" alt="cmd.action.slider.vertical_button_v1" />
+
+
+> **Information**
+>
+> - Testé seulement en 4.3.20.
+>
 
 ## Télécharger la source
 > - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.vertical_button_v1)
