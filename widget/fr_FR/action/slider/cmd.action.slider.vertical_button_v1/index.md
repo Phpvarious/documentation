@@ -5,6 +5,7 @@
 
 
 <img src="../../../../images/dashboard/action.slider.vertical_button_v1_visuel.png" alt="cmd.action.slider.vertical_button_v1" />
+<img src="../../../../images/dashboard/action.slider.vertical_button_v1_visuel2.png" alt="cmd.action.slider.vertical_button_v1" />
 
 
 > **Information**
@@ -18,7 +19,16 @@
 
 ## Paramètres optionnels
 
-<img src="../../../../images/dashboard/action.slider.vertical_button_v1_param.png" alt="Paramètres optionnels" />
+<img src="../../../../images/dashboard/action.slider.vertical_button_v1_param1.png" alt="Paramètres optionnels" />
+
+# Journal des modifications
+
+## 2023
+### 15/12/2023 (22h25)
+- Création
+### 20/12/2023 (19h40)
+- Possibilité de passer le slider en horizontal.
+- Possibilité de désactiver le slider.
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
