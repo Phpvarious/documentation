@@ -14,6 +14,7 @@ $(document).ready(function() {
     }
   });
   $("a.top-scroll").on('click', function(event) {
+    console.log(this)
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
