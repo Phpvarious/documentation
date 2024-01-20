@@ -62,7 +62,7 @@ var docMenu = [
   },
   {
 	fr_FR: "Faire un don ❤️",
-	link: "https://www.paypal.me/Phpvarious72",
+	link: "https://www.paypal.com/donate/?hosted_button_id=X97RV78YRSAZY",
 	target: "_blank",
 	icon: "fa-2x fab fa-paypal"
   },
