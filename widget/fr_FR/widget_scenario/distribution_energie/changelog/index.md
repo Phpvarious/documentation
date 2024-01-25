@@ -6,7 +6,7 @@
 
      
 ## 2024
-### 25/01/2024
+### 25/01/2024 (07h15)
 - Correction de bug sur l'affichage home lorsqu'on est en production sur grid.
 - Correction de bug sur l'affichage des animations.
 
