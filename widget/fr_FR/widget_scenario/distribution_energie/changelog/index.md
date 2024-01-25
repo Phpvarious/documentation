@@ -5,6 +5,13 @@
 # Journal des modifications
 
      
+## 2024
+### 25/01/2024
+- Correction de bug sur l'affichage home lorsqu'on est en production sur grid.
+- Correction de bug sur l'affichage des animations.
+
+Merci @Sattaz pour tes retours.
+
 ## 2023
 ### 02/06/2023 (22h00)
 - Ajout d'une condition pour éviter les erreurs lors de la navigation dans les design (gotoDesign).
