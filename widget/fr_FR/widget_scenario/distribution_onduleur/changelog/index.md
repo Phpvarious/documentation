@@ -6,11 +6,11 @@
 
 ## 2024     
 
-### 29/01/2024 (xxhxx)
+### 29/01/2024 (19h30)
 - Widget :
   - Ajout de 4 nouveaux load (load5_state, load6_state, load7_state, load8_state) ainsi que les energy (load5_energy, load6_energy, load7_energy, load8_energy).
   - Possibilité d’ajouter sa propre valeur du calcul des Pv (pv_power).
-- Ajout paramètre optionnel :
+- Ajout paramètres optionnels :
   - Possibilité d’afficher un VE a la place de la batterie (batteryIconeVe).
   - Ajout de 6 nouvelles icones pour les loads (battery, plug, pool, dryer, dishwasher, washing).
 
