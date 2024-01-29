@@ -4,7 +4,11 @@
 
 # Journal des modifications
 
-## 2024     
+## 2024
+
+### 29/01/2024 (21h40)
+- Ajout paramètres optionnels :
+  - Ajout de 5 nouvelles icones pour les loads (microwave, toaster, fridge, coffee, hood).
 
 ### 29/01/2024 (19h30)
 - Widget :

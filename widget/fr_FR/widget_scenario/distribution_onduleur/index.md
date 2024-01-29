@@ -38,7 +38,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres4.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres5.png" alt="Info backup" />
 
 > **Information**
 >
