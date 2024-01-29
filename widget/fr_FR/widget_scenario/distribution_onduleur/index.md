@@ -5,19 +5,15 @@
 
 # Widget [Onduleur Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
 
-<center><img src="../../../images/distribution_onduleur/capture1_6.gif" width="400px" alt="Info backup" /></center>
+<center><img src="../../../images/distribution_onduleur/capture1_1.gif" width="500px" alt="Info backup" /></center>
 
-> **---- BETA ----**
->
-> - Ce widget est en version béta.
-> - Il est basé sur le travail déja <a href="https://github.com/slipx06/sunsynk-power-flow-card" target="_blank">accomplie.</a>
->
 
 > **Information**
+>- Ce widget est basé sur le travail déja <a href="https://github.com/slipx06/sunsynk-power-flow-card" target="_blank">accomplie.</a>
 >
 > - Pour chaques éléments les unités des commandes doivent être identiques.
 > 
-> - Contrairement au widget <a href="../distribution_energie" target="_blank">Distribution Energie</a> ce widget fait très peu de calculs.
+> - Contrairement au widget <a href="../distribution_energie" target="_blank">Distribution Energie</a> ce widget fait moins de calculs.
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
