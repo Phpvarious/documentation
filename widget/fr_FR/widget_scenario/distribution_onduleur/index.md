@@ -42,7 +42,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres3.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres4.png" alt="Info backup" />
 
 > **Information**
 >
@@ -57,6 +57,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
+| pv_power <font color="red">*</font> | non | Puissance instantanée Total |
 | pv1_power | non | Puissance instantanée Pv1 |
 | pv1_energy | non | Energie PV1 |
 | pv1_voltage | non | Tension Pv1 |
@@ -79,6 +80,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 >
 > - Si vous possèdez 1 seul reseau PV, utilisez avant tout pv1 power.
 > - Si aucun des pv power n'est renseigné, la partie solaire sera automatiquement masqué.
+> -  <font color="red">*</font> pv_power : Si cette commande n'est pas existante, le widget fera la somme des pv. 
 
 ### Batterie
 
@@ -155,12 +157,13 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Exemple :
 
-<img src="../../../images/distribution_onduleur/widget_help.png" alt="Help1" />
+<img src="../../../images/distribution_onduleur/widget_help3.png" alt="Help1" />
 
 > **Légende** : 
 > <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
 > <br><font color="red"><b>Rouge :</b> Paramètres optionnels.</font>
 >
+> <b><font color="red">*</font> pv_power :</b> ci cette commande n'est pas existante, le widget affichera la somme des pv.
 
 -------------------------
 
