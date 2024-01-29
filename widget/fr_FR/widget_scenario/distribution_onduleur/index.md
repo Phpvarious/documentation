@@ -175,7 +175,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Todo
 
-- Ajout de plus d'icones pour les Load via un paramètre optionnel.
+- Affichage d'un greenPower.
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
