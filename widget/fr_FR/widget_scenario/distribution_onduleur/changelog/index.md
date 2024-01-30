@@ -6,6 +6,11 @@
 
 ## 2024
 
+### 30/01/2024 (23h30)
+- Ajout paramètres optionnels :
+  - Ajout de 5 nouvelles icones pour les loads (light, tv, server, laptop, console).
+  - Ajout de seuils d'alarme sur tous les loads. Pour utiliser cette fonction veuillez renseigner les nouveaux paramètres ("load1MaxPower", "load2MaxPower" ...), si la puissance du load atteind la valeur renseigné dans ce paramètre, le rectangle sera colorisé en rouge (ou la couleur de son choix renseigné dans le paramètre "colorDanger"), il est aussi possible de faire clignoter le rectangle en mettant le paramètre "blink" a 1.
+
 ### 29/01/2024 (21h40)
 - Ajout paramètres optionnels :
   - Ajout de 5 nouvelles icones pour les loads (microwave, toaster, fridge, coffee, hood).
