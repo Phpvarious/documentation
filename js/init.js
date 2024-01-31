@@ -46,7 +46,7 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/string",
 				icon: "fas fa-text-height",
-				fr_FR: "String (0)"
+				fr_FR: "String (1)"
 			}
     ]
   },
@@ -54,7 +54,7 @@ var docMenu = [
 		divider: true
   },
   {
-	fr_FR: "Widgets / Scénarios (6)",
+	fr_FR: "Widgets / Scénarios (5)",
 	link: "/documentation/widget/#LANG#/widget_scenario"
   },
   {
