@@ -54,6 +54,7 @@
 ## 2024
 
 ### 31/01/2024 (20h00)
+
 - Réunification de 3 tarifications.
 - Modification du widget pour recevoir une info venant d'une commande tempo.
 -------------------
