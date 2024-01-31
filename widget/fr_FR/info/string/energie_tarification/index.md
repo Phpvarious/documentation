@@ -51,12 +51,14 @@
 > - [Comment ajouter des paramètres ?]({{site.url}}/documentation/{{site.help}}/fr_FR/application)
 
 # Changelog
+
 ## 2024
 
 ### 31/01/2024 (20h00)
 
 - Réunification de 3 tarifications.
 - Modification du widget pour recevoir une info venant d'une commande tempo.
+
 -------------------
 
 <a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/info/string">Info / Autre</a> --> Energie tarification
