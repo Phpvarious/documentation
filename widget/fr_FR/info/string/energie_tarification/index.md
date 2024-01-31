@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Energie Tarification] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [Energie Tarification] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg)
 
 <center><img src="./images/capture1_1.png" alt="energie_tarification" /></center>
 <i>version standard.</i>
