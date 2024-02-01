@@ -42,7 +42,7 @@
 
 ## Paramètres optionnels
 
-<img src="./images/parametres2.png" alt="Paramètres" />
+<img src="./images/parametres3.png" alt="Paramètres" />
 
 
 
@@ -53,6 +53,13 @@
 # Changelog
 
 ## 2024
+
+### 01/02/2024 (21h40)
+
+- Ajout d'une tarification supplémentaire.
+
+│───────────── HP ────────────│────── HC ──────│<br>
+6h30 ─────────────────────── 22h30 ──────────── 6h30
 
 ### 31/01/2024 (20h00)
 
