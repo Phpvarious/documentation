@@ -58,6 +58,8 @@
 - Correction bug d'affichage et calcul pour les type 2 et 3.
 - Correction bug d'affichage pour type 0.
 
+<br>Merci @jpty ;-)
+
 ### 01/02/2024 (21h40)
 
 - Ajout d'une tarification supplémentaire.
