@@ -17,7 +17,8 @@
 > **Information**
 >
 > - Ce widget peut être utilisé pour une simple visualisation (version standard), il a un refresh auto toutes les minutes.
-> - Il peut aussi être appliqué sur une commande qui renvoie les couleurs tempo (RED, BLUE, WHITE) comme par exemple le plugin <a href="https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html" target="_blank">Rte Ecowatt</a>.
+> - Il peut aussi être appliqué sur une commande qui renvoie les couleurs tempo RED, BLUE, WHITE (insensible au majuscule) comme par exemple le plugin <a href="https://jpty.github.io/jeedom/plugins/rteEcowatt/fr_FR/index.html" target="_blank">Rte Ecowatt</a>.
+>   - Exemples : Red, RED, ReD, xxxRedyyy ...
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.string.energie_tarification" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
@@ -53,6 +54,10 @@
 # Changelog
 
 ## 2024
+
+### 02/02/2024 (13h10)
+- Pour la partie tempo :
+  - modification du code pour qu'il recherche la couleur dans la valeur reçu. <br>Si la commande info = "TEMPO_RoUgE" le widget reconnaitra le mot rouge (Marche aussi pour red).
 
 ### 02/02/2024 (07h20)
 - Correction bug d'affichage et calcul pour les type 2 et 3.
