@@ -12,7 +12,6 @@
 ### 16/04/2023
   - Mise à jour de widget version mobile. [widget Mobile]
   - Ajout nouveaux paramètres optionnels pour la version mobile. [widget Mobile]
-  - Mise à jour de widget pour ajouter. [widget Dashboard]
 ### 11/04/2023
   - Correction d'une erreur sur le tag Next_New_Moon. [scénario]
   - Renommage des Phases : montante et descendante deviennent Croissante, Décroissante.  [scénario]
