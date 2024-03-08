@@ -187,7 +187,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 - Affichage de la couleur du jour et du lendemain.
 
 Il faudra télécharger le template <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">distribution_onduleur_tempo.json</a>.<br>
-<i>Vous pouvez suivre <a href='../../../../help/fr_FR/template_scenario'>l'aide a l'installation d'un template</a>.</i><br>
+<i>Vous pouvez suivre <a href='../../../../help/fr_FR/template_scenario' target="_blank">l'aide a l'installation d'un template</a>.</i><br>
 
 Commande de remplacement :
 
