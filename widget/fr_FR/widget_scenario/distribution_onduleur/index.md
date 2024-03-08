@@ -16,7 +16,7 @@
 > - Contrairement au widget <a href="../distribution_energie" target="_blank">Distribution Energie</a> ce widget fait moins de calculs.
 
 ## 1) Télécharger la source
-> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger la source du widget pour le Core V4</a>
 
 ### Version dashboard
 
@@ -38,7 +38,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres6.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres1.png" alt="Info backup" />
 
 > **Information**
 >
@@ -126,12 +126,28 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | load_state | non | Puissance instantanée globale. |
 | load1_state | non | Puissance instantanée du recepteur 1. |
 | load1_energy | non | Energie recepteur 1. |
+| load1_perso | non | Info perso du load1. |
 | load2_state | non | Puissance instantanée du recepteur 2. |
 | load2_energy | non | Energie recepteur 2. |
+| load2_perso | non | Info perso du load2. |
 | load3_state | non | Puissance instantanée du recepteur 3. |
 | load3_energy | non | Energie recepteur 3. |
+| load3_perso | non | Info perso du load3. |
 | load4_state | non | Puissance instantanée du recepteur 4. |
 | load4_energy | non | Energie recepteur 4. |
+| load4_perso | non | Info perso du load4. |
+| load5_state | non | Puissance instantanée du recepteur 5. |
+| load5_energy | non | Energie recepteur 5. |
+| load5_perso | non | Info perso du load5. |
+| load6_state | non | Puissance instantanée du recepteur 6. |
+| load6_energy | non | Energie recepteur 6. |
+| load6_perso | non | Info perso du load6. |
+| load7_state | non | Puissance instantanée du recepteur 7. |
+| load7_energy | non | Energie recepteur 7. |
+| load7_perso | non | Info perso du load7. |
+| load8_state | non | Puissance instantanée du recepteur 8. |
+| load8_energy | non | Energie recepteur 8. |
+| load8_perso | non | Info perso du load8. |
 
 > **Info**
 >
@@ -153,7 +169,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Exemple :
 
-<img src="../../../images/distribution_onduleur/widget_help3.png" alt="Help1" />
+<img src="../../../images/distribution_onduleur/widget_help1.png" alt="Help1" />
 
 > **Légende** : 
 > <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
@@ -165,9 +181,31 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 <img src="../../../images/distribution_onduleur/widget_help2.png" alt="Help2" />
 
+## 3) Partie Tempo
+
+### Avec le plugin "rteEcowatt"
+- Affichage de la couleur du jour et du lendemain.
+
+Il faudra télécharger le template <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">distribution_onduleur_tempo.json</a>.<br>
+<i>Vous pouvez suivre <a href='../../../../help/fr_FR/template_scenario.md'>l'aide a l'installation d'un template</a>.</i><br>
+
+Commande de remplacement :
+
+<img src="../../../images/distribution_onduleur/instal_template.png" alt="Help1" />
+
+(1) Recherchez la commande sur laquelle vous avez appliqué le widget précédemment.<br>
+(2) Appliquer la modification.
+
+
+### Sans le plugin "rteEcowatt"
+- Affichage seulement de la couleur du jour
+
+Il suffit simplement d'envoyer une des couleurs (RED,WHITE ou BLUE) sur la commande ou vous avez appliqué le widget précédemment.
+
 ## Changelog
 
 <a href="./changelog">Changelog</a>
+
 
 ## Todo
 

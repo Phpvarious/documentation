@@ -6,6 +6,20 @@
 
 ## 2024
 
+### 08/03/2024 (11h00)
+- Widget :
+  - Restructuration du code.
+  - Prise en compte de la puissance du "mppt battery" pour déterminer le sens du flux.
+  - Les seuils d'alarme sont valables aussi pour "grid_power", "load_state", "aux_power", ainsi que les "load".
+  - Il est possible maintenant de remplacer l'icone "battery" par un icon perso. (voir liste dans les load)
+  - Ajout d'une info perso sur chaque "load". (load1_perso, load2_perso...)
+  - Ajout d'une partie "tempo". (voir doc pour le fonctionnement)
+  - Ajout de l'icone "ve".
+- Ajout paramètres optionnels :
+  - batteryIcone : Remplace l'icone de "battery" (Voir liste des "load").
+
+
+
 ### 30/01/2024 (23h30)
 - Ajout paramètres optionnels :
   - Ajout de 5 nouvelles icones pour les loads (light, tv, server, laptop, console).
