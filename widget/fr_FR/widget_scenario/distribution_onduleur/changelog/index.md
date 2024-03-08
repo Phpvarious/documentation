@@ -6,7 +6,7 @@
 
 ## 2024
 
-### 08/03/2024 (11h00)
+### 08/03/2024 (18h45)
 - Widget :
   - Restructuration du code.
   - Prise en compte de la puissance du "mppt battery" pour déterminer le sens du flux.
@@ -16,7 +16,7 @@
   - Ajout d'une partie "tempo". (voir doc pour le fonctionnement)
   - Ajout de l'icone "ve".
 - Ajout paramètres optionnels :
-  - batteryIcone : Remplace l'icone de "battery" (Voir liste des "load").
+  - batteryIcone : Remplace l'icone de "battery" (Voir liste présente dans les "load").
 
 
 
