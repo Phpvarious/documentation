@@ -36,7 +36,7 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/binary",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Binary (0)"
+				fr_FR: "Binary (1)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/numeric",
@@ -56,6 +56,13 @@ var docMenu = [
   {
 	fr_FR: "Widgets / Scénarios (5)",
 	link: "/documentation/widget/#LANG#/widget_scenario"
+  },
+  {
+	divider: true
+  },
+  {
+	fr_FR: "Custom CSS 4.4",
+	link: "/documentation/widget/#LANG#/customcss4_4"
   },
   {
 	divider: true

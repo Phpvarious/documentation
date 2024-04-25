@@ -1,4 +1,6 @@
 
+<a href="{{site.url}}/documentation">Accueil</a> --> Widget
+
 # Widgets
 
 Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
@@ -28,3 +30,7 @@ Vous pouvez faire des dons via PayPal
 [![{{site.paypal.name}}]({{site.url}}/documentation/{{site.widget}}/images/paypal.svg)]({{site.paypal.url}})
 
 Merci ! ❤️
+
+-------------------
+
+<a href="{{site.url}}/documentation">Accueil</a> --> Widget
