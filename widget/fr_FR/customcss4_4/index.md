@@ -36,6 +36,21 @@ div.eqLogic-widget div.break + div.break {
   height: 10px !important;
 }
 ```
+### Masquer la lettre (d, m ...) sur le graph d'un équipement :
+```
+/* Masquer la lettre (d, m ...) sur le graph d'un équipement */
+.eqLogicGraphPeriod {
+  opacity: 0;
+}
+```
+
+### Rendre transparent le fond des graph des équipements :
+```
+/* Rendre transparent le fond des graph des équipements */
+.eqlogicbackgraph .highcharts-container .highcharts-root .highcharts-series.highcharts-series-0.highcharts-areaspline-series path.highcharts-area {
+  fill: transparent;
+}
+```
 
 ## Dashboard
 
