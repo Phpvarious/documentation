@@ -9,7 +9,7 @@
 >
 >L’utilisation de règles CSS inappropriées peu casser l’affichage de votre Jeedom.
 
-## Titre des tuiles sur 2 lignes :
+### Titre des tuiles sur 2 lignes :
 
 ```
 /* titres des tuiles sur 2 lignes */
