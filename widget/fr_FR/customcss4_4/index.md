@@ -24,6 +24,29 @@ div.eqLogic.eqLogic-widget .widget-name, div.scenario-widget .widget-name {
 }
 ```
 
+### Ajouter un saut de ligne (espace) entre 2 commandes :
+> **Fonctionnement**
+>
+> Pour que ce code fonctionne il faut :
+> - ajouter un saut de ligne après le widget.
+> - et sur l'autre commande ajouter saut de ligne avant le widget.
+```
+/* Ajouter un saut de ligne (espace) entre 2 commandes */
+div.eqLogic-widget div.break + div.break {
+  height: 10px !important;
+}
+```
+
+## Dashboard
+
+### Ajouter un espace après le nom de l'objet
+```
+/* Ajouter un espace après le nom de l'objet */
+.div_object legend .objectDashLegend {
+  margin-bottom: 5px;
+}
+```
+
 ## Vues
 
 ### Aligner titres a gauche :
