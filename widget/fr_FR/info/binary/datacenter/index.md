@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Battery_state_1] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4-green.svg)
+# Widget [Datacenter] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4-green.svg)
 
 <center><img src="img/capture1.gif" alt="Datacenter" /></center>
 
@@ -20,16 +20,14 @@
 
 ## Paramètres optionnels
 
-<img src="images/parametre3.png" alt="Paramètres" />
+<img src="img/parametre1.png" alt="Paramètres" />
 
 
 
 
 ## Questions :
-- Pourquoi les statistique ne s'affiche pas sur le widget ?
-  - Verifier que votre commande est bien historisé. 
-  - Dans Réglages / Système / Configuration sous l'onglet "Equipement" verifiez que la case "Afficher les statistiques sur les widgets" est bien cochée.
-  - Dans la configuration avancée de votre commande sous l'onglet "Affichage", verifier que la case "Afficher les statistiques" est bien cochée.
+- Pourquoi les couleurs ne s'affiche pas sur le widget ?
+  - Dans Réglages / Système / Configuration sous l'onglet "Interface" verifiez que la case "Icônes colorées" est bien cochée.
 
 ## Changelog
 
