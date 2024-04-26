@@ -61,7 +61,23 @@ div.eqLogic-widget div.break + div.break {
   margin-bottom: 5px;
 }
 ```
-
+### Rendre fixe de la barre de recherche :
+```
+/* rendre fixe de la barre de recherche */
+#dashTopBar {
+    position: fixed;
+    top: 46px;
+    z-index: 500;
+    width: calc(100% - 27px) !important;
+    left: 7px;
+}
+#div_displayObject .row > div:not(.hideByObjectSel) :first-child legend {
+  margin-top: 37px !important;
+}
+[data-page="dashboard"] #dashOverviewPrev.overview {
+  margin-top: 32px;
+}
+```
 ## Vues
 
 ### Aligner titres a gauche :
