@@ -30,13 +30,16 @@ div.eqLogic.eqLogic-widget .widget-name, div.scenario-widget .widget-name {
 > Pour que ce code fonctionne il faut :
 > - ajouter un saut de ligne après le widget.
 > - et sur l'autre commande ajouter saut de ligne avant le widget.
+
 ```
 /* Ajouter un saut de ligne (espace) entre 2 commandes */
 div.eqLogic-widget div.break + div.break {
   height: 10px !important;
 }
 ```
+
 ### Masquer la lettre (d, m ...) sur le graph d'un équipement :
+
 ```
 /* Masquer la lettre (d, m ...) sur le graph d'un équipement */
 .eqLogicGraphPeriod {
@@ -45,6 +48,7 @@ div.eqLogic-widget div.break + div.break {
 ```
 
 ### Rendre transparent le fond des graph des équipements :
+
 ```
 /* Rendre transparent le fond des graph des équipements */
 .eqlogicbackgraph .highcharts-container .highcharts-root .highcharts-series.highcharts-series-0.highcharts-areaspline-series path.highcharts-area {
@@ -55,13 +59,16 @@ div.eqLogic-widget div.break + div.break {
 ## Dashboard
 
 ### Ajouter un espace après le nom de l'objet
+
 ```
 /* Ajouter un espace après le nom de l'objet */
 .div_object legend .objectDashLegend {
   margin-bottom: 5px;
 }
 ```
+
 ### Rendre fixe de la barre de recherche :
+
 ```
 /* rendre fixe de la barre de recherche */
 #dashTopBar {
@@ -78,9 +85,11 @@ div.eqLogic-widget div.break + div.break {
   margin-top: 32px;
 }
 ```
+
 ## Vues
 
 ### Aligner titres a gauche :
+
 ```
 /* Aligner titres a gauche sur les vues */
 div.div_viewZone legend.lg_viewZone {
