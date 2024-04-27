@@ -447,6 +447,10 @@ pre {
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
+	color: var(--linkHoverLight-color);
+}
+.alert > i {
+	color: var(--linkHoverLight-color);
 }
 
 .alert-info {
