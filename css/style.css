@@ -450,11 +450,11 @@ pre {
 	color: var(--linkHoverLight-color);
 }
 .alert > i {
-	color: var(--linkHoverLight-color);
+	color: var(--linkHoverLight-color) !important;
 }
 
 .alert-info {
-    color: var(--al-success-color);
+    color: var(--linkHoverLight-color);
     background-color: var(--al-success-color);
     border-color: var(--al-success-color);
 }
