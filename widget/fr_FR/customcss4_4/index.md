@@ -5,6 +5,9 @@
 
 # Custom CSS V4.4
 
+<div class="alert alert-info"><i class="fas fa-info-circle"></i>L’utilisation de règles CSS inappropriées peu casser l’affichage de votre Jeedom.</div>
+
+
 > **Attention**
 >
 >L’utilisation de règles CSS inappropriées peu casser l’affichage de votre Jeedom.
