@@ -5,7 +5,7 @@
 
 # Custom CSS V4.4
 
-<div class="alert alert-warning"><i class="fas fa-info-circle"></i> <strong>Note:</strong> L’utilisation de règles CSS inappropriées peu casser l’affichage de votre Jeedom.</div>
+<div class="alert alert-info"><i class="fa-solid fa-triangle-exclamation"></i> <strong>Note:</strong> L’utilisation de règles CSS inappropriées peu casser l’affichage de votre Jeedom.</div>
 
 
 > **Attention**
