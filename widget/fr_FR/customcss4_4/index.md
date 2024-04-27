@@ -56,6 +56,15 @@ div.eqLogic-widget div.break + div.break {
 }
 ```
 
+### Ajouter une marge en haut des tuiles :
+
+```
+/* Ajouter une marge en haut des tuiles */
+.eqLogic.eqLogic-widget > .widget-name {
+  margin-bottom: 5px;
+}
+```
+
 ## Dashboard
 
 ### Ajouter un espace après le nom de l'objet
@@ -97,7 +106,28 @@ div.div_viewZone legend.lg_viewZone {
 }
 ```
 
+## UI
 
+### Masquage du lien "synthèse" du menu :
+```
+/* Masquage du lien "synthèse" du menu */
+#jeedomMenuBar > div > nav > ul:nth-child(1) > li:nth-child(1) > ul > li:nth-child(1) {
+  display: none;
+}
+```
+### Supprime l'animation (loading) lors du chargement d'une' page :
+```
+/* Supprime l'animation (loading) lors du chargement d'une page  */
+#div_jeedomLoading .loadingSpinner {
+  display: none;
+}
+```
+### Changement de loading
+
+```
+/* Changement de loading */
+/* Prochainement :-) */
+```
 
 -------------------
 
