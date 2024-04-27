@@ -471,6 +471,12 @@ pre {
     border-color: var(--al-danger-color);
 }
 
+.alert-info {
+    color: var(--linkHoverLight-color);
+    background-color: var(--al-info-color);
+    border-color: var(--al-info-color);
+}
+
 .gsc-search-button {
 	position: relative !important;
 	left: -41px !important;
