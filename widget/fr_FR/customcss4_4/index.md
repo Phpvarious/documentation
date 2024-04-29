@@ -11,6 +11,8 @@
 
 ### Titre des tuiles sur 2 lignes :
 
+<center><img src="img/ex2.png" alt="Téléchargement du widget" width="100px"/></center>
+
 ```
 /* titres des tuiles sur 2 lignes */
 div.eqLogic.eqLogic-widget .widget-name, div.scenario-widget .widget-name {
@@ -121,6 +123,17 @@ div.div_viewZone legend.lg_viewZone {
 ```
 
 ## UI
+
+### Taille texte dans le Résumé global
+
+<center><img src="img/ex1.png" alt="Téléchargement du widget" /></center>
+
+```
+/* Taille texte dans le Résumé global */
+#summaryGlobalMain {
+  font-size: 20px;
+}
+```
 
 ### Masquage du lien "synthèse" du menu :
 ```
