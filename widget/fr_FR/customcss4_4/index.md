@@ -63,6 +63,15 @@ div.eqLogic-widget div.break + div.break {
 }
 ```
 
+### Masque le point présent lors du survol d'une commande action et info historisé
+
+```
+/* Masque le point présent lors du survol d'une commande action et info historisé
+.eqLogic-widget.eqSignalInfo:after, .eqLogic-widget.eqSignalAction:after {
+  content: none;
+}
+```
+
 ## Dashboard
 
 ### Ajouter un espace après le nom de l'objet
