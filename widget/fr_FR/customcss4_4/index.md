@@ -101,6 +101,13 @@ div.eqLogic-widget div.break + div.break {
   margin-top: 32px;
 }
 ```
+### Aligner les noms des objets à gauche sur le Dashboard
+```
+/* Aligner les noms des objets à gauche sur le Dashboard */
+.div_object legend {
+    text-align: left !important;
+}
+```
 
 ## Vues
 
