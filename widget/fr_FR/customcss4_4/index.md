@@ -113,7 +113,7 @@ div.div_viewZone legend.lg_viewZone {
   display: none;
 }
 ```
-### Supprime l'animation (loading) lors du chargement d'une' page :
+### Supprime l'animation (loading) lors du chargement d'une page :
 ```
 /* Supprime l'animation (loading) lors du chargement d'une page  */
 #div_jeedomLoading .loadingSpinner {
@@ -157,6 +157,113 @@ div.div_viewZone legend.lg_viewZone {
   border: unset;
 }
 #div_jeedomLoading .loadingSpinner:after { content: none; }
+@keyframes push_loadingSpinner1 {
+  50% {
+    left: 120px;
+  }
+}
+```
+
+### Changement du loading (Effet 2)
+
+<center><img src="img/effet2.gif" alt="Téléchargement du widget" /></center>
+
+```
+#div_jeedomLoading .loadingSpinner {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: solid 30px;
+  border-radius: 5em;
+  border-color: #0099ff transparent #0099ff transparent;
+  animation: spin 1s linear infinite;
+}
+#div_jeedomLoading .loadingSpinner:after, #div_jeedomLoading2 .loadingSpinner:after {
+ content: none;
+}
+#div_jeedomLoading .loadingSpinner:before, #div_jeedomLoading2 .loadingSpinner:before {
+  content: none;
+}
+```
+
+### Changement du loading (Effet 3)
+
+<center><img src="img/effet3.gif" alt="Téléchargement du widget" /></center>
+
+```
+#div_jeedomLoading .loadingSpinner {
+  -webkit-animation: loading3rotate 1s infinite;
+  animation: loading3rotate 1s infinite;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 0;
+}
+#div_jeedomLoading .loadingSpinner:after {
+  -webkit-animation: loading3ball2 1s infinite;
+  animation: loading3ball2 1s infinite;
+  background-color: #00a096;
+  box-shadow: 30px 0 0 #97bf0d;
+}
+#div_jeedomLoading .loadingSpinner:before {
+  -webkit-animation: loading3ball1 1s infinite;
+  animation: loading3ball1 1s infinite;
+  background-color: #cb2025;
+  box-shadow: 30px 0 0 #f8b334;
+  margin-bottom: 10px; 
+}
+#div_jeedomLoading .loadingSpinner:before, #div_jeedomLoading .loadingSpinner:after {
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: unset;
+  bottom: unset;
+  left: unset;
+  right: unset;
+  border: none;
+}
+@keyframes loading3rotate {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    -moz-transform: rotate(0deg) scale(0.8);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+  }
+  100% {
+    -webkit-transform: rotate(720deg) scale(0.8);
+    -moz-transform: rotate(720deg) scale(0.8);
+  }
+}
+@keyframes loading3ball1 {
+  0% { box-shadow: 30px 0 0 #f8b334; }
+  50% {
+    box-shadow: 0 0 0 #f8b334; margin-bottom: 0;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 #f8b334;
+    margin-bottom: 10px;
+  }
+}
+@keyframes loading3ball2 {
+  0% { box-shadow: 30px 0 0 #97bf0d; }
+  50% {
+    box-shadow: 0 0 0 #97bf0d; margin-top: -20px;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 #97bf0d;
+    margin-top: 0;
+  }
+}
 ```
 
 -------------------
