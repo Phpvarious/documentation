@@ -120,11 +120,43 @@ div.div_viewZone legend.lg_viewZone {
   display: none;
 }
 ```
-### Changement de loading
+### Changement de loading (Effet 1)
+
+<center><img src="img/effet1.gif" alt="Téléchargement du widget" /></center>
 
 ```
-/* Changement de loading */
-/* Prochainement :-) */
+/* Changement de loading (Effet 1) */
+#div_jeedomLoading .loadingSpinner {
+  position: relative;
+  left: calc(50% - 102px);
+  border-radius: 16px;
+  width: 205px;
+  height: 90px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.4);
+  border-top: unset; 
+  -webkit-animation: unset;
+  animation: unset;
+}
+#div_jeedomLoading .loadingSpinner:before {
+  content: "";
+  position: absolute;
+  border-radius: 16px;
+  width: 82px;
+  height: 82px;
+  left: 0;
+  background: #FFF;
+  background: var(--logo-primary-color);
+  background: no-repeat center / 100% url(../../core/img/jeedom_home_Light.png);
+  -webkit-animation: push_loadingSpinner1 1s infinite ease-in-out;
+  animation: push_loadingSpinner1 1s infinite ease-in-out;
+  border-top-color: unset;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  border: unset;
+}
+#div_jeedomLoading .loadingSpinner:after { content: none; }
 ```
 
 -------------------
