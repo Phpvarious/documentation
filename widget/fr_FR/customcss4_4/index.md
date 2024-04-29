@@ -120,12 +120,12 @@ div.div_viewZone legend.lg_viewZone {
   display: none;
 }
 ```
-### Changement de loading (Effet 1)
+### Changement du loading (Effet 1)
 
 <center><img src="img/effet1.gif" alt="Téléchargement du widget" /></center>
 
 ```
-/* Changement de loading (Effet 1) */
+/* Changement du loading (Effet 1) */
 #div_jeedomLoading .loadingSpinner {
   position: relative;
   left: calc(50% - 102px);
