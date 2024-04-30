@@ -20,6 +20,8 @@
 
 ## Paramètres optionnels
 
+<div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget ne vas chercher aucune info de part une id, tout les paramètres optionnels sont de type texte.<br> exemple pour afficher une ip dans le widget : ip -> 192.168.152.147</div>
+
 <img src="img/parametre2.png" alt="Paramètres" />
 
 
