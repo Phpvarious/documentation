@@ -7,6 +7,9 @@
      
 ## 2024
 
+### 30/04/2024 (08h45)
+  - Ajout paramètre "id_ip" pour récupérer l'ip venant d'une autre commande.
+
 ### 26/04/2024 (11h45)
   - Création.
 
