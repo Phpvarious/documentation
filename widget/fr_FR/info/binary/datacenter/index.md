@@ -20,7 +20,7 @@
 
 ## Paramètres optionnels
 
-<img src="img/parametre1.png" alt="Paramètres" />
+<img src="img/parametre2.png" alt="Paramètres" />
 
 
 
