@@ -9,7 +9,7 @@
 
 ## 1) Télécharger la source
 
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.sting.swiper_battery_jeedom)
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.sting.swiper_battery_jeedom" target="_blank">Télécharger la source du widget pour le Core V4</a>
 
 - Déposer le fichier <b>cmd.info.string.swiper_battery_jeedom.html</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
