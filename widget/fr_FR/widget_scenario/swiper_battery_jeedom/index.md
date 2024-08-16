@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Swiper Battery Jeedom] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [Swiper Battery Jeedom] ![Generic badge](https://img.shields.io/badge/Version-4.4%20Full%20JS-green.svg)
 
 <img src="../../../images/swiper_battery_jeedom/capture1.gif" alt="Swiper Battery Jeedom" />
 
