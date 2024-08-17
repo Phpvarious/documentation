@@ -7,6 +7,9 @@
      
 ## 2024
 
+### 17/08/2024 (11h40)
+  - Ajout paramètre "id_latency" pour afficher la latence dans le widget.
+
 ### 30/04/2024 (08h45)
   - Ajout paramètre "id_ip" pour récupérer l'ip venant d'une autre commande.
 

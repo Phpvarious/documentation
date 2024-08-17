@@ -23,7 +23,7 @@
 <div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget peut aller chercher l'info de l'adresse ip part une id.<br> exemple pour afficher une ip venant d'une autre commande : id_ip -> 8523
 <br> exemple pour afficher une ip directement en texte : ip -> 192.168.23.51</div>
 
-<img src="img/parametre3.png" alt="Paramètres" />
+<img src="img/parametre4.png" alt="Paramètres" />
 
 
 
