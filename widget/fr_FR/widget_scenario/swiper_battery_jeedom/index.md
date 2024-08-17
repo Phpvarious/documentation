@@ -32,7 +32,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/swiper_battery_jeedom/parametres.png" alt="Paramètre 1" />
+<img src="../../../images/swiper_battery_jeedom/parametres_2.png" alt="Paramètre 1" />
 
 - Exemple de paramètres optionnels :
 
