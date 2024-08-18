@@ -15,7 +15,7 @@
 
 ## 1) Télécharger la source
 
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.sting.info_backup)
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.sting.info_backup" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ### Version dashboard
 
@@ -89,6 +89,10 @@ Il est possible d'extraire plus d'informations du scénario, il faudra créer de
 ### Exemple dans le Scénario
 
 <img src="../../../images/info_backup/scenario5.png" alt="scenario5" />
+
+### Changelog
+
+<a href="./changelog">Changelog</a>
 
 ---------------------
 
