@@ -20,8 +20,7 @@
 
 ## 1) Téléchargement
 
-- Fichier source à récupérer sous :
-  - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.info.sting.info_du_jour)
+  > - <a href="{{site.url_git}}/WIDGET_cmd.info.sting.info_du_jour" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ### Version dashboard
 
