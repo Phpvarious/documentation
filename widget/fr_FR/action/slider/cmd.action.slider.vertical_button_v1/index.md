@@ -19,10 +19,13 @@
 
 ## Paramètres optionnels
 
-<img src="../../../../images/dashboard/action.slider.vertical_button_v1_param1.png" alt="Paramètres optionnels" />
+<img src="../../../../images/dashboard/action.slider.vertical_button_v1_param2.png" alt="Paramètres optionnels" />
 
 # Journal des modifications
 
+## 2024
+### 06/09/2024 (15h10)
+- Ajout paramètre optionnel "hideButtons" qui permet de masquer les boutons (+) et (-).
 ## 2023
 ### 15/12/2023 (22h25)
 - Création
