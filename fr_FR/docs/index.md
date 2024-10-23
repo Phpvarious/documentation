@@ -1,3 +1,4 @@
+    
     # Plugin Mobile
 
     Plugin permettant d’utiliser l’application Mobile Jeedom.
@@ -8,7 +9,7 @@
 
     Après installation du plugin, il vous suffit de l’activer :
 
-    ![mobile1](./images/mobile1.png)
+    <img src="./images/mobile1.png" />
 
     # Première connexion à l'application V2
 
