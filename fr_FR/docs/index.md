@@ -12,22 +12,22 @@ Après installation du plugin, il vous suffit de l’activer :
 
 # Première connexion à l'application V2
 
-Pour connecter votre téléphone : il y a 2 méthodes possible;
-Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi de retrouver toutes les Boxs associées à ce compte, ou bien simplement ajouter une Box.
+Pour connecter votre téléphone, il y a 2 méthodes possible.
 
-<img src="./images/v2firstConnect.jpeg" alt="v2firstConnect" width="50%">
+<b>Méthode 1</b> : Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi retrouver toutes les Boxs associées à ce compte.<br>
+<b>Méthode 2</b> : Simplement ajouter une Box.
 
-> **IMPORTANT**
->
-> Pour profiter des fonctionnalités de l'application, le Core de votre Jeedom doit être en 4.4.0 minimum
 
-#### **CONNEXION VIA LE COMPTE MARKET** :
 
-![v2ConnectMarket](./images/v2connectMarket.jpeg)
+#### **Méthode 1 : CONNEXION VIA LE COMPTE MARKET**
+
+<img src="./images/v2firstConnect.png" alt="v2firstConnect" width="50%">
 
 Il vous faut simplement rentrer votre identifiant Market ainsi que votre mot de passe.
 
-#### **CONNEXION VIA Box ID** :
+#### **Méthode 2 : CONNEXION VIA Box ID**
+
+<img src="./images/v22methods.png" alt="v22methods" width="50%">
 
 ![v22methods](./images/v22methods.jpeg)
 
