@@ -15,6 +15,8 @@ Après installation du plugin, il vous suffit de l’activer :
 Pour connecter votre téléphone : il y a 2 méthodes possible;
 Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi de retrouver toutes les Boxs associées à ce compte, ou bien simplement ajouter une Box.
 
+<img src="./images/v2firstConnect.jpeg" alt="v2ConnectMarket" width=50%>
+
 ![v2ConnectMarket|50](./images/v2firstConnect.jpeg)
 
 > **IMPORTANT**
