@@ -28,15 +28,25 @@ Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre
 
 ### **Méthode 2 : CONNEXION VIA Box ID**
 
+2 choix possible sur cet écran :
+
 <img src="./images/v22methods.png" alt="v2connectMarket" width="40%" />
 
-Plusieurs choix sur cet écran :
 
-- Vous entrez l'url de votre Jeedom (interne ou externe), ainsi que les identifiants d'accès à celle-ci et vous confirmez avec le bouton CONNEXION
 
-- Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QR Code depuis le plugin Mobile de la Box que vous souhaitez ajoutée, via l'onglet QR Code du plugin.
+#### **Choix 1 : VIA IDENTIFIANTS
 
-  ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
+Vous entrez l'url de votre Jeedom (interne ou externe), ainsi que les identifiants d'accès à celle-ci et vous confirmez avec le bouton "Connexion".
+
+#### **Choix 2 : VIA QRCODE
+
+> **Info**
+>
+> Via le Qrcode, il vous faudra peut-être donner les droits à Jeedom App d'utiliser la caméra de votre téléphone lorsque celui-ci vous le demandera.
+
+Cliquez sur QR Code, un nouvel écran apparait, scanner le Qrcode depuis le plugin Mobile de la Box que vous souhaitez ajouter, via l'onglet QR Code du plugin.
+
+<img src="./images/v2QRCodeConnect.png" alt="v2connectMarket" width="40%" />
 
 > Onglet QR Code du plugin Mobile
 
