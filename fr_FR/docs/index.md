@@ -14,22 +14,23 @@ Après installation du plugin, il vous suffit de l’activer :
 
 Pour connecter votre téléphone, il y a 2 méthodes possible.
 
-<b>Méthode 1</b> : Sur le premier écran de l'application, il vous est proposé de connecter votre compte Market, et ainsi retrouver toutes les Boxs associées à ce compte.<br>
-<b>Méthode 2</b> : Simplement ajouter une Box.
-
-
+<img src="./images/v2firstConnect.png" alt="v2firstConnect" width="40%" />
 
 #### **Méthode 1 : CONNEXION VIA LE COMPTE MARKET**
 
-<img src="./images/v2firstConnect.png" alt="v2firstConnect" width="50%">
+   <img src="./images/v2connectMarket.png" alt="v2connectMarket" width="40%" />
 
-Il vous faut simplement rentrer votre identifiant Market ainsi que votre mot de passe.
+Cette méthode permer de synchroniser, en une seule fois, toutes vos box sur l'application.<br>
+Elle nécessite donc de vous identifier dans un premier temps a votre compte market.<br>
+Il vous faut simplement entrer votre identifiant Market ainsi que votre mot de passe.<br>
+Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre compte Market, et ainsi vous connecter par utilisateur / mot de passe ou par Qrcode.<br>
+
+> **Info**
+> 
+> 
+
 
 #### **Méthode 2 : CONNEXION VIA Box ID**
-
-<img src="./images/v22methods.png" alt="v22methods" width="50%">
-
-![v22methods](./images/v22methods.jpeg)
 
 Plusieurs choix sur cet écran :
 
@@ -37,7 +38,7 @@ Plusieurs choix sur cet écran :
 
 - Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QR Code depuis le plugin Mobile de la Box que vous souhaitez ajoutée, via l'onglet QR Code du plugin.
 
-![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
+  ![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
 > Onglet QR Code du plugin Mobile
 
