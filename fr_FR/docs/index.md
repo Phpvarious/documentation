@@ -16,7 +16,7 @@ Pour connecter votre téléphone, il y a 2 méthodes possible.
 
 <img src="./images/v2firstConnect.png" alt="v2firstConnect" width="40%" />
 
-### **Méthode 1 : CONNEXION VIA LE COMPTE MARKET**
+### **Méthode 1 :** CONNEXION VIA LE COMPTE MARKET
 
 <img src="./images/v2connectMarket.png" alt="v2connectMarket" width="40%" />
 
@@ -26,7 +26,7 @@ Il vous faut simplement entrer votre identifiant Market ainsi que votre mot de p
 Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre compte Market, et ainsi vous connecter par utilisateur / mot de passe ou par Qrcode.<br>
 
 
-### **Méthode 2 : CONNEXION VIA Box ID**
+### **Méthode 2 :** CONNEXION VIA Box ID
 
 2 choix possible sur cet écran :
 
