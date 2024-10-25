@@ -114,13 +114,13 @@ Permet d'envoyer une notification du plugin vers le smartphone.
 
 ### 2) Notification Critiques
 
-Permet d'envoyer une notification critique du plugin vers le smartphone. elle sera différencier sur l'app avec une bordure rouge.
+Permet d'envoyer une notification critique du plugin vers le smartphone, elle sera différencier sur l'app avec une bordure rouge.
 
 ### 3) Récupérer les informations du téléphone
 
-Cette partie permet de recupérer des "extras" du smartphone, actuellement elle permet de récupérer
-- Batterie
-- Géolocalisation
+Cette partie permet de recupérer des "extras" du smartphone, actuellement elle permet de récupérer :
+- Batterie.
+- Géolocalisation.
 
 > **Info**
 >
@@ -137,22 +137,22 @@ Vous pouvez donc forcer la suppression avec cette commande.
 > Le plugin utilise déja un nettoyage automatique des notifications.<br>
 celui-ci est exécuté une fois par jour.<br>
 > La durée de rétention est paramètrable sur l'application dans le menu "Préférences".<br>
-> Les choix possibles sont 7, 15 ou 30 jours (défaut 30j).>
+> Les choix possibles sont 7, 15 ou 30 jours (défaut 30 jours).
 >
 > <img src="./images/v2RetentionTime.png" alt="v2RetentionTime" width="40%" />
 # BUG
 
 Pour nous remonter un bug, vous avez plusieurs choix :<br>
-1) En utilisant le bouton <img src="./images/v2Assistance.png" alt="v2Assistance" width="80px" /> disponible dans la configuration de plugin mobile, celui-ci ouvrira un post dédié sur le community avec toutes les informations utiles.
+1) En utilisant le bouton <img src="./images/v2Assistance.png" alt="v2Assistance" width="80px" /> disponible dans la configuration de plugin mobile, celui-ci ouvrira un post dédié sur le community avec toutes les informations nécessaires.
 
-2) En utilisant notre <a href="https://discord.gg/WF5y2PXu" target="_blank">Discord</a>
+2) En utilisant notre <a href="https://discord.gg/WF5y2PXu" target="_blank">Discord</a>.
 
 # FAQ
 
 > **Le menu "Scénarios" n'est pas visible** ou **Le menu "Plugins" n'est pas visible** ou **Le menu "Message" n'est pas visible**
 >
 > Pour avoir accès a ces menus il faut que l'utilisateur connécté a la box est un profil Administrateur.<br>
-> Reportez vous au <a href="https://doc.jeedom.com/fr_FR/core/4.5/user" target="_blank">manuel de configuration</a> de Jeedom
+> Reportez vous au <a href="https://doc.jeedom.com/fr_FR/core/4.5/user" target="_blank">manuel de configuration</a> de Jeedom.
 
 > **J'ai des soucis avec les notifications**
 >
