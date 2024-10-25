@@ -95,6 +95,14 @@ Vous pouvez également changer le radius de la zone pour étendre la détection 
 
 <img src="./images/v2ModifyBigRadius.png" alt="v2ModifyBigRadius" width="40%" />
 
+# Paramètres spécifiques du plugin
+
+Si vous voulez interdire la configuration de la géolocalisation ou du menu custom, par exemple, pour une utilisation sur un profil enfant/ado.<br>
+Dans l'équipement de cet utilisateur, dans l'onglet mobile, activer l'option voulu.
+
+<img src="./images/v2ParamSpecPlugin.png" alt="v2ParamSpecPlugin" width="80%" />
+
+
 # FAQ
 
 > **Le menu "Scénarios" n'est pas visible** ou **Le menu "Plugins" n'est pas visible** ou **Le menu "Message" n'est pas visible**
