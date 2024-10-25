@@ -25,12 +25,10 @@ Elle nécessite donc de vous identifier dans un premier temps a votre compte mar
 Il vous faut simplement entrer votre identifiant Market ainsi que votre mot de passe.<br>
 Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre compte Market, et ainsi vous connecter par utilisateur / mot de passe ou par Qrcode.<br>
 
-> **Info**
-> 
-> 
-
 
 ### **Méthode 2 : CONNEXION VIA Box ID**
+
+<img src="./images/v22methods.png" alt="v2connectMarket" width="40%" />
 
 Plusieurs choix sur cet écran :
 
