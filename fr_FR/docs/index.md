@@ -135,10 +135,11 @@ Vous pouvez donc forcer la suppression avec cette commande.
 > **Tips**
 >
 > Le plugin utilise déja un nettoyage automatique des notifications.<br>
-celle-ci est exécuté une fois par jour.<br>
+celui-ci est exécuté une fois par jour.<br>
 > La durée de rétention est paramètrable sur l'application dans le menu "Préférences".<br>
-> Les choix possibles sont 7, 15 ou 30 jours (défaut 30j).
-
+> Les choix possibles sont 7, 15 ou 30 jours (défaut 30j).>
+>
+> <img src="./images/v2RetentionTime.png" alt="v2RetentionTime" width="40%" />
 # BUG
 
 Pour nous remonter un bug, vous avez plusieurs choix :<br>
