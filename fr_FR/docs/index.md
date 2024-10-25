@@ -16,9 +16,9 @@ Pour connecter votre téléphone, il y a 2 méthodes possible.
 
 <img src="./images/v2firstConnect.png" alt="v2firstConnect" width="40%" />
 
-#### **Méthode 1 : CONNEXION VIA LE COMPTE MARKET**
+## **Méthode 1 : CONNEXION VIA LE COMPTE MARKET**
 
-   <img src="./images/v2connectMarket.png" alt="v2connectMarket" width="40%" />
+<img src="./images/v2connectMarket.png" alt="v2connectMarket" width="40%" />
 
 Cette méthode permer de synchroniser, en une seule fois, toutes vos box sur l'application.<br>
 Elle nécessite donc de vous identifier dans un premier temps a votre compte market.<br>
@@ -30,7 +30,7 @@ Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre
 > 
 
 
-#### **Méthode 2 : CONNEXION VIA Box ID**
+## **Méthode 2 : CONNEXION VIA Box ID**
 
 Plusieurs choix sur cet écran :
 
