@@ -102,6 +102,48 @@ Dans l'équipement de cet utilisateur, dans l'onglet mobile, activer l'option vo
 
 <img src="./images/v2ParamSpecPlugin.png" alt="v2ParamSpecPlugin" width="80%" />
 
+# Les commandes du plugin
+
+Lorsque la connection de votre smartphone au plugin sera effectué, le plugin créera automatiquement ces commandes par défaut.
+
+<img src="./images/v2TableCmdDefaut.png" alt="v2TableCmdDefaut" width="80%" />
+
+### 1) Notification
+
+Permet d'envoyer une notification du plugin vers le smartphone.
+
+### 2) Notification Critiques
+
+Permet d'envoyer une notification critique du plugin vers le smartphone. elle sera différencier sur l'app avec une bordure rouge.
+
+### 3) Récupérer les informations du téléphone
+
+Cette partie permet de recupérer des "extras" du smartphone, actuellement elle permet de récupérer
+- Batterie
+- Géolocalisation
+
+> **Info**
+>
+> Lorsque vous exécuterez cette action, de nouvelle commandes seront créées sur le plugins.<br>
+> Elle pourront ensuite être utilisées dans des scénarios par exemple.
+
+### 4) Supprimer les notifications
+
+L'app ne stock pas les notifications, elle fait simplement des requêtes vers le plugin pour les récupérer.<br>
+Vous pouvez donc forcer la suppression avec cette commande.
+
+> **Tips**
+>
+> Le plugin utilise déja un nettoyage automatique des notifications.<br>
+celle-ci est exécuté une fois par jour.<br>
+> La durée de rétention est paramètrable sur l'application dans le menu "Préférences".<br>
+> Les choix possibles sont 7, 15 ou 30 jours (défaut 30j).
+
+# BUG
+
+Pour nous remonter un bug, vous avez plusieurs choix :<br>
+1) En utilisant le bouton <img src="./images/v2Assistance.png" alt="v2Assistance" width="80px" /> disponible dans la configuration de plugin mobile, celui-ci ouvrira un post dédié sur le community avec toutes les informations utiles.
+2) En utilisant notre <a href="https://discord.gg/WF5y2PXu" target="_blank">Discord</a>
 
 # FAQ
 
