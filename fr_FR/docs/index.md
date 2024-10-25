@@ -144,6 +144,7 @@ celui-ci est exécuté une fois par jour.<br>
 
 Pour nous remonter un bug, vous avez plusieurs choix :<br>
 1) En utilisant le bouton <img src="./images/v2Assistance.png" alt="v2Assistance" width="80px" /> disponible dans la configuration de plugin mobile, celui-ci ouvrira un post dédié sur le community avec toutes les informations utiles.
+
 2) En utilisant notre <a href="https://discord.gg/WF5y2PXu" target="_blank">Discord</a>
 
 # FAQ
