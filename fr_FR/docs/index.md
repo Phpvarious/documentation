@@ -75,22 +75,22 @@ Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à diff
 
 Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir sélectionné au moins une Box 'actuelle'
 
-<img src="./images/v2ActualBoxFlouted.png" alt="v2greenBtnAdd" width="40%" />
+<img src="./images/v2ActualBoxFlouted.png" alt="v2ActualBoxFlouted" width="40%" />
 
 # Fonctionnement de la Géolocalisation
 
-Nous ajoutons une zone de Géolocalisation en cliquant sur l'icône +
+Ajoutez une zone de Géolocalisation en cliquant sur l'icône +
 
-![v2AddZone](./images/v2AddZone.jpeg)
+<img src="./images/v2AddZone.png" alt="v2AddZone" width="40%" />
 
-Nous tapons l'adresse recherchée, nous validons avec Entrée sur son téléphone; le curseur va alors se positionner sur l'adresse recherchée.
-Nous pouvons ensuite ajouter un nom et sauvegarder la zone.
+Tapez l'adresse recherchée, puis validez avec la touche Entrée, le curseur va alors se positionner sur l'adresse recherchée.
+Vous pouvez ensuite ajouter un nom et sauvegarder la zone.
 
 Cela créera une nouvelle commande sur votre équipement mobile, de type binaire, qui correspondra aux entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone mobile.
 
-Nous pouvons également changer le radius de la zone, pour étendre la détection de la zone.
+Vous pouvez également changer le radius de la zone pour étendre la détection de la zone.
 
-![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
+<img src="./images/v2ModifyBigRadius.png" alt="v2ModifyBigRadius" width="40%" />
 
 # FAQ
 
