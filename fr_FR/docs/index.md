@@ -30,7 +30,7 @@ Après avoir cliqué sur "Commencer" vous aurez accès a toutes les box de votre
 
 2 choix possible sur cet écran :
 
-<img src="./images/v22methods.png" alt="v2connectMarket" width="40%" />
+<img src="./images/v22methods.png" alt="v22methods" width="40%" />
 
 
 
@@ -46,19 +46,18 @@ Vous entrez l'url de votre Jeedom (interne ou externe), ainsi que les identifian
 
 Cliquez sur QR Code, un nouvel écran apparait, scanner le Qrcode depuis le plugin Mobile de la Box que vous souhaitez ajouter, via l'onglet(*) QR Code du plugin.
 
-<img src="./images/v2QRCodeConnect.png" alt="v2connectMarket" width="40%" />
+<img src="./images/v2QRCodeConnect.png" alt="v2QRCodeConnect" width="40%" />
 
 > (*) Onglet QR Code du plugin Mobile
 >
-> ![v2ModalPlugin](./images/v2ModalQrCode.png)
+> <img src="./images/v2ModalQrCode.png" alt="v2ModalQrCode" width="100%" />
 
 Une fois cette première étape passée, vous êtes enregistré dans l'application: si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QR Codes, la customisation du Menu ....
 
 Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les Box présentes sur ce compte Market
 
-![v2MenuBoxs](./images/v2MenuBoxs.PNG)
-
-![v2floutedBoxs](./images/v2floutedBoxs.png)
+<img src="./images/v2MenuBoxs.png" alt="v2MenuBoxs" width="40%" />
+<img src="./images/v2floutedBoxs.png" alt="v2floutedBoxs" width="40%" />
 
 Il vous suffit de cliquer sur la Box où le plugin Mobile est installé, puis de vous identifier pour accéder à la Box.
 
