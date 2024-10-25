@@ -77,7 +77,7 @@ Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à diff
 
 Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir sélectionné au moins une Box 'actuelle'
 
-![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
+<img src="./images/v2ActualBoxFlouted.png" alt="v2greenBtnAdd" width="40%" />
 
 # Fonctionnement de la Géolocalisation
 
