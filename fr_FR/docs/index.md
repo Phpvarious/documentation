@@ -140,6 +140,7 @@ celui-ci est exécuté une fois par jour.<br>
 > Les choix possibles sont 7, 15 ou 30 jours (défaut 30 jours).
 >
 > <img src="./images/v2RetentionTime.png" alt="v2RetentionTime" width="40%" />
+
 # BUG
 
 Pour nous remonter un bug, vous avez plusieurs choix :<br>
