@@ -54,7 +54,8 @@ Cliquez sur QR Code, un nouvel écran apparait, scanner le Qrcode depuis le plug
 >
 > <img src="./images/v2ModalQrCode.png" alt="v2ModalQrCode" width="100%" />
 
-Une fois cette première étape passée, vous êtes enregistré dans l'application: si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QR Codes, la customisation du Menu ....
+Une fois cette première étape passée, vous êtes enregistré dans l'application.<br>
+Si vous possédez le plugin Mobile, vous aurez accès via le menu aux Notifications, aux QR Codes, la customisation du Menu ....
 
 Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les Box présentes sur ce compte Market
 
@@ -63,7 +64,7 @@ Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les Box présentes 
 
 Il vous suffit de cliquer sur la Box où le plugin Mobile est installé, puis de vous identifier pour accéder à la Box.
 
-La Box passera en haut de la liste, ayant validée son authentification.
+La Box passera en haut de la liste, ayant validée son authentification.<br>
 Vous pouvez faire ainsi pour plusieurs Boxs.
 
 Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à différentes options;
@@ -81,11 +82,11 @@ Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation 
 
 # Fonctionnement de la Géolocalisation
 
-Ajoutez une zone de Géolocalisation en cliquant sur l'icône +
+Ajouter une zone de Géolocalisation en cliquant sur l'icône +
 
 <img src="./images/v2AddZone.png" alt="v2AddZone" width="40%" />
 
-Tapez l'adresse recherchée, puis validez avec la touche Entrée, le curseur va alors se positionner sur l'adresse recherchée.
+Taper l'adresse recherchée, puis valider avec la touche Entrée, le curseur va alors se positionner sur l'adresse recherchée.
 Vous pouvez ensuite ajouter un nom et sauvegarder la zone.
 
 Cela créera une nouvelle commande sur votre équipement mobile, de type binaire, qui correspondra aux entrées et sorties de la zone si la géolocalisation est activée sur votre téléphone mobile.
@@ -95,6 +96,11 @@ Vous pouvez également changer le radius de la zone pour étendre la détection 
 <img src="./images/v2ModifyBigRadius.png" alt="v2ModifyBigRadius" width="40%" />
 
 # FAQ
+
+> **Le menu "Scénarios" n'est pas visible** ou **Le menu "Plugins" n'est pas visible** ou **Le menu "Message" n'est pas visible**
+>
+> Pour avoir accès a ces menus il faut que l'utilisateur connécté a la box est un profil Administrateur.<br>
+> Reportez vous au <a href="https://doc.jeedom.com/fr_FR/core/4.5/user" target="_blank">manuel de configuration</a> de Jeedom
 
 > **J'ai des soucis avec les notifications**
 >
