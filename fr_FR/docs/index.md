@@ -66,12 +66,14 @@ Vous pouvez faire ainsi pour plusieurs Boxs.
 
 Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à différentes options;
 
-- QR Code pour ajouter une Box à la liste via le plugin Mobile,
-- Manuel pour ajouter manuellement une Box
-- Détection Atlas et Luna (si vous êtes en Wifi, détectera les Boxs sur le réseau)
-- Synchronisation Market pour actualiser les informations du compte Market configuré
+<img src="./images/v2greenBtnAdd.png" alt="v2greenBtnAdd" width="40%" />
 
-![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
+1) QR Code pour ajouter une Box à la liste via le plugin Mobile,
+2) Manuel pour ajouter manuellement une Box
+3) Détection Atlas et Luna (si vous êtes en Wifi, détectera les Boxs sur le réseau)
+4) Synchronisation Market pour actualiser les informations du compte Market configuré
+
+
 
 Pour accéder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir sélectionné au moins une Box 'actuelle'
 
