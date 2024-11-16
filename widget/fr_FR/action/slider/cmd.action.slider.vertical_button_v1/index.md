@@ -10,7 +10,7 @@
 
 > **Information**
 >
-> - Testé seulement en 4.3.20.
+> - Testé en 4.4.19.
 >
 
 ## Télécharger la source
@@ -24,6 +24,8 @@
 # Journal des modifications
 
 ## 2024
+### 16/11/2024 (10h20)
+- Correction des nombres flottants (bouton + et -).
 ### 06/09/2024 (15h10)
 - Ajout paramètre optionnel "hideButtons" qui permet de masquer les boutons (+) et (-).
 ## 2023
