@@ -7,7 +7,7 @@
      
 ## 2024
 ### 16/11/2024 (11h50)
-- Ajout du paramètre optionnel "PowerFailureInverted" pour inversé "PowerFailure".
+- Ajout du paramètre optionnel "PowerFailureInverted" pour inverser "PowerFailure".
 ### 25/01/2024 (07h15)
 - Correction de bug sur l'affichage home lorsqu'on est en production sur grid.
 - Correction de bug sur l'affichage des animations.
