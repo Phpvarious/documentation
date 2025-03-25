@@ -175,7 +175,7 @@ Il suffit simplement d'envoyer une des couleurs (RED,WHITE ou BLUE) sur la comma
 ## 3) Icones dispo :
 
 | ------ | ------ | ------ | ------ |
-| oven <br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | xxxxxx | xxxxxx | xxxxxx |
+| <center>Four<br>(oven)<br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | xxxxxx | xxxxxx | xxxxxx |
 
 ## Changelog
 
