@@ -174,8 +174,9 @@ Il suffit simplement d'envoyer une des couleurs (RED,WHITE ou BLUE) sur la comma
 
 ## 3) Icones dispo :
 
-| ------ | ------ | ------ | ------ |
-| <center>Four<br>(oven)<br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | <center>Pompe<br>(pump)<br><img src="../../../images/distribution_onduleur/svg/pump.svg" alt="pump" /> | <center>Clim<br>(aircon)<br><img src="../../../images/distribution_onduleur/svg/aircon.svg" alt="aircon" /> | <center>Chaudière<br>(boiler)<br><img src="../../../images/distribution_onduleur/svg/boiler.svg" alt="boiler" /> |
+| ------ | ------ | ------ | ------ | ------ |
+| <center>Four<br>(oven)<br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | <center>Pompe<br>(pump)<br><img src="../../../images/distribution_onduleur/svg/pump.svg" alt="pump" /> | <center>Clim<br>(aircon)<br><img src="../../../images/distribution_onduleur/svg/aircon.svg" alt="aircon" /> | <center>Chaudière<br>(boiler)<br><img src="../../../images/distribution_onduleur/svg/boiler.svg" alt="boiler" /> | <center>Chargeur<br>(charging)<br><img src="../../../images/distribution_onduleur/svg/charging.svg" alt="charging" /> |
+| <center>Batterie<br>(battery)<br><img src="../../../images/distribution_onduleur/svg/battery.svg" alt="battery" /> | <center>Prise<br>(plug)<br><img src="../../../images/distribution_onduleur/svg/plug.svg" alt="plug" /> | <center>Piscine<br>(pool)<br><img src="../../../images/distribution_onduleur/svg/pool.svg" alt="pool" /> | <center>Sèche linge<br>(dryer)<br><img src="../../../images/distribution_onduleur/svg/dryer.svg" alt="dryer" /> | <center>Lave vaisselle<br>(dishwasher)<br><img src="../../../images/distribution_onduleur/svg/dishwasher.svg" alt="dishwasher" /> |
 
 ## Changelog
 
