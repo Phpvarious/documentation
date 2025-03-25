@@ -5,8 +5,16 @@
 # Journal des modifications
 
 ## 2024
-
 ### 08/03/2024 (18h45)
+- Widget
+  - Nombre de pv illimité.
+  - Nombre de load illimité.
+  - Nouvelle info pouvant être affiché dans le lcd de l'onduleur (lcd_state).
+  - Ajout de nouveaux icones 
+    - tesla, water_heater (Merci @eyme2000)
+  - Erreurs affichés dans le widget lorsqu'il est détecté une mauvaise config (unités différentes entre calculs)
+
+### 25/03/2025 (18h30)
 - Widget :
   - Restructuration du code.
   - Prise en compte de la puissance du "mppt battery" pour déterminer le sens du flux.
