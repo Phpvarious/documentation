@@ -4,8 +4,8 @@
 
 # Journal des modifications
 
-## 2024
-### 25/03/2024 (18h45)
+## 2025
+### 25/03/2025 (22h00)
 - Widget
   - Nombre de pv illimité.
   - Nombre de load illimité.
@@ -14,6 +14,7 @@
     - tesla, water_heater (Merci @eyme2000)
   - Erreurs affichés dans le widget lorsqu'il est détecté une mauvaise config (unités différentes entre calculs...)
 
+## 2024
 ### 08/03/2025 (18h30)
 - Widget :
   - Restructuration du code.
