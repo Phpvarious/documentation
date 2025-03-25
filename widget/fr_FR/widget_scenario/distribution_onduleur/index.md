@@ -139,7 +139,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 ## Exemple :
 
-<img src="../../../images/distribution_onduleur/widget_help1.png" alt="Help1" />
+<img src="../../../images/distribution_onduleur/widget_help4.png" alt="Help1" />
 
 > **Légende** : 
 > <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
