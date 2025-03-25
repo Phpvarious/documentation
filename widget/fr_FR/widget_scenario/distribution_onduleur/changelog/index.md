@@ -15,7 +15,7 @@
   - Erreurs affichés dans le widget lorsqu'il est détecté une mauvaise config (unités différentes entre calculs...)
 
 ## 2024
-### 08/03/2025 (18h30)
+### 08/03/2024 (18h30)
 - Widget :
   - Restructuration du code.
   - Prise en compte de la puissance du "mppt battery" pour déterminer le sens du flux.
