@@ -120,12 +120,13 @@ Permet d'envoyer une notification critique du plugin vers le smartphone, elle se
 
 Cette partie permet de recupérer des "extras" du smartphone, actuellement elle permet de récupérer :
 - Batterie.
+- Etat de charge.
 - Géolocalisation.
 
 > **Info**
 >
-> Lorsque vous exécuterez cette action, de nouvelle commandes seront créées sur le plugins.<br>
-> Elle pourront ensuite être utilisées dans des scénarios par exemple.
+> Lorsque vous exécuterez cette action, de nouvelles commandes seront créées sur le plugins.<br>
+> Elles pourront ensuite être utilisées dans des scénarios par exemple.
 
 ### 4) Supprimer les notifications
 
