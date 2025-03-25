@@ -5,7 +5,7 @@
 
 # Widget [Onduleur Distribution] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-stable-green.svg)
 
-<center><img src="../../../images/distribution_onduleur/capture1_1.gif" width="500px" alt="Info backup" /></center>
+<center><img src="../../../images/distribution_onduleur/capture1_1.gif" width="500px" alt="Distribution_energie" /></center>
 
 
 > **Information**
@@ -38,7 +38,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../images/distribution_onduleur/parametres1.png" alt="Info backup" />
+<img src="../../../images/distribution_onduleur/parametres7.png" alt="Info backup" />
 
 > **Information**
 >
