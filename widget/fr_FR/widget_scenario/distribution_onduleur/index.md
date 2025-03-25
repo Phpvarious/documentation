@@ -175,7 +175,7 @@ Il suffit simplement d'envoyer une des couleurs (RED,WHITE ou BLUE) sur la comma
 ## 3) Icones dispo :
 
 | ------ | ------ | ------ | ------ |
-| <center>Four<br>(oven)<br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | xxxxxx | xxxxxx | xxxxxx |
+| <center>Four<br>(oven)<br><img src="../../../images/distribution_onduleur/svg/oven.svg" alt="oven" /> | <center>Pompe<br>(pump)<br><img src="../../../images/distribution_onduleur/svg/pump.svg" alt="pump" /> | <center>Clim<br>(aircon)<br><img src="../../../images/distribution_onduleur/svg/aircon.svg" alt="aircon" /> | <center>Chaudière<br>(boiler)<br><img src="../../../images/distribution_onduleur/svg/boiler.svg" alt="boiler" /> |
 
 ## Changelog
 
