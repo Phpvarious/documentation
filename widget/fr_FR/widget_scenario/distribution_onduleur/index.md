@@ -9,18 +9,18 @@
 
 
 > **Information**
->- Ce widget est basé sur le travail déja <a href="https://github.com/slipx06/sunsynk-power-flow-card" target="_blank">accomplie.</a>
+> - Ce widget est basé sur le travail déja <a href="https://github.com/slipx06/sunsynk-power-flow-card" target="_blank">accompli.</a>
 >
-> - Pour chaques éléments les unités des commandes doivent être identiques.
+> - Pour chaque élément les unités des commandes doivent être identiques.
 > 
 > - Contrairement au widget <a href="../distribution_energie" target="_blank">Distribution Energie</a> ce widget fait moins de calculs.
 
-## 1) Télécharger la source
-> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Télécharger la source du widget pour le Core V4</a>
+## 1) Téléchargement de la source
+> - <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">Téléchargez la source du widget pour le Core V4</a>
 
 ### Version dashboard
 
-- Déposer le fichier <b>cmd.info.string.onduleur_distribution</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
+- Déposez le fichier <b>cmd.info.string.onduleur_distribution</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
   <img src="../../../images/distribution_onduleur/capture2.png" alt="Téléchargement du widget" />
 
@@ -28,9 +28,9 @@
 
 ## 2) Création d'un virtuel
 
-- Ajoutez une commande Info/Autre, puis sauvegarder (1).
+- Ajoutez une commande Info/Autre, puis sauvegardez (1).
 - Attention, ne pas historiser (2).
-- Associez le widget à la commande Info/Autre,(3, 4 et 5).
+- Associez le widget à la commande Info/Autre (3, 4 et 5).
 
 <img src="../../../images/distribution_onduleur/installation_virtuel1.png" alt="Virtuel 1" />
 <img src="../../../images/distribution_onduleur/installation_virtuel2.png" alt="Virtuel 2" />
@@ -42,30 +42,30 @@
 
 > **Information**
 >
-> - le paramètre optionnel batteryMaxPower permet , si il est renseigné, de calculer la durée restante / temps de charge.
+> - le paramètre optionnel batteryMaxPower permet, s'il est renseigné, de calculer la durée restante / temps de charge.
 
 ## 3) Ajout des données
 
-Ce widget utilise les commandes présentent dans ce même équipement.
-Il faut donc utiliser des noms de commandes infos prédéfinis suivant les tableaux ci-dessous :
+Ce widget utilise les commandes présentes dans ce même équipement.
+Il faut donc utiliser des noms de commande info prédéfinis suivant les tableaux ci-dessous :
 
 ### Solaire
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
 | daily_solar | non | Production solaire quotidienne |
-| pv_power <font color="red">*</font> | non | Puissance instantanée Total |
-| pv1_power | non | Puissance instantanée Pv1 |
+| pv_power <font color="red">*</font> | non | Puissance instantanée totale |
+| pv1_power | non | Puissance instantanée PV1 |
 | pv1_energy | non | Energie PV1 |
-| pv1_voltage | non | Tension Pv1 |
-| pv1_current | non | Intensité Pv1 |
+| pv1_voltage | non | Tension PV1 |
+| pv1_current | non | Intensité PV1 |
 
 > **Info**
 >
-> - Dans le tableau ci-dessus l'ajout de PV supplémentaires est infini, exemple pour un 2ème pv, utilisation de pv2_power...
-> - Si vous possèdez 1 seul PV, utilisez avant tout pv1_power.
-> - Si aucun des pv power n'est renseigné, la partie solaire sera automatiquement masqué.
-> - pv_power <font color="red">*</font> : Si cette commande n'est pas existante, le widget affichera la somme des pv.
+> - Dans le tableau ci-dessus l'ajout de PV supplémentaires est infini, exemple pour un 2ème PV, utilisez pv2_power...
+> - Si vous possédez 1 seul PV, utilisez avant tout pv1_power.
+> - Si aucun des pv*_power n'est renseigné, la partie solaire sera automatiquement masquée.
+> - pv_power <font color="red">*</font> : Si cette commande n'existe pas, le widget affichera la somme des pv.
 
 ### Batterie
 
@@ -83,8 +83,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 > **Info**
 >
-> - Si "battery_power" n'est renseigné, la partie "batterie" sera automatiquement masquée.
->
+> - Si "battery_power" n'est pas renseigné, la partie "batterie" sera automatiquement masquée.
 
 ### Aux
 
@@ -95,8 +94,7 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 
 > **Info**
 >
-> - Si "aux_power" n'est renseigné, la partie "Aux" sera automatiquement masquée.
->
+> - Si "aux_power" n'est pas renseigné, la partie "Aux" sera automatiquement masquée.
 
 ### Réseau
 
@@ -104,27 +102,25 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | ------ | ------ | ------ |
 | daily_grid_buy | non | Consommation venant du réseau quotidienne. |
 | daily_grid_sell | non | Injection au réseau quotidienne. |
-| grid_power | non | Puissance instantanée. (positive = conso / négative = injection) |
+| grid_power | non | Puissance instantanée. (positive = consommation / négative = injection) |
 | grid_status | non | État de connexion au réseau. (binaire)|
 
 ### Load
 
 | Nom | Obligatoire ? | Description |
 | ------ | ------ | ------ |
-| daily_load | non | Consommation des équipements "Load" quotidien. |
+| daily_load | non | Consommation des équipements "Load" quotidienne. |
 | load_state | non | Puissance instantanée globale. |
-| load1_power | non | Puissance instantanée du recepteur 1. |
-| load1_energy | non | Energie recepteur 1. |
-| load1_perso | non | Info perso du load1. |
+| load1_power | non | Puissance instantanée du récepteur 1. |
+| load1_energy | non | Energie récepteur 1. |
+| load1_perso | non | Info perso du récepteur 1. |
 
 > **Info**
-> - Dans le tableau ci-dessus l'ajout de load supplémentaires est infini, exemple pour un 2ème load, utilisation de load2_power...
+> - Dans le tableau ci-dessus l'ajout de load supplémentaires est infini, exemple pour un 2ème load, utilisez load2_power...
 >
 > - Si "load_state" et "loadx_state" ne sont pas renseignés, la partie "Load" sera automatiquement masquée.
 >
 > - Si load_state n'est pas défini, il sera alors calculé par addition de load1_state + load2_state + ...
->
->
 
 ### Onduleur
 
@@ -135,17 +131,17 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 | voltage_state | non | Tension de l'onduleur. |
 | frequency_state | non | Fréquence de l'onduleur. |
 | current_state | non | Intensité de l'onduleur. |
-| lcd_state | non | Info a indiquer dans le lcd. |
+| lcd_state | non | Info à afficher dans l'afficheur LCD'. |
 
 ## Exemple :
 
 <img src="../../../images/distribution_onduleur/widget_help4.png" alt="Help1" />
 
 > **Légende** : 
-> <br><b>Noir :</b> Commandes a renseigner dans l'équipement.
+> <br><b>Noir :</b> Commandes à renseigner dans l'équipement.
 > <br><font color="red"><b>Rouge :</b> Paramètres optionnels.</font>
 >
-> <b><font color="red">*</font> pv_power :</b> ci cette commande n'est pas existante, le widget affichera la somme des pv.
+> <b><font color="red">*</font> pv_power :</b> ci cette commande n'existe pas, le widget affichera la somme des pv.
 
 -------------------------
 
@@ -157,20 +153,20 @@ Il faut donc utiliser des noms de commandes infos prédéfinis suivant les table
 - Affichage de la couleur du jour et du lendemain.
 
 Il faudra télécharger le template <a href="{{site.url_git}}/WIDGET_cmd.info.string.distribution_onduleur" target="_blank">distribution_onduleur_tempo.json</a>.<br>
-<i>Vous pouvez suivre <a href='../../../../help/fr_FR/template_scenario' target="_blank">l'aide a l'installation d'un template</a>.</i><br>
+<i>Vous pouvez suivre <a href='../../../../help/fr_FR/template_scenario' target="_blank">l'aide à l'installation d'un template</a>.</i><br>
 
 Commande de remplacement :
 
 <img src="../../../images/distribution_onduleur/instal_template.png" alt="Help1" />
 
 (1) Recherchez la commande sur laquelle vous avez appliqué le widget précédemment.<br>
-(2) Appliquer la modification.
+(2) Appliquez la modification.
 
 
 ### Sans le plugin "rteEcowatt"
-- Affichage seulement de la couleur du jour
+- Affichage de la couleur du jour seulement.
 
-Il suffit simplement d'envoyer une des couleurs (RED,WHITE ou BLUE) sur la commande ou vous avez appliqué le widget précédemment.
+Il suffit simplement d'envoyer une des couleurs (RED, WHITE ou BLUE) sur la commande à laquelle vous avez appliqué le widget précédemment.
 
 ## 3) Icones dispo :
 
