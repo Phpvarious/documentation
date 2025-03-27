@@ -62,7 +62,7 @@
 - Modification du visuel :
   - Modification onduleur.
   - deplacement V, A, Hz dans l'onduleur'.
-  - déplacement des incones "Load" sur la droite.
+  - déplacement des icônes "Load" sur la droite.
   - Masque de la tuile "Load" si aucune commande n'est renseignée.
   - Masque de la tuile "Batterie" si aucune commande n'est renseignée.
 
