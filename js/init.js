@@ -38,6 +38,7 @@ var docMenu = [
   },
   {
 		fr_FR: "Widgets Info",
+		en_US: "Info Widgets",
 		submenu: [
 			{
 				link: "/documentation/widget/#LANG#/info/binary",
@@ -64,6 +65,7 @@ var docMenu = [
   },
   {
 		fr_FR: "Plugins",
+		en_US: "Plugins",
 		submenu: [
 			{
 				link: "/documentation/plugins/#LANG#",
