@@ -93,7 +93,7 @@ var docMenu = [
   },
   {
 	fr_FR: "Faire un don ❤️",
-	en_US: "Make a donation ❤️"
+	en_US: "Make a donation ❤️",
 	link: "https://www.paypal.com/donate/?hosted_button_id=X97RV78YRSAZY",
 	target: "_blank",
 	icon: "fa-2x fab fa-paypal"
