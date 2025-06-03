@@ -32,7 +32,7 @@ var docMenu = [
 				link: "/documentation/widget/#LANG#/action/message",
 				icon: "fab fa-facebook-messenger",
 				fr_FR: "Message (0)",
-				fr_FR: "Message (0)"
+				en_US: "Message (0)"
 			}
 		]
   },
