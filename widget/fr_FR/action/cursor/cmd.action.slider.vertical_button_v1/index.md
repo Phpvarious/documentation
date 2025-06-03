@@ -1,5 +1,5 @@
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider">Slider</a> --> cmd.action.slider.vertical_button_v1
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Curseur</a> --> cmd.action.slider.vertical_button_v1
 
 # Widget [cmd.action.slider.vertical_button_v1] ![Generic badge](https://img.shields.io/badge/Version-4.3-green.svg)
 
@@ -41,4 +41,4 @@
 
 <hr />
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider">Slider</a> --> cmd.action.slider.vertical_button_v1
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Curseur</a> --> cmd.action.slider.vertical_button_v1
