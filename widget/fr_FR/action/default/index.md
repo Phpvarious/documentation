@@ -1,3 +1,5 @@
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> Défaut
+
 # Widget Action Other
 
 | Nom du Widget  | Visuel         | Docs/Téléchargement     | Compatibilité     |
