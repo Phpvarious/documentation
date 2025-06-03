@@ -7,16 +7,16 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 ## Widgets Action
 
-- [Other (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/default).
-- [Slider (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor).
-- [Select (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/list).
+- [Défaut (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/default).
+- [Curseur (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor).
+- [List (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/list).
 - [Message (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/message).
 
 ## Widget Info
 
-- [Binary (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/binary).
-- [Numeric (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric).
-- [String (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
+- [Binaire (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/binary).
+- [Numérique (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric).
+- [Autre (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
 
 ## Widget Scénario
 
