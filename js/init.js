@@ -34,7 +34,7 @@ var docMenu = [
 				fr_FR: "Message (0)",
 				fr_FR: "Message (0)"
 			}
-    ]
+		]
   },
   {
 		fr_FR: "Widgets Info",
@@ -57,7 +57,7 @@ var docMenu = [
 				fr_FR: "Autre (1)",
 				en_US: "Other (1)"
 			}
-    ]
+		]
   },
   {
 		divider: true
@@ -71,6 +71,7 @@ var docMenu = [
 				fr_FR: "Energie",
 				en_US: "Energy"
 			}
+		]
   },
   {
 		divider: true
