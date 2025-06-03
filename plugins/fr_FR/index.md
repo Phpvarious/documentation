@@ -1,0 +1,3 @@
+| | | | |
+|--- | --- | --- | ---|
+|<img src="../images/powerFlow_icon.png" width="100" />|powerFlow|Plugin permettant d'afficher un widget de distribution (Réseau, solaire, batterie, récepteurs et éléments perso). |[Documentation Stable](powerFlow/index.md) - [Documentation Beta](powerFlow/beta/index.md)<br/>[Changelog Stable](powerFlow/changelog.md) - [Changelog Beta](powerFlow/beta/changelog.md)|
