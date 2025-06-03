@@ -9,4 +9,4 @@
 
 # Plugins
 
-- [Plugins]({{site.baseurl}}/plugins/{{page.lang}})
+- [Plugins]({{site.baseurl}}/plugins/fr_FR/)
