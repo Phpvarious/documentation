@@ -2,30 +2,36 @@ var docMenu = [
 	{
 		icon: "fab fa-github ",
 		fr_FR: "Github",
+		en_US: "Github",
 		link: "https://github.com/Phpvarious/"
   }, {
 		divider: true
   }, {
 		fr_FR: "Widgets Action",
+		en_US: "Action Widgets",
 		submenu: [
 			{
-				link: "/documentation/widget/#LANG#/action/other",
+				link: "/documentation/widget/#LANG#/action/default",
 				icon: "fas fa-power-off ",
-				fr_FR: "Other (2)"
+				fr_FR: "Défaut (2)",
+				en_US: "Default (2)"
 			},
 			{
-				link: "/documentation/widget/#LANG#/action/slider",
+				link: "/documentation/widget/#LANG#/action/cursor",
 				icon: "fas fa-sliders-h",
-				fr_FR: "Slider (3)"
+				fr_FR: "Curseur (3)",
+				en_US: "Cursor (3)"
 			},
 			{
-				link: "/documentation/widget/#LANG#/action/select",
+				link: "/documentation/widget/#LANG#/action/list",
 				icon: "fas fa-list",
-				fr_FR: "Select (0)"
+				fr_FR: "Liste (0)",
+				en_US: "List (0)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/message",
 				icon: "fab fa-facebook-messenger",
+				fr_FR: "Message (0)",
 				fr_FR: "Message (0)"
 			}
     ]
@@ -36,17 +42,20 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/binary",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Binary (1)"
+				fr_FR: "Binaire (1)",
+				en_US: "Binary (1)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/numeric",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Numeric (3)"
+				fr_FR: "Numérique (3)",
+				en_US: "Numeric (3)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/string",
 				icon: "fas fa-text-height",
-				fr_FR: "String (1)"
+				fr_FR: "Autre (1)",
+				en_US: "Other (1)"
 			}
     ]
   },
@@ -54,14 +63,29 @@ var docMenu = [
 		divider: true
   },
   {
+		fr_FR: "Plugins",
+		submenu: [
+			{
+				link: "/documentation/plugins/#LANG#",
+				icon: "fas fa-text-height",
+				fr_FR: "Energie",
+				en_US: "Energy"
+			}
+  },
+  {
+		divider: true
+  },
+  {
 	fr_FR: "Widgets / Scénarios (5)",
+	en_US: "Widgets / Scénarios (5)",
 	link: "/documentation/widget/#LANG#/widget_scenario"
   },
   {
 	divider: true
   },
   {
-	fr_FR: "Custom CSS 4.4",
+	fr_FR: "personnalisation CSS 4.4",
+	en_US: "Custom CSS 4.4",
 	link: "/documentation/widget/#LANG#/customcss4_4"
   },
   {
@@ -69,6 +93,7 @@ var docMenu = [
   },
   {
 	fr_FR: "Faire un don ❤️",
+	en_US: "Make a donation ❤️"
 	link: "https://www.paypal.com/donate/?hosted_button_id=X97RV78YRSAZY",
 	target: "_blank",
 	icon: "fa-2x fab fa-paypal"
@@ -112,22 +137,30 @@ if (getCookie('lang') != lang) {
 	setCookie('lang', lang, 7)
 }
 
-$('#meta-lang').attr('content', lang)
-var jeedomVersion = '3.3'
-if (window.location.href.indexOf('3.3') != -1) {
-	jeedomVersion = '3.3'
-} else if (window.location.href.indexOf('4.0') != -1) {
-	jeedomVersion = '4.0'
-} else if (window.location.href.indexOf('4.1') != -1) {
-	jeedomVersion = '4.1'
-} else if (getCookie('jeedomVersion') != '') {
-	jeedomVersion = getCookie('jeedomVersion');
+$('#meta-lang').attr('content',lang)
+var jeedomVersion = '4.4'
+if(window.location.href.indexOf('3.3') != -1){
+  jeedomVersion = '3.3'
+}else if(window.location.href.indexOf('4.0') != -1){
+  jeedomVersion = '4.0'
+}else if(window.location.href.indexOf('4.1') != -1){
+  jeedomVersion = '4.1'
+}else if(window.location.href.indexOf('4.2') != -1){
+  jeedomVersion = '4.2'
+}else if(window.location.href.indexOf('4.3') != -1){
+  jeedomVersion = '4.3'
+}else if(window.location.href.indexOf('4.4') != -1){
+  jeedomVersion = '4.4'
+}else if(window.location.href.indexOf('4.5') != -1){
+  jeedomVersion = '4.5'
+}else if(getCookie('jeedomVersion') != ''){
+  jeedomVersion = getCookie('jeedomVersion');
 }
-if (getCookie('jeedomVersion') != jeedomVersion) {
-	setCookie('jeedomVersion', jeedomVersion, 7)
+if(getCookie('jeedomVersion') != jeedomVersion){
+  setCookie('jeedomVersion',jeedomVersion,7)
 }
-if ($('#sel_jeedomVersion').val() != jeedomVersion) {
-	$('#sel_jeedomVersion').val(jeedomVersion);
+if($('#sel_jeedomVersion').val() != jeedomVersion){
+  $('#sel_jeedomVersion').val(jeedomVersion);
 }
 $('#sel_lang').val(lang);
 for (var i in docMenu) {

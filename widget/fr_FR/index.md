@@ -7,9 +7,9 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 ## Widgets Action
 
-- [Other (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/other).
-- [Slider (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider).
-- [Select (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/select).
+- [Other (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/default).
+- [Slider (3)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor).
+- [Select (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/list).
 - [Message (0)]({{site.url}}/documentation/{{site.widget}}/fr_FR/action/message).
 
 ## Widget Info
