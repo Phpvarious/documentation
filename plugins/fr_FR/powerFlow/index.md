@@ -1,5 +1,8 @@
 # Plugin powerFlow
 
+# /!\ EN COURS DE CONSTRUCTION /!\ 
+
+
 Ce plugin permet d'afficher un widget de distribution (Réseau, solaire, batterie, récepteurs et éléments perso).
 
 <img src="../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
