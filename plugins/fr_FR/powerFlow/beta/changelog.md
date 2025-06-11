@@ -22,7 +22,7 @@
 <i>(Sauf si vous utilisez la commande de puissance totale instantanée)</i>
 - Ajout d'un "min" de 7px pour les tailles des textes dans les "persos".
 
-# 12/06/2025
+# 11/06/2025
 
 ### Amélioration
 

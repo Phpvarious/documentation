@@ -22,7 +22,7 @@
 <i>(Unless you use the instantaneous total power command)</i>
 - Added a "min" of 7px for text sizes in "customs".
 
-# 12/06/2025
+# 11/06/2025
 
 ### Improvement
 
