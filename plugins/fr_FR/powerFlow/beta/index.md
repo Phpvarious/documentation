@@ -5,7 +5,7 @@
 
 Ce plugin permet d'afficher un widget de distribution (Réseau, solaire, batterie, récepteurs et éléments perso).
 
-<img src="../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
+<img src="../../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
 
 
 >**IMPORTANT**
@@ -30,7 +30,7 @@ Commandes possibles :
 
 | | |
 |--- | ---|
-| <img src="../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image perso | <img src="../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image perso |
+| <img src="../../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image perso | <img src="../../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image perso |
 
 
 ## Réseau
