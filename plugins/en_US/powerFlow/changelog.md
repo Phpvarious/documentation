@@ -21,3 +21,15 @@
 - The color of the "total power" now follows the color set in the plugin (Color if value = 0 or Hide if value = 0)<br>
 <i>(Unless you use the instantaneous total power command)</i>
 - Added a "min" of 7px for text sizes in "customs".
+
+# 12/06/2025
+
+### Improvement
+
+- Dead Link Control (deadCmd) visible from the page Analysis > Equipments > Orphan commands.
+
+- Using a variable in all "Max" fields (Use the button to search for a variable).
+
+- Ability to disable unit conversions.
+
+- Choice of the number of decimal places after the decimal point.

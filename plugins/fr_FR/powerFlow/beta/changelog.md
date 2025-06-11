@@ -21,3 +21,15 @@
 - La couleur du "power total" suit désormait la couleur paramètré dans le plugin (Couleur si valeur = 0 ou Masquer si valeur = 0)<br>
 <i>(Sauf si vous utilisez la commande de puissance totale instantanée)</i>
 - Ajout d'un "min" de 7px pour les tailles des textes dans les "persos".
+
+# 12/06/2025
+
+### Amélioration
+
+- Contrôle des liens morts (deadCmd) visible depuis la page Analyse > Equipements > Commandes orphelines.
+
+- Utilisation d'une variable dans tous les champs "Max"  (Utilisez le bouton pour rechercher une variable).
+
+- Possibilité de désactiver les conversions des unités.
+
+- Choix du nombre de décimales après la virgule.
