@@ -42,6 +42,8 @@
   - Max : permet la gestion des gauges.
   - Alerte : permet la gestion des alertes en fonction de la puissance.
 
+- Possibilté de dupliquer un équipement.
+
 ### Bugfix
 
   - Unité des daily load kWh qui passe en Wh.

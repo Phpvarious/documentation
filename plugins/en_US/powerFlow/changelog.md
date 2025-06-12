@@ -42,6 +42,8 @@
   - Max : allows the management of gauges.
   - Alert : allows the management of alerts based on power.
 
+- Possibility of duplicating equipment.
+
 ### Bugfix
 
   - Unit of "daily" receivers (kWh which converts to Wh).
