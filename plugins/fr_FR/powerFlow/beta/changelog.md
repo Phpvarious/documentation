@@ -38,7 +38,7 @@
 
 ### Amélioration
 
-- Désormais, tous les "power" ont :
+- Désormais, tous les "power" bénéficient :
   - Max : permet la gestion des gauges.
   - Alerte : permet la gestion des alertes en fonction de la puissance.
 
