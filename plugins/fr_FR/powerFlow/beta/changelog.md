@@ -33,3 +33,15 @@
 - Possibilité de désactiver les conversions des unités.
 
 - Choix du nombre de décimales après la virgule.
+
+# 12/06/2025
+
+### Amélioration
+
+- Désormais, tous les "power" ont :
+  - Max : permet la gestion des gauges.
+  - Alerte : permet la gestion des alertes en fonction de la puissance.
+
+### Bugfix
+
+  - Unité des daily load kWh qui passe en Wh.

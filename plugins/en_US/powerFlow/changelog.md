@@ -33,3 +33,15 @@
 - Ability to disable unit conversions.
 
 - Choice of the number of decimal places after the decimal point.
+
+# 12/06/2025
+
+### Amélioration
+
+- Now all the "power" have :
+  - Max : allows the management of gauges.
+  - Alert : allows the management of alerts based on power.
+
+### Bugfix
+
+  - Unit of "daily" receivers (kWh which converts to Wh).
