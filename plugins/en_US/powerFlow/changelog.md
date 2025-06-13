@@ -47,3 +47,9 @@
 ### Bugfix
 
   - Unit of "daily" receivers (kWh which converts to Wh).
+
+  # 13/06/2025
+
+### Bugfix
+
+  - Alert on receivers on initialization.

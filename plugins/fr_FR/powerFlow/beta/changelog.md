@@ -47,3 +47,10 @@
 ### Bugfix
 
   - Unité des daily load kWh qui passe en Wh.
+
+# 13/06/2025
+
+### Bugfix
+
+  - Alerte sur les récepteurs a l'initialisation.
+
