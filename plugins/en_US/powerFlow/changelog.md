@@ -36,7 +36,7 @@
 
 # 12/06/2025
 
-### Amélioration
+### Improvement
 
 - Now all the "power" have :
   - Max : allows the management of gauges.
@@ -53,3 +53,14 @@
 ### Bugfix
 
   - Alert on receivers on initialization.
+
+  # 14/06/2025
+
+### Improvement
+
+  - Ability to add empty spaces in loads and Pvs.<br>Simply add an item (Activate) without power command.
+
+  ### Bugfix
+
+  - Decimals on daily buy and daily sell of the grid.
+  - Default unit in calculations (load and solar)

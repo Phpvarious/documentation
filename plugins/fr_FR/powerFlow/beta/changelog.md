@@ -54,3 +54,14 @@
 
   - Alerte sur les récepteurs a l'initialisation.
 
+# 14/06/2025
+
+### Amélioration
+
+  - Possibilité d'ajouter des espaces vides dans les récepteurs et les Pvs.<br>Il suffit simplement d'ajouter un élément (Activer) sans commande de puissance.
+
+  ### Bugfix
+
+  - Décimales sur daily buy et daily sell du réseau.
+  - unité par défaut dans les calculs (récepteurs et solaires)
+
