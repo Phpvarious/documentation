@@ -1,11 +1,11 @@
-# Plugin powerFlow
+# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Core-Full_js_(dev)-green.svg)
 
 # /!\ UNDER CONSTRUCTION /!\ 
 
 
 This plugin allows you to display a distribution widget (Grid, solar, battery, load and customs elements).
 
-<img src="../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
+<img src="../../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
 
 
 >**IMPORTANT**
