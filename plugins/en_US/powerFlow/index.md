@@ -1,4 +1,4 @@
-# Plugin powerFlow
+# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Core-Full_js_(dev)-green.svg)
 
 # /!\ UNDER CONSTRUCTION /!\ 
 
