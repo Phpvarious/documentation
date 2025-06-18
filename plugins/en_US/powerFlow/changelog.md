@@ -4,6 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
+# 18/06/2025
+
+### Bugfix
+
+Added uid for multiple use in a scenario..
+
 # 17/06/2025
 
 ### Improvement

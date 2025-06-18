@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/06/2025
+
+### Bugfix
+
+Ajout uid pour utilisation multiple dans un scénario.
+
 # 17/06/2025
 
 ### Amélioration
