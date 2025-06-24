@@ -4,6 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
+# 24/06/2025
+
+### Improvement
+
+  - added a trim to remove spaces in units, which allows to continue to escape the core unit conversion for the original command while maintaining compatibility for the plugin.
+
 # 18/06/2025
 
 ### Bugfix
