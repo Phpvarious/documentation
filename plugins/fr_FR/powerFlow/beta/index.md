@@ -10,8 +10,12 @@ Ce plugin permet d'afficher un widget de distribution (Réseau, solaire, batteri
 
 >**IMPORTANT**
 >
->Le plugin accèpte que des commandes dans sa configuration.<br>
->Pour utiliser des variables ou des calculs, il faudra avant tout créér un virtuel pour ensuite insérer ces commandes dans le plugin.
+>Hormis pour les "max" et "alert" qui autorise l'utilisation d'une variable ou d'une valeur numérique, tous les autres champs accèpte uniquement une commande <i>(#[objet][Equipement][commande]#)</i><br>
+>Si vous avez besoin de faire un calcul <i>(Ex: récepteur1 + récepteur2)</i>, il faudra avant tout le faire dans un virtuel pour ensuite insérer cette commande dans le plugin.
+
+>**Tips**
+>
+>Ne pas hésiter a lire les tooltips (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présent dans le plugin.
 
 Dans le plugin vous trouvez plusieurs catégories, il n'est pas obligatoire de renseigner tous les champs :
 
