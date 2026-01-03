@@ -4,13 +4,10 @@
 # Widget [cmd.action.other.homekit1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20%7C%20JS-green.svg)
 
 
-
-
 <img src="../../../../images/dashboard/action.other.homekit1_visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="../../../../images/dashboard/action.other.homekit1_visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
 
-## Télécharger la source
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.other.Homekit1)
-
+## 1) Télécharger la source
+> - <a href="{{site.url_git}}/WIDGET_cmd.action.other.Homekit1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ## Paramètres optionnels
 
