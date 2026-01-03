@@ -49,8 +49,8 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/numeric",
 				icon: "fab fa-creative-commons-zero",
-				fr_FR: "Numérique (3)",
-				en_US: "Numeric (3)"
+				fr_FR: "Numérique (4)",
+				en_US: "Numeric (4)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/info/string",
