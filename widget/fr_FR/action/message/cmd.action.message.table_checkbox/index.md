@@ -9,7 +9,7 @@
 <img src="images/table_checkbox_visuel1.png" alt="cmd.action.message.table_checkbox" /> <img src="images/table_checkbox_visuel2.png" alt="cmd.action.message.table_checkbox" />
 
 ## Télécharger la source
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.message.table_checkbox)
+> - <a href="{{site.url_git}}/WIDGET_cmd.action.message.table_checkbox" target="_blank">Télécharger les sources du Widget</a>
 
 
 ## Paramètres optionnels
@@ -95,6 +95,10 @@ Pour notre exemple, il en sortira les tags suivant :
 Plus qu'a ajouter nos conditions, exemple de vérification si la checkbox du lundi à 8h est checkée :
 
 <img src="images/table_checkbox_scenario3.png" alt="scenario3" />
+
+## Changelog
+
+<a href="./changelog">Changelog</a>
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
