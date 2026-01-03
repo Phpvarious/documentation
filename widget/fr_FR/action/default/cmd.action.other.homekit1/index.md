@@ -1,7 +1,7 @@
 
 <a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default">Défaut</a> --> cmd.action.other.homekit1
 
-# Widget [cmd.action.other.homekit1] ![Generic badge](https://img.shields.io/badge/Version-4.2%20%7C%204.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [cmd.action.other.homekit1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20%7C%20JS-green.svg)
 
 
 
