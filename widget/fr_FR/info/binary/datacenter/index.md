@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Datacenter] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4-green.svg)
+# Widget [Datacenter] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20%7C%204.5%20%7C%20Full%20JS-green.svg)
 
 <center><img src="img/capture1.gif" alt="Datacenter" /></center>
 
