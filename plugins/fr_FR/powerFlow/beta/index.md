@@ -128,8 +128,8 @@ Comme les autres éléments, chaque panneaux disposent d'une gauge et d'un seuil
 >
 >Vous pouvez ajouter des panneaux "fantômes", c'est a dire des panneaux qui ne s'afficheront pas mais qui prendront quand même la place prévu dans le widget.<br>Pour cela, ajoutez un panneau, et laissez vide tous les champs.<br>
 Exemple pour 5 panneaux sans éléments "fantôme" :<br>
-<img src="../../../images/powerFlow_exemple_solar_2.png"/>
-Toujours 5 panneaux, mais avec un élément "fantôme" entre le 2ème et 3ème panneau :<br>
-<img src="../../../images/powerFlow_exemple_solar_3.png"/>
+<img src="../../../images/powerFlow_exemple_solar_2.png"/><br>
+Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème et 3ème panneau :<br>
+<img src="../../../images/powerFlow_exemple_solar_3.png"/><br>
 
 # FAQ
