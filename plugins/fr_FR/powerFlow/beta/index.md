@@ -132,4 +132,62 @@ Exemple pour 5 panneaux sans éléments "fantôme" :<br>
 Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème et 3ème panneau :<br>
 <img src="../../../images/powerFlow_exemple_solar_3.png"/><br>
 
+## Batterie
+<img src="../../../images/powerFlow_exemple_battery_1.png"/>
+
+### Configuration
+#### Couleur
+Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
+#### Capacité
+Indiquer la capacité de la batterie. (variable autorisée)<br>
+Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge en fonction du % de batterie restant.
+
+### Puissance instantanée
+Ajoutez simplement la commande qui contient la puissance instantanée de la batterie.
+
+>**Tips**
+>
+>Par défaut le widget attend une valeur positive pour la décharge et négative pour la charge.<br>Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".
+
+### Panneau solaire (mppt)
+Si vous possèdez un panneau dédié a la batterie, renseignez ces champs pour l'afficher sur le widget :<br>
+<img src="../../../images/powerFlow_exemple_battery_2.png"/><br>
+
+### Energie quotidienne
+Ajoutez simplement les commandes qui contiennent les énergies à afficher.
+>**Tips**
+>
+>Lorsque les énergies sont activées, il existe aussi une interaction de couleurs dans le widget.<br>voir exemple dans la section "réseau".
+
+### Autres
+Permet d'afficher la tension, l'intensité ainsi que la température. (pas obligatoire)
+
+### État de charge
+
+#### État SOC
+Choississez la commande qui contient l'état de charge de la batterie en %.
+
+#### SOC Shutdown. (%)
+Choissisez la valeur a laquelle la batterie passe a l'arrêt.<br>
+Attention, cette valeur est prise en compte sur le calcul du temps restant avant décharge complète, affiché sur le widget.
+
+#### SOC Min. (%)
+Choissisez la valeur a laquelle la batterie est considéré vide.<br>
+Attention, cette valeur est prise en compte sur l'affichage de l'icone et la gestion des couleurs.
+
+#### SOC Max. (%)
+Choissisez la valeur a laquelle la batterie est considéré pleine.<br>
+Attention, cette valeur est prise en compte sur l'affichage de l'icone et la gestion des couleurs.
+
+#### Icône
+Vous pouvez choisir une icone personnalisée en remplacement de l'icone batterie.<br>
+
+>**⚠️**
+>
+> Si vous utilisez une icône personnalsée ou une icône intégrée, la gestion des couleurs ci-dessous sera désactivée.<br><br>
+
+#### Couleurs personnalisées
+Choisissez une couleur personnalisée en fonction du seuil restant de la batterie.
+
+
 # FAQ
