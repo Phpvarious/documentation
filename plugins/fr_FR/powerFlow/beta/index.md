@@ -41,13 +41,13 @@ Commandes possibles :
 
 <img src="../../../images/powerFlow_exemple_grid.png"/>
 
-### Puissance instantanée
+### Configuration
 
-#### Configuration
-
-##### Couleur
+#### Couleur
 
 Choisissez la couleur par défaut des éléments "réseau" (bleu par défaut).
+
+### Puissance instantanée
 
 #### Puissance
 Ajoutez simplement la commande qui contient la puissance instantanée du réseau.
@@ -66,11 +66,14 @@ Indiquez la valeur du seuil d'alerte que vous souhaitez.<br>Cette valeur permet,
 
 #### Energie vente & Energie achat
 Ajoutez simplement les commandes qui contiennent les énergies a afficher.
+
 >**Tips**
 >
->Si les énergies sont activées, il existe une interaction de couleurs.<br> exemple : vous choisissez une couleur orange pour "Energie achat", si vous êtes actuellement en consommation (donc energie achat), le widget affichera toute les infos en rapport au "réseau" en orange.
+>Si les énergies sont activées, il existe une interaction de couleurs.<br> exemple : vous choisissez une couleur orange pour "Energie achat", si vous êtes actuellement en consommation (donc energie achat), le widget affichera toute les infos en rapport au "réseau" en orange.<br>
+<img src="../../../images/powerFlow_exemple_grid_2.png" width="200px;"/>
 
 #### Panne de courant
-Si vous disposez d'une commande (binaire) qui permet de connaître l'état du réseau vous pouvez l'indiquer dans cette section.<br>
+Si vous disposez d'une commande (binaire) qui permet de connaître l'état du réseau vous pouvez la renseigner pour ainsi la représenter dans le widget comme ceci :<br>
+<img src="../../../images/powerFlow_exemple_grid_3.png" width="200px;"/>
 
 # FAQ
