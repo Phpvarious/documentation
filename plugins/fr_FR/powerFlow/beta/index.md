@@ -61,14 +61,14 @@ Commandes possibles :
 
 Choisissez la couleur par défaut des éléments "Réseau" (bleu par défaut).
 
-### Puissance instantanée
+### Puissance réseau instantanée
 
 Ajoutez simplement la commande qui contient la puissance instantanée du réseau.
 
 > *Par défaut le widget attend une valeur positive pour la consommation et négative pour l'injection.*
 > *Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".*
 
-### Energie quotidienne
+### Energie réseau quotidienne
 
 #### Energie vente & Energie achat
 
@@ -144,15 +144,13 @@ Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème e
 
 ### Configuration des éléments "Batterie"
 
-#### Couleur
-
 Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
 
 #### Capacité
 Indiquez la capacité de la batterie.<br>
 Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.
 
-### Puissance instantanée
+### Puissance instantanée de la batterie
 Ajoutez simplement la commande qui contient la puissance instantanée de la batterie.
 
 >**Tips**
@@ -163,7 +161,7 @@ Ajoutez simplement la commande qui contient la puissance instantanée de la batt
 Si vous possèdez un panneau dédié a la batterie, renseignez ces champs pour l'afficher sur le widget :<br>
 <img src="../../../images/powerFlow_exemple_battery_2.png"/><br>
 
-### Energie quotidienne
+### Energie quotidienne de la batterie
 Ajoutez simplement les commandes qui contiennent les énergies à afficher.
 >**Tips**
 >
