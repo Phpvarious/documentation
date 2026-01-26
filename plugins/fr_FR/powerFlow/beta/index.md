@@ -31,12 +31,7 @@ Dans le plugin, vous trouvez plusieurs catégories, il n'est pas obligatoire de 
 Choisissez la couleur par défaut des éléments "onduleur" (gris par défaut).<br>
 Il est possible de remplacer l'image de l'onduleur par défaut par une icône/image personnalisée, ou même remplacer par un simple cadre en activant la case "Aucun".
 
-#### Couleur texte intérieur
-
-Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
-⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
-
-#### Autres
+### Autres commandes
 
 Commandes possibles :
 - Tension. <sup>*</sup>
@@ -51,6 +46,13 @@ Commandes possibles :
 | | |
 |--- | ---|
 | <img src="../../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image personnalisée | <img src="../../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image personnalisée |
+
+### Couleur texte intérieur
+
+Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
+<img src="../../../images/powerFlow_exemple_inverter_1.png" height="100" />
+
+⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
 
 
 ## Réseau
@@ -148,7 +150,8 @@ Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
 
 #### Capacité
 Indiquez la capacité de la batterie.<br>
-Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.
+Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.<br>
+<img src="../../../images/powerFlow_exemple_battery_4.png"/>
 
 ### Puissance instantanée de la batterie
 Ajoutez simplement la commande qui contient la puissance instantanée de la batterie.
