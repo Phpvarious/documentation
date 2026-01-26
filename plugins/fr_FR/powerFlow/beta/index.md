@@ -190,8 +190,8 @@ Vous pouvez choisir une icône personnalisée pour remplacer de l'icône batteri
 
 #### Couleurs personnalisées
 
-<span style="display:none;">
 
+<!--
 #### SOC Min. (%)
 Choissisez la valeur à laquelle la batterie est considérée vide.<br>
 Attention, cette valeur est prise en compte sur l'affichage de l'icone et la gestion des couleurs.
@@ -199,8 +199,7 @@ Attention, cette valeur est prise en compte sur l'affichage de l'icone et la ges
 #### SOC Max. (%)
 Choissisez la valeur à laquelle la batterie est considérée pleine.<br>
 Attention, cette valeur est prise en compte sur l'affichage de l'icône et la gestion des couleurs.
-
-</span>
+-->
 
 Choisissez une couleur personnalisée en fonction du seuil restant de batterie.
 
