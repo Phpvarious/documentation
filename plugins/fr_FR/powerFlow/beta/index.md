@@ -8,59 +8,67 @@ Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batteri
 <img src="../../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
 
 
->**IMPORTANT**
+>**Important**
 >
->Hormis pour les champs *Max* et *Alerte*, qui autorisent l'utilisation d'une variable ou d'une valeur numérique, tous les autres champs n'accèptent qu'une commande (`#[objet][Equipement][commande]#`)<br>
+>Hormis pour les champs ```Max``` et ```Alerte```, qui autorisent l'utilisation d'une variable ou d'une valeur numérique, tous les autres champs n'accèptent qu'une commande (`#[objet][Equipement][commande]#`)<br>
 >Si vous avez besoin d'effectuer un calcul <i>(p.ex. : récepteur 1 + récepteur 2)</i>, il faudra d'abord le faire dans un virtuel, puis insérer la commande résultante dans le plugin.
 
->**Conseil**
->
->N'hésitez pas à lire les info-bulles (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présentent dans le plugin.
+>**Conseil** : N'hésitez pas à lire les info-bulles (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présentent dans le plugin.
+
+>**Information global**<br>
+Tous les champs ```Max``` permettent au plugin d'afficher une gauge en fonction de la puissance instantanée.<br>
+<img src="../../../images/powerFlow_exemple_global_1.png"/><br>
+Tous les champs ```Alerte``` permettent d'indiquer une seuil.<br>
+Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).<br>
+<img src="../../../images/powerFlow_exemple_global_2.gif"/>
 
 Dans le plugin, vous trouvez plusieurs catégories, il n'est pas obligatoire de renseigner tous les champs.
 
 ## Onduleur
 
-Commandes possibles :
+### Configuration onduleur
+Choisissez la couleur par défaut des éléments "onduleur" (gris par défaut).<br>
+Il est possible de remplacer l'image de l'onduleur par défaut par une icône/image personnalisée, ou même remplacer par un simple cadre en activant la case "Aucun".
 
+#### Couleur texte intérieur
+Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
+⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
+
+#### Autres
+Commandes possibles :
 - Tension. <sup>*</sup>
 - Fréquence. <sup>*</sup>
 - Intensité. <sup>*</sup>
-- LCD. <sup>*</sup>
+- LCD.
 - Température AC (alternatif).
 - Température DC (continu).
 
- <sup>*</sup> En cas d'utilisation d'une image personnalisée, toutes ces informations seront affichées en dehors de l'onduleur dans le widget.
+ <sup>*</sup> *En cas d'utilisation d'une icône/image personnalisée, toutes ces informations seront affichées en dehors de l'onduleur.*
 
 | | |
 |--- | ---|
-| <img src="../../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image perso | <img src="../../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image perso |
+| <img src="../../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image personnalisée | <img src="../../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image personnalisée |
 
 
 ## Réseau
 
 <img src="../../../images/powerFlow_exemple_grid.png"/>
 
-### Configuration
-
-#### Couleur
-
+### Configuration du réseau
 Choisissez la couleur par défaut des éléments "Réseau" (bleu par défaut).
 
 ### Puissance instantanée
-
-#### Puissance
 Ajoutez simplement la commande qui contient la puissance instantanée du réseau.
 
 > *Par défaut le widget attend une valeur positive pour la consommation et négative pour l'injection.*
 > *Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".*
 
 #### Max (en w) :
-Indiquez la valeur maximale que peut accepter le réseau (variable acceptée).
+Indiquez la valeur maximale que peut accepter le réseau.
 
 #### Alerte (en w) :
 
-Indiquez le seuil d'alerte souhaité. (variable acceptée)<br>
+Indiquez le seuil d'alerte souhaité.<br>
 Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).
 
 ### Energie quotidienne
@@ -86,11 +94,11 @@ Si vous disposez d'une commande (binaire) qui permet de connaître l'état du r�
 Choisissez la couleur par défaut des éléments "Solaire" (orange par défaut).
 
 #### Max (en w) :
-Indiquez la valeur maximale que peuvent produire l'ensemble des panneaux solaires.<br>Cette valeur permet de gérer la jauge en fonction de la puissance totale (variable acceptée).
+Indiquez la valeur maximale que peuvent produire l'ensemble des panneaux solaires.<br>Cette valeur permet de gérer la gauge en fonction de la puissance totale.
 
 #### Alerte (en w) :
 
-Indiquez le seuil d'alerte souhaité. (variable acceptée)<br>
+Indiquez le seuil d'alerte souhaité.<br>
 Lorsque la puissance totale instantanée des panneaux atteint ce seuil, le rectangle d'affichage de la puissance clignote et change de couleur (paramétrables dans la configuration de l'équipement).
 
 ### Puissance totale instantanée
@@ -121,7 +129,7 @@ Vous pouvez réorganiser l'ordre d'affichage en les déplacant verticalement. (d
 
 Il est possible d'afficher l'énergie, l'intensité ainsi que la tension pour chaque panneaux (pas obligatoire).
 
-Comme les autres éléments, chaque panneaux disposent d'une jauge et d'un seuil d'alerte. (Max et Alerte en w.)
+Comme les autres éléments, chaque panneaux disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
 >**Tips**
 >
@@ -138,7 +146,7 @@ Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème e
 #### Couleur
 Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
 #### Capacité
-Indiquez la capacité de la batterie. (variable autorisée)<br>
+Indiquez la capacité de la batterie.<br>
 Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.
 
 ### Puissance instantanée
