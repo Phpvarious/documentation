@@ -46,7 +46,7 @@ Commandes possibles :
 - Température AC (alternatif).
 - Température DC (continu).
 
- <sup>*</sup> *En cas d'utilisation d'une icône/image personnalisée, toutes ces informations seront affichées en dehors de l'onduleur.*
+ <sup>*</sup> <i> En cas d'utilisation d'une icône/image personnalisée, toutes ces informations seront affichées en dehors de l'onduleur.</i>
 
 | | |
 |--- | ---|
