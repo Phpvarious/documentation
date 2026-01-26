@@ -11,30 +11,33 @@ Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batteri
 >**Important**
 >
 >Hormis pour les champs ```Max``` et ```Alerte```, qui autorisent l'utilisation d'une variable ou d'une valeur numérique, tous les autres champs n'accèptent qu'une commande (`#[objet][Equipement][commande]#`)<br>
->Si vous avez besoin d'effectuer un calcul <i>(p.ex. : récepteur 1 + récepteur 2)</i>, il faudra d'abord le faire dans un virtuel, puis insérer la commande résultante dans le plugin.
+> Si vous avez besoin d'effectuer un calcul <i>(p.ex. : récepteur 1 + récepteur 2)</i>, il faudra d'abord le faire dans un virtuel, puis insérer la commande résultante dans le plugin.
 
->**Conseil** : N'hésitez pas à lire les info-bulles (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présentent dans le plugin.
+> **Conseil** : N'hésitez pas à lire les info-bulles (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présentent dans le plugin.
 
 >**Information global**<br>
-Tous les champs ```Max``` permettent au plugin d'afficher une gauge en fonction de la puissance instantanée.<br>
-<img src="../../../images/powerFlow_exemple_global_1.png"/><br>
-Tous les champs ```Alerte``` permettent d'indiquer une seuil.<br>
-Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).<br>
-<img src="../../../images/powerFlow_exemple_global_2.gif"/>
+> Tous les champs ```Max``` permettent au plugin d'afficher une gauge en fonction de la puissance instantanée.<br>
+> <img src="../../../images/powerFlow_exemple_global_1.png"/><br>
+>Tous les champs ```Alerte``` permettent d'indiquer une seuil.<br>
+>Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).<br>
+><img src="../../../images/powerFlow_exemple_global_2.gif"/>
 
 Dans le plugin, vous trouvez plusieurs catégories, il n'est pas obligatoire de renseigner tous les champs.
 
 ## Onduleur
 
 ### Configuration onduleur
+
 Choisissez la couleur par défaut des éléments "onduleur" (gris par défaut).<br>
 Il est possible de remplacer l'image de l'onduleur par défaut par une icône/image personnalisée, ou même remplacer par un simple cadre en activant la case "Aucun".
 
 #### Couleur texte intérieur
+
 Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
 ⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
 
 #### Autres
+
 Commandes possibles :
 - Tension. <sup>*</sup>
 - Fréquence. <sup>*</sup>
@@ -52,99 +55,99 @@ Commandes possibles :
 
 ## Réseau
 
-<img src="../../../images/powerFlow_exemple_grid.png"/>
+<img src="../../../images/powerFlow_exemple_grid_1.png"/>
 
-### Configuration du réseau
+### Configuration des éléments "réseau"
+
 Choisissez la couleur par défaut des éléments "Réseau" (bleu par défaut).
 
 ### Puissance instantanée
+
 Ajoutez simplement la commande qui contient la puissance instantanée du réseau.
 
 > *Par défaut le widget attend une valeur positive pour la consommation et négative pour l'injection.*
 > *Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".*
 
-#### Max (en w) :
-Indiquez la valeur maximale que peut accepter le réseau.
-
-#### Alerte (en w) :
-
-Indiquez le seuil d'alerte souhaité.<br>
-Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).
-
 ### Energie quotidienne
 
 #### Energie vente & Energie achat
+
 Ajoutez simplement les commandes qui contiennent les énergies à afficher.
 
 >**Tips**
 >
->Lorsque les énergies sont activées, il existe une interaction de couleurs.<br>Par exemple : si vous choisissez une couleur orange pour "Energie achat" et que vous êtes actuellement en consommation (donc energie achat), le widget affichera toutes les informations liées au "réseau" en orange.<br>
-<img src="../../../images/powerFlow_exemple_grid_2.png" width="200px;"/>
+>Lorsque les énergies sont activées, il existe une interaction de couleurs.<br>
+> Par exemple, si vous choisissez une couleur orange pour "Energie achat" et que vous êtes actuellement en consommation, le widget affichera toutes les informations liées au "réseau" en orange.<br>
+> <img src="../../../images/powerFlow_exemple_grid_2.png" width="200px;"/><br>
+
+Vous avez la possibilité d'afficher un texte personnalisé (```Texte à afficher```) :<br>
+<img src="../../../images/powerFlow_exemple_grid_4.png"/><br>
+*Exemple : VENTE JOUR*
 
 #### Panne de courant
-Si vous disposez d'une commande (binaire) qui permet de connaître l'état du réseau vous pouvez la renseigner afin de l'afficher dans le widget comme ci-dessous :<br>
+
+Si vous disposez d'une commande (binaire) qui permet de connaître l'état du réseau vous pouvez la renseigner afin de le représenter dans le widget, la couleur est aussi personnalisable.<br>
 <img src="../../../images/powerFlow_exemple_grid_3.png" width="200px;"/>
 
+
 ## Solaire
+
 <img src="../../../images/powerFlow_exemple_solar_1.png"/>
 
-### Configuration
-#### Couleur
+### Configuration des éléments "solaire"
 
 Choisissez la couleur par défaut des éléments "Solaire" (orange par défaut).
 
-#### Max (en w) :
-Indiquez la valeur maximale que peuvent produire l'ensemble des panneaux solaires.<br>Cette valeur permet de gérer la gauge en fonction de la puissance totale.
-
-#### Alerte (en w) :
-
-Indiquez le seuil d'alerte souhaité.<br>
-Lorsque la puissance totale instantanée des panneaux atteint ce seuil, le rectangle d'affichage de la puissance clignote et change de couleur (paramétrables dans la configuration de l'équipement).
-
 ### Puissance totale instantanée
 
-#### Puissance totale
-
-Si vous disposez déjà d'une commande contenant la puissance totale des panneaux, vous pouvez renseigner ce champ.<br>
+Si vous disposez déjà d'une commande contenant la puissance totale des panneaux, vous pouvez la renseigner dans ce champ.<br>
 Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement le la somme de tous les panneaux réunis.
-### Energie quotidienne
 
-#### Energie
+### Energie solaire quotidienne
 
-Ajoutez simplement la commande qui contient l'énergie à afficher.
+Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
 
 ### Panneaux solaires
+
 #### Couleur si valeur = 0
-lorsqu'un panneau ne produit rien,
-vous pouvez choisir une couleur différente pour permettre une visualisation rapide.
-Vous avez aussi la possibilté de ne pas afficher le panneau en cochant la case "Masquer si valeur = 0". (prioritaire sur la couleur)
+
+Vous pouvez choisir une couleur différente pour permettre une visualisation rapide lorsqu'un panneau ne produit rien.<br>
+<img src="../../../images/powerFlow_exemple_solar_4.png"/><br>
+Vous pouvez aussi de ne pas afficher (masquer) le panneau en cochant la case "Masquer si valeur = 0". (prioritaire sur la couleur)<br>
+<img src="../../../images/powerFlow_exemple_solar_5.png"/><br>
 
 #### Ajout de panneaux solaires
+
 >**Information**
 >
->A partir de 7 panneaux solaires, l'affichage de ceux-ci sur le widget passe en horizontal au dessus des récepteurs.<br>
-Vous pouvez réorganiser l'ordre d'affichage en les déplacant verticalement. (drag and drop)<br>
+> A partir de 7 panneaux solaires, l'affichage de ceux-ci sur le widget passe en horizontal au dessus des récepteurs.<br>
+<img src="../../../images/powerFlow_exemple_solar_6.png"/><br><br>
+*Vous pouvez dans le plugin, réorganiser l'ordre d'affichage en les déplacant verticalement. (drag and drop)*<br>
 
 ⚠️Pour chaque panneau ajouté, le champ "Puissance" est obligatoire.<br>
 
 Il est possible d'afficher l'énergie, l'intensité ainsi que la tension pour chaque panneaux (pas obligatoire).
 
-Comme les autres éléments, chaque panneaux disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
+Comme les autres catégories, chaque panneaux disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
 >**Tips**
 >
->Vous pouvez ajouter des panneaux "fantômes", c'est a dire des panneaux qui ne s'afficheront pas mais qui prendront quand même la place prévu dans le widget.<br>Pour cela, ajoutez un panneau, et laissez vide tous les champs.<br>
+> Vous pouvez ajouter des panneaux "fantômes", c'est a dire des panneaux qui ne s'afficheront pas mais qui prendront quand même la place prévu dans le widget.<br>Pour cela, ajoutez un panneau, et laissez vide tous les champs.<br>
 Exemple pour 5 panneaux sans éléments "fantôme" :<br>
 <img src="../../../images/powerFlow_exemple_solar_2.png"/><br>
 Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème et 3ème panneau :<br>
 <img src="../../../images/powerFlow_exemple_solar_3.png"/><br>
 
 ## Batterie
+
 <img src="../../../images/powerFlow_exemple_battery_1.png"/>
 
-### Configuration
+### Configuration des éléments "Batterie"
+
 #### Couleur
+
 Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
+
 #### Capacité
 Indiquez la capacité de la batterie.<br>
 Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.
