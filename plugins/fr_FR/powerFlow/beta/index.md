@@ -181,12 +181,14 @@ Attention, cette valeur est prise en compte sur le calcul du temps restant avant
 
 #### Icône
 Vous pouvez choisir une icône personnalisée pour remplacer de l'icône batterie.<br>
+<img src="../../../images/powerFlow_exemple_battery_3.png"/><br>
 
->**⚠️**
->
-> Si vous utilisez une icône personnalsée ou une icône intégrée, la gestion des couleurs ci-dessous sera désactivée.<br><br>
+>**⚠️** Si vous utilisez une icône personnalsée ou une icône intégrée, la gestion des couleurs ci-dessous sera désactivée.<br>
 
 #### Couleurs personnalisées
+
+<span style="display:none;">
+
 #### SOC Min. (%)
 Choissisez la valeur à laquelle la batterie est considérée vide.<br>
 Attention, cette valeur est prise en compte sur l'affichage de l'icone et la gestion des couleurs.
@@ -195,8 +197,9 @@ Attention, cette valeur est prise en compte sur l'affichage de l'icone et la ges
 Choissisez la valeur à laquelle la batterie est considérée pleine.<br>
 Attention, cette valeur est prise en compte sur l'affichage de l'icône et la gestion des couleurs.
 
-#### Couleur
-Choisissez une couleur personnalisée en fonction du seuil restant de la batterie.
+</span>
+
+Choisissez une couleur personnalisée en fonction du seuil restant de batterie.
 
 
 # FAQ
