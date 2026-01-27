@@ -1,11 +1,9 @@
-# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Core-Full_js_(dev)-green.svg)
-
-# ⚠️ EN COURS DE CONSTRUCTION ⚠️
+# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Version-beta-orange.svg) ![Generic badge](https://img.shields.io/badge/Core-Full_js-green.svg)
 
 
 Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batterie, récepteurs et éléments personnalisés).
 
-<img src="../../../images/powerFlow_exemple.png" width="300" style="display: block;margin: 0 auto;"/>
+<img src="../../../images/powerFlow_exemple.png" width="400" style="display: block;margin: 0 auto;"/>
 
 
 >**Important**
@@ -63,7 +61,7 @@ Commandes possibles :
 Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
 <img src="../../../images/powerFlow_exemple_inverter_1.png" height="100" />
 
-⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
+> ⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
 
 
 ## Réseau
@@ -136,7 +134,7 @@ Vous pouvez aussi de ne pas afficher (masquer) le panneau en cochant la case "Ma
 <img src="../../../images/powerFlow_exemple_solar_6.png"/><br><br>
 *Vous pouvez dans le plugin, réorganiser l'ordre d'affichage en les déplacant verticalement. (drag and drop)*<br>
 
-⚠️Pour chaque panneau ajouté, le champ "Puissance" est obligatoire.<br>
+> ⚠️Pour chaque panneau ajouté, le champ "Puissance" est obligatoire.<br>
 
 Il est possible d'afficher l'énergie, l'intensité ainsi que la tension pour chaque panneaux (pas obligatoire).
 
@@ -237,8 +235,7 @@ Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a affi
 Désactiver les animations : Cochez cette case si vous souhaitez masquer les animations des récepteurs.<br>
 Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 récepteurs par colonnes :<br>
 <img src="../../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
->**⚠️**<br>
-> Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
+>**⚠️** Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
 > Pour chaque récepteur ajouté, le champ "Puissance" est obligatoire.<br>
 
 Il est possible d'afficher l'énergie ainsi qu'une commande personnalisée pour chaque récepteurs (pas obligatoire).
@@ -255,13 +252,13 @@ Vous pouvez ajouter jusqu'a 2 icônes ou images par récepteur.<br>
 ## Générateur
 <img src="../../../images/powerFlow_exemple_generateur_1.png"/>
 
-### Configuration des éléments "Récepteur"
+### Configuration des éléments "Générateur"
 
 Choisissez la couleur par défaut des éléments "Générateur" (violet par défaut).
 
 ### Puissance totale instantanée du générateur
 
-⚠️Commande obligatoire pour afficher les éléments "générateur".<br>
+> ⚠️Commande obligatoire pour afficher les éléments "générateur".<br>
 
 Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
@@ -275,8 +272,7 @@ Cette section vous permet d'ajouter une commande personnalisée a afficher sur l
 ### Ajout d'une commande personnalisée
 
 <img src="../../../images/powerFlow_commande_perso_1.png"/><br>
->**⚠️**<br>
-> Les champs ```commande```, ```X``` et ```Y``` sont obligatoires pour afficher l'élément sur le widget.<br>
+>**⚠️** Les champs ```commande```, ```X``` et ```Y``` sont obligatoires pour afficher l'élément sur le widget.<br>
 
 #### Emplacement X et Y
 Permet de placer l'élément horizontalement (X) et verticalement (Y).<br>
@@ -287,8 +283,7 @@ Il faut parfois tâtonner un peu pour cibler l'emplacement souhaité...
 
 Possibilté de choisir la taille de police d'écriture de la commande ainsi que celle du texte a afficher.
 
->**⚠️**<br>
-> Si la ```position``` séléctionnée est "En ligne", seul la taille de la commande sera prise en compte.<br>
+>**⚠️** Si la ```position``` séléctionnée est "En ligne", seul la taille de la commande sera prise en compte.<br>
 <img src="../../../images/powerFlow_exemple_perso_2.png"/><br>
 
 # FAQ
