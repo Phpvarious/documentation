@@ -8,7 +8,7 @@
 
 > Passage de la version bêta vers stable.
 
-### **Améliorations**
+### Améliorations
 
 - Toutes les commandes de ***puissance*** sont automatiquement converties en W pour afin d'unifier les calculs et éviter les erreurs d'unités.
 - Toutes les valeurs des "puissance" passent par une conversion d'unité (comportement identique du core Jeedom).
@@ -33,7 +33,7 @@
   
 - Ajout d'un `trim` sur les unités afin de supprimer les espaces, ce qui permet de continuer a échapper à la conversion des unités du core pour la commande d’origine (pour ceux qui utilise ce moyen de contournement) tout en gardant la compatibilité avec le plugin.
 
-### **Corrections de bugs**
+### Corrections de bugs
 
 - La couleur de la **puissance totale** de la catégorie "solaire" respecte désormais la couleur configurée dans le plugin (`Couleur si valeur = 0` ou `Masquer si valeur = 0`)<br>
 *(Exception :  si vous utilisez la commande de puissance totale instantanée)*
