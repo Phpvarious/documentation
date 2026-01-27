@@ -8,83 +8,81 @@
 
 ### Amélioration
 
- - Ajout d'un `trim` pour supprimer les espaces dans les unités, ce qui permet de continuer a échapper à la conversion des unités du core pour la commande d’origine tout en gardant la compatibilité avec le plugin.
+ - Ajout d'un `trim` sur les unités afin de supprimer les espaces, ce qui permet de continuer a échapper à la conversion des unités du core pour la commande d’origine (pour ceux qui utilise ce moyen de contournement) tout en gardant la compatibilité avec le plugin.
 
 # 18/06/2025
 
-### Bugfix
+### **Corrections de bugs**
 
-- Ajout d'un **uid** pour permettre une utilisation multiple dans un scénario.
+- Ajout d'un **uid** pour permettre une utilisation multiple dans les scénarios.
 
 # 17/06/2025
 
 ### Amélioration
 
- - Il est désormais possible de changer les couleurs des catégories depuis la commande ```Changement couleur``` disponible dans le plugin.<br>
-Cette nouvelle commande permet de modifier en direct (via scénario par ex.) les couleurs des catégories sans avoir besoin de rafraîchir le widget ni de modifier dans le plugin.
+ - Ajout d'une commande ```Changement couleur``` permettant de modifier la couleurs de chaque catégorie.
+  - Cette commande est utilisable via scénario sans rechargement du widget ni modification dans le plugin
+
   >**IMPORTANT**
   >
   > Si vous utilisez cette nouvelle commande plusieurs fois dans un même scénario, veuillez à inserer une tempo (sleep) entre chaque execution.
 
-### Bugfix
+### **Corrections de bugs**
 
- - Décimales sur les éléments "persos".
+ - Correction sur l'affichage des décimales pour les éléments **personnalisés**.
 
 # 14/06/2025
 
 ### Amélioration
 
-- Possibilité d'ajouter des éléments vides (fantômes) dans les récepteurs et les Pvs - Il suffit simplement d'ajouter un élément (Activer) sans commande de puissance.
+- Possibilité d'ajouter des éléments vides (fantômes) dans les ***récepteurs*** et les équipements ***solaires*** 
+  - ajoutez simplement un élément vide (sans commande de puissance) et activé.
 
-### Bugfix
+### **Corrections de bugs**
 
-- Décimales sur **daily buy** et **daily sell** du réseau.
-- Unité par défaut dans les calculs (récepteurs et solaires).
+- Correction sur l'affichage des décimales sur les **énergie vente** et **énergie achat** du réseau ainsi que pour les éléments **personnalisés**.
+- Correction de l'unité par défaut dans les calculs (récepteurs et solaires).
 
 # 13/06/2025
 
-### Bugfix
+### **Corrections de bugs**
 
-- Alerte sur les récepteurs à l'initialisation du widget.
+- Correction des alertes sur les récepteurs à l'initialisation du widget.
 
 # 12/06/2025
 
 ### Amélioration
 
-- Désormais, tous les éléments "power" bénéficient :
-  - Max : permet la gestion des gauges.
-  - Alerte : permet la gestion des alertes en fonction de la puissance.
+- Tous les éléments de "puissance" disposent désormais de :
+  - **Max** : gestion des jauges.
+  - **Alerte** : gestion des alertes basées sur la puissance.
 
 - Possibilté de dupliquer un équipement.
-
-### Bugfix
-
-- Unité des **daily load** : Kwh ->  Wh.
 
 # 11/06/2025
 
 ### Amélioration
 
-- Contrôle des liens morts (deadCmd) visible depuis la page **Analyse > Equipements > Commandes orphelines**.
+- Détection des **commandes orphelines** (`deadCmd`) accessible depuis **Analyse > Equipements > Commandes orphelines**.
 
-- Possible d'utiliser une variable dans tous les champs `Max` (Utilisez le bouton prévu pour rechercher une variable).
-- Possibilité de désactiver les conversions d'unités.
-- Choix du nombre de décimales après la virgule.
+- Utilisation possible d'une **variable Jeedom** dans tous les champs `Max` (sélecteur via bouton).
+- Option permettant de désactiver les conversions automatiques d'unités.
+- Paramètrage du nombre de décimales à afficher.
 
 # 09/06/2025
 
 ### **Amélioration**
 
-- Toutes les commandes "power" sont automatiquement converties en W pour simplifier les calculs et éviter les erreurs d'unités.
-- Toutes les valeurs "power" passent par une conversion d'unité (comme dans le core).<br>
-  - *1000 W -> affichera 1 kW.*
-- Possibilité de réorganiser les éléments "perso" (sortable).
+- Toutes les commandes de ***puissance*** sont automatiquement converties en W pour afin d'unifier les calculs et éviter les erreurs d'unités.
+- Toutes les valeurs des "puissance" passent par une conversion d'unité (comportement identique du core Jeedom).
+  - *1000 W -> affiche 1 kW.*
+- Possibilité de réorganiser les éléments personnalisés (glisser-déposer).
 
 ### **Corrections de bugs**
 
-- La couleur du "power total" suit désormais la couleur paramètrée dans le plugin (`Couleur si valeur = 0` ou `Masquer si valeur = 0`)<br>
-*(Sauf si vous utilisez la commande de puissance totale instantanée)*
-- Ajout d'un minimum de `7px` pour les tailles des textes des éléments "persos".
+- La couleur de la **puissance totale** de la catégorie "solaire" respecte désormais la couleur configurée dans le plugin (`Couleur si valeur = 0` ou `Masquer si valeur = 0`)<br>
+*(Exception :  si vous utilisez la commande de puissance totale instantanée)*
+- Taille minimale des textes des éléments personnalisés fixée a `7px`.
 
 # 03/06/2025
 
