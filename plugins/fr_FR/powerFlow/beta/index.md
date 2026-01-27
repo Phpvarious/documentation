@@ -11,7 +11,7 @@ Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batteri
 >**Important**
 >
 >Hormis pour les champs ```Max``` et ```Alerte```, qui autorisent l'utilisation d'une variable ou d'une valeur numérique, tous les autres champs n'accèptent qu'une commande (`#[objet][Equipement][commande]#`)<br>
-> Si vous avez besoin d'effectuer un calcul <i>(p.ex. : récepteur 1 + récepteur 2)</i>, il faudra d'abord le faire dans un virtuel, puis insérer la commande résultante dans le plugin.
+> Si vous avez besoin d'effectuer un calcul <i>(p.ex. : récepteur 1 + récepteur 2)</i>, il faudra avant tout le faire dans un virtuel, puis insérer la commande résultante dans le plugin.
 
 > **Conseil** : N'hésitez pas à lire les info-bulles (<i class="fas fa-question-circle" style="color: #5078aa !important;"></i> <i class="fas fa-exclamation-triangle" style="color: #c37d28 !important;"></i>) présentent dans le plugin.
 
@@ -19,10 +19,21 @@ Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batteri
 > Tous les champs ```Max``` permettent au plugin d'afficher une gauge en fonction de la puissance instantanée.<br>
 > <img src="../../../images/powerFlow_exemple_global_1.png"/><br>
 >Tous les champs ```Alerte``` permettent d'indiquer une seuil.<br>
->Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans la configuration de l'équipement).<br>
+>Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans les paramètres spécifiques).<br>
 ><img src="../../../images/powerFlow_exemple_global_2.gif"/>
 
 Dans le plugin, vous trouvez plusieurs catégories, il n'est pas obligatoire de renseigner tous les champs.
+
+## Paramètres spécifiques
+
+- Clignotement : active/désactive le clignotement des éléments en Alerte.<br>
+- Couleur Warning : couleur du contour des éléments en alerte.
+- Gauges : active/désactive toutes les gauges.
+- Formate milliers : active/désactive le formattage des milliers. (5000 -> 5 000)
+- Conversion unités : active/désactive la conversion des unités. (5000w -> 5kw)
+- Décimales : nombre de décimale a afficher àprès la virgule.
+- Couleur arrière-plan : ajoute un arrière plan au widget.
+- Debug widget : active/désactive les log en console de developpement du navigateur.
 
 ## Onduleur
 
@@ -67,7 +78,7 @@ Choisissez la couleur par défaut des éléments "Réseau" (bleu par défaut).
 
 Ajoutez simplement la commande qui contient la puissance instantanée du réseau.
 
-> *Par défaut le widget attend une valeur positive pour la consommation et négative pour l'injection.*
+> *Par défaut le plugin attend une valeur positive pour la consommation et négative pour l'injection.*
 > *Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".*
 
 ### Energie réseau quotidienne
@@ -103,22 +114,21 @@ Choisissez la couleur par défaut des éléments "Solaire" (orange par défaut).
 ### Puissance totale instantanée
 
 Si vous disposez déjà d'une commande contenant la puissance totale des panneaux, vous pouvez la renseigner dans ce champ.<br>
-Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement le la somme de tous les panneaux réunis.
+Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement la somme de tous les panneaux réunis.
 
 ### Energie solaire quotidienne
 
 Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
 
-### Panneaux solaires
+### Ajout de panneaux solaires
 
-#### Couleur si valeur = 0
+#### Paramètres globals
+##### Couleur si valeur = 0
 
 Vous pouvez choisir une couleur différente pour permettre une visualisation rapide lorsqu'un panneau ne produit rien.<br>
 <img src="../../../images/powerFlow_exemple_solar_4.png"/><br>
 Vous pouvez aussi de ne pas afficher (masquer) le panneau en cochant la case "Masquer si valeur = 0". (prioritaire sur la couleur)<br>
 <img src="../../../images/powerFlow_exemple_solar_5.png"/><br>
-
-#### Ajout de panneaux solaires
 
 >**Information**
 >
@@ -149,16 +159,15 @@ Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème e
 Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
 
 #### Capacité
-Indiquez la capacité de la batterie.<br>
-Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du % de batterie restant.<br>
+Indiquez la capacité de la batterie (En Wh).<br>
+Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du pourcentage de batterie restant.<br>
 <img src="../../../images/powerFlow_exemple_battery_4.png"/>
 
 ### Puissance instantanée de la batterie
-Ajoutez simplement la commande qui contient la puissance instantanée de la batterie.
+Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
 
->**Tips**
->
->Par défaut le widget attend une valeur positive pour la décharge et négative pour la charge.<br>Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".
+> *Par défaut le plugin attend une valeur positive pour la décharge et négative pour la charge.*
+> Cependant, il est possible d'inverser cette logique en cochant simplement la case "Inverser".*
 
 ### Panneau solaire (mppt)
 Si vous possèdez un panneau dédié a la batterie, renseignez ces champs pour l'afficher sur le widget :<br>
@@ -202,6 +211,26 @@ Attention, cette valeur est prise en compte sur l'affichage de l'icône et la ge
 -->
 
 Choisissez une couleur personnalisée en fonction du seuil restant de batterie.
+
+## Récepteurs
+
+<img src="../../../images/powerFlow_exemple_load_1.png"/>
+
+### Configuration des éléments "Récepteur"
+
+Choisissez la couleur par défaut des éléments "Récepteur" (vert par défaut).
+
+### Puissance totale instantanée des récepteurs
+
+Si vous disposez déjà d'une commande contenant la puissance totale des récepteurs, vous pouvez la renseigner dans ce champ.<br>
+Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement la somme de tous les récepteurs.
+
+### Energie quotidienne de la batterie
+
+Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
+
+### Ajout de récepteurs
+
 
 
 # FAQ
