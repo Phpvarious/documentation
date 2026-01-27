@@ -231,13 +231,15 @@ Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a affi
 
 ### Ajout de récepteurs
 
-#### Paramètres globals
-Désactiver les animations : Cochez cette case si vous voulez masquer les animations des récepteurs.
+<img src="../../../images/powerFlow_commande_load_1.png"/><br>
+
+#### Paramètres globaux
+Désactiver les animations : Cochez cette case si vous souhaitez masquer les animations des récepteurs.<br>
 Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 récepteurs par colonnes :<br>
 <img src="../../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
->**⚠️** Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
-
-⚠️Pour chaque récepteur ajouté, le champ "Puissance" est obligatoire.<br>
+>**⚠️**<br>
+> Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
+> Pour chaque récepteur ajouté, le champ "Puissance" est obligatoire.<br>
 
 Il est possible d'afficher l'énergie ainsi qu'une commande personnalisée pour chaque récepteurs (pas obligatoire).
 
@@ -261,7 +263,32 @@ Choisissez la couleur par défaut des éléments "Générateur" (violet par déf
 
 ⚠️Commande obligatoire pour afficher les éléments "générateur".<br>
 
-## Perso
+Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
+### Energie quotidienne du générateur
+Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
+
+## Perso
+<img src="../../../images/powerFlow_exemple_perso_1.png"/><br>
+Cette section vous permet d'ajouter une commande personnalisée a afficher sur le widget a l'emplacement que vous souhaitez.
+
+### Ajout d'une commande personnalisée
+
+<img src="../../../images/powerFlow_commande_perso_1.png"/><br>
+>**⚠️**<br>
+> Les champs ```commande```, ```X``` et ```Y``` sont obligatoires pour afficher l'élément sur le widget.<br>
+
+#### Emplacement X et Y
+Permet de placer l'élément horizontalement (X) et verticalement (Y).<br>
+Par exemple, pour l'image de présentation ci-dessus, j'ai configuré ```X``` = 530 et ```Y``` = 234.<br>
+Il faut parfois tâtonner un peu pour cibler l'emplacement souhaité...
+
+#### Tailles
+
+Possibilté de choisir la taille de police d'écriture de la commande ainsi que celle du texte a afficher.
+
+>**⚠️**<br>
+> Si la ```position``` séléctionnée est "En ligne", seul la taille de la commande sera prise en compte.<br>
+<img src="../../../images/powerFlow_exemple_perso_2.png"/><br>
 
 # FAQ
