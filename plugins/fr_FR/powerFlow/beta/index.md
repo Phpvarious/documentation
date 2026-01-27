@@ -199,7 +199,6 @@ Vous pouvez choisir une icône personnalisée pour remplacer de l'icône batteri
 
 #### Couleurs personnalisées
 
-
 <!--
 #### SOC Min. (%)
 Choissisez la valeur à laquelle la batterie est considérée vide.<br>
@@ -225,12 +224,23 @@ Choisissez la couleur par défaut des éléments "Récepteur" (vert par défaut)
 Si vous disposez déjà d'une commande contenant la puissance totale des récepteurs, vous pouvez la renseigner dans ce champ.<br>
 Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement la somme de tous les récepteurs.
 
-### Energie quotidienne de la batterie
+### Energie quotidienne des récepteurs
 
-Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
+Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.<br>
+<img src="../../../images/powerFlow_exemple_load_2.png"/>
 
 ### Ajout de récepteurs
 
+#### Paramètres globals
+Désactiver les animations : Cochez cette case si vous voulez masquer les animations des récepteurs.
+Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 recepteurs par colonnes :<br>
+<img src="../../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
+>**⚠️** Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
 
+⚠️Pour chaque récepteur ajouté, le champ "Puissance" est obligatoire.<br>
+
+Il est possible d'afficher l'énergie ainsi qu'une commande personnalisée pour chaque récepteurs (pas obligatoire).
+
+Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
 # FAQ
