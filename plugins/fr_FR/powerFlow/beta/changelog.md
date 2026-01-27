@@ -20,8 +20,8 @@
 
 ### Améliorations
 
- - Ajout d'une commande ```Changement couleur``` permettant de modifier la couleurs de chaque catégorie.
-  - Cette commande est utilisable via scénario sans rechargement du widget ni modification dans le plugin
+ - Ajout d'une commande ```Changement couleur``` permettant de modifier dynamiquement la couleurs de chaque catégorie.
+   - Cette commande est utilisable via scénario sans rechargement du widget ni modification dans le plugin
 
   >**IMPORTANT**
   >
@@ -36,7 +36,7 @@
 ### Améliorations
 
 - Possibilité d'ajouter des éléments vides (fantômes) dans les ***récepteurs*** et les équipements ***solaires*** 
-  - ajoutez simplement un élément vide (sans commande de puissance) et activé.
+  - Ajoutez simplement un élément vide (sans commande de puissance) et activé.
 
 ### Corrections de bugs
 
@@ -74,7 +74,7 @@
 ### Améliorations
 
 - Toutes les commandes de ***puissance*** sont automatiquement converties en W pour afin d'unifier les calculs et éviter les erreurs d'unités.
-- Toutes les valeurs des "puissance" passent par une conversion d'unité (comportement identique du core Jeedom).
+- Toutes les valeurs de "puissance" passent par une conversion d'unité (comportement identique du core Jeedom).
   - *1000 W -> affiche 1 kW.*
 - Possibilité de réorganiser les éléments personnalisés (glisser-déposer).
 
