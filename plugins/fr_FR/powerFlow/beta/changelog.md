@@ -22,12 +22,11 @@ Ajout uid pour utilisation multiple dans un scénario.
 
 ### Amélioration
 
-  - Il est désormait possible de changer les couleurs des catégories depuis une nouvelle commande (Changement couleur) disponible dans le plugin, celle-ci modifiera la couleur configurée.<br>
-  Le widget, si il est affiché, modifiera en direct (js) les couleurs envoyées sans avoir besoin de rafraichir celui-ci.<br>
+  - Il est désormait possible de changer les couleurs des catégories depuis la commande ```Changement couleur``` disponible dans le plugin, celle-ci modifiera la couleur configurée.<br>Cette nouvelle commande permet de modifier en direct (via scénario par ex.) les couleurs sans avoir besoin de rafraichir le widget, ni même modifier dans le plugin.
 
   >**IMPORTANT**
   >
-  > Si vous utilisez cette nouvelle commande plusieurs fois dans un scénario, veuillez à inserer une tempo (sleep) entre chaque execution.
+  > Si vous utilisez cette nouvelle commande plusieurs fois dans un même scénario, veuillez à inserer une tempo (sleep) entre chaque execution.
 
 ### Bugfix
 
@@ -37,7 +36,7 @@ Ajout uid pour utilisation multiple dans un scénario.
 
 ### Amélioration
 
-  - Possibilité d'ajouter des espaces vides dans les récepteurs et les Pvs.<br>Il suffit simplement d'ajouter un élément (Activer) sans commande de puissance.
+  - Possibilité d'ajouter des éléments vides (fantôme) dans les récepteurs et les Pvs.<br>Il suffit simplement d'ajouter un élément (Activer) sans commande de puissance.
 
 ### Bugfix
 
