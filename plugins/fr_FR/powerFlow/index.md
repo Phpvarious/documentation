@@ -1,9 +1,9 @@
-# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Version-beta-orange.svg) ![Generic badge](https://img.shields.io/badge/Core-Full_js-green.svg)
+# Plugin powerFlow ![Generic badge](https://img.shields.io/badge/Version-stable-green.svg) ![Generic badge](https://img.shields.io/badge/Core-Full_js-green.svg)
 
 
 Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batterie, récepteurs et éléments personnalisés).
 
-<img src="../../../images/powerFlow_exemple.png" width="400" style="display: block;margin: 0 auto;"/>
+<img src="../../images/powerFlow_exemple.png" width="400" style="display: block;margin: 0 auto;"/>
 
 
 >**Important**
@@ -15,10 +15,10 @@ Ce plugin permet d'afficher un widget de distribution (réseau, solaire, batteri
 
 >**Information global**<br>
 > Tous les champs ```Max``` permettent au plugin d'afficher une gauge en fonction de la puissance instantanée.<br>
-> <img src="../../../images/powerFlow_exemple_global_1.png"/><br>
+> <img src="../../images/powerFlow_exemple_global_1.png"/><br>
 >Tous les champs ```Alerte``` permettent d'indiquer une seuil.<br>
 >Lorsque la consommation instantanée atteint ce seuil, le rectangle d'affichage de la consommation clignotera et changera de couleur (couleur et clignotement paramétrables dans les paramètres spécifiques).<br>
-><img src="../../../images/powerFlow_exemple_global_2.gif"/>
+><img src="../../images/powerFlow_exemple_global_2.gif"/>
 
 Dans le plugin, vous trouvez plusieurs catégories, il n'est pas obligatoire de renseigner tous les champs.
 
@@ -54,19 +54,19 @@ Commandes possibles :
 
 | | |
 |--- | ---|
-| <img src="../../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image personnalisée | <img src="../../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image personnalisée |
+| <img src="../../images/powerFlow_exemple_inverter_noImgCustom.png" height="100" /><br>Sans image personnalisée | <img src="../../images/powerFlow_exemple_inverter_withImgCustom.png" height="100" /><br>Avec image personnalisée |
 
 ### Couleur texte intérieur
 
 Vous pouvez choisir la couleur du texte situé a l'interieur de l'onduleur (tension, fréquence et intensité).<br>
-<img src="../../../images/powerFlow_exemple_inverter_1.png" height="100" />
+<img src="../../images/powerFlow_exemple_inverter_1.png" height="100" />
 
 > ⚠️ Cette couleur sera automatiquement désactivée si vous utilisez une icône/image personnalisée.
 
 
 ## Réseau
 
-<img src="../../../images/powerFlow_exemple_grid_1.png"/>
+<img src="../../images/powerFlow_exemple_grid_1.png"/>
 
 ### Configuration des éléments "réseau"
 
@@ -89,21 +89,21 @@ Ajoutez simplement les commandes qui contiennent les énergies à afficher.
 >
 >Lorsque les énergies sont activées, il existe une interaction de couleurs.<br>
 > Par exemple, si vous choisissez une couleur orange pour "Energie achat" et que vous êtes actuellement en consommation, le widget affichera toutes les informations liées au "réseau" en orange.<br>
-> <img src="../../../images/powerFlow_exemple_grid_2.png" width="200px;"/><br>
+> <img src="../../images/powerFlow_exemple_grid_2.png" width="200px;"/><br>
 
 Vous avez la possibilité d'afficher un texte personnalisé (```Texte à afficher```) :<br>
-<img src="../../../images/powerFlow_exemple_grid_4.png"/><br>
+<img src="../../images/powerFlow_exemple_grid_4.png"/><br>
 *Exemple : VENTE JOUR*
 
 #### Panne de courant
 
 Si vous disposez d'une commande (binaire) qui permet de connaître l'état du réseau vous pouvez la renseigner afin de le représenter dans le widget, la couleur est aussi personnalisable.<br>
-<img src="../../../images/powerFlow_exemple_grid_3.png" width="200px;"/>
+<img src="../../images/powerFlow_exemple_grid_3.png" width="200px;"/>
 
 
 ## Solaire
 
-<img src="../../../images/powerFlow_exemple_solar_1.png"/>
+<img src="../../images/powerFlow_exemple_solar_1.png"/>
 
 ### Configuration des éléments "solaire"
 
@@ -124,14 +124,14 @@ Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a affi
 ##### Couleur si valeur = 0
 
 Vous pouvez choisir une couleur différente pour permettre une visualisation rapide lorsqu'un panneau ne produit rien.<br>
-<img src="../../../images/powerFlow_exemple_solar_4.png"/><br>
+<img src="../../images/powerFlow_exemple_solar_4.png"/><br>
 Vous pouvez aussi de ne pas afficher (masquer) le panneau en cochant la case "Masquer si valeur = 0". (prioritaire sur la couleur)<br>
-<img src="../../../images/powerFlow_exemple_solar_5.png"/><br>
+<img src="../../images/powerFlow_exemple_solar_5.png"/><br>
 
 >**Information**
 >
 > A partir de 7 panneaux solaires, l'affichage de ceux-ci sur le widget passe en horizontal au dessus des récepteurs.<br>
-<img src="../../../images/powerFlow_exemple_solar_6.png"/><br><br>
+<img src="../../images/powerFlow_exemple_solar_6.png"/><br><br>
 *Vous pouvez dans le plugin, réorganiser l'ordre d'affichage en les déplacant verticalement. (drag and drop)*<br>
 
 > ⚠️Pour chaque panneau ajouté, le champ "Puissance" est obligatoire.<br>
@@ -144,13 +144,13 @@ Comme les autres catégories, chaque panneaux disposent d'une gauge et d'un seui
 >
 > Vous pouvez ajouter des panneaux "fantômes", c'est a dire des panneaux qui ne s'afficheront pas mais qui prendront quand même la place prévu dans le widget.<br>Pour cela, ajoutez un panneau, et laissez vide tous les champs.<br>
 Exemple pour 5 panneaux sans éléments "fantôme" :<br>
-<img src="../../../images/powerFlow_exemple_solar_2.png"/><br>
+<img src="../../images/powerFlow_exemple_solar_2.png"/><br>
 Toujours 5 panneaux, mais avec un élément "fantôme" inséré entre le 2ème et 3ème panneau :<br>
-<img src="../../../images/powerFlow_exemple_solar_3.png"/><br>
+<img src="../../images/powerFlow_exemple_solar_3.png"/><br>
 
 ## Batterie
 
-<img src="../../../images/powerFlow_exemple_battery_1.png"/>
+<img src="../../images/powerFlow_exemple_battery_1.png"/>
 
 ### Configuration des éléments "Batterie"
 
@@ -159,7 +159,7 @@ Choisissez la couleur par défaut des éléments "Batterie" (rose par défaut).
 #### Capacité
 Indiquez la capacité de la batterie (En Wh).<br>
 Cette valeur permet au widget de calculer et d'afficher la durée restante avant décharge complète ou pleine charge, en fonction du pourcentage de batterie restant.<br>
-<img src="../../../images/powerFlow_exemple_battery_4.png"/>
+<img src="../../images/powerFlow_exemple_battery_4.png"/>
 
 ### Puissance instantanée de la batterie
 Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
@@ -169,7 +169,7 @@ Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a affi
 
 ### Panneau solaire (mppt)
 Si vous possèdez un panneau dédié a la batterie, renseignez ces champs pour l'afficher sur le widget :<br>
-<img src="../../../images/powerFlow_exemple_battery_2.png"/><br>
+<img src="../../images/powerFlow_exemple_battery_2.png"/><br>
 
 ### Energie quotidienne de la batterie
 Ajoutez simplement les commandes qui contiennent les énergies à afficher.
@@ -191,7 +191,7 @@ Attention, cette valeur est prise en compte sur le calcul du temps restant avant
 
 #### Icône
 Vous pouvez choisir une icône personnalisée pour remplacer de l'icône batterie.<br>
-<img src="../../../images/powerFlow_exemple_battery_3.png"/><br>
+<img src="../../images/powerFlow_exemple_battery_3.png"/><br>
 
 >**⚠️** Si vous utilisez une icône personnalsée ou une icône intégrée, la gestion des couleurs ci-dessous sera désactivée.<br>
 
@@ -211,7 +211,7 @@ Choisissez une couleur personnalisée en fonction du seuil restant de batterie.
 
 ## Récepteurs
 
-<img src="../../../images/powerFlow_exemple_load_1.png"/>
+<img src="../../images/powerFlow_exemple_load_1.png"/>
 
 ### Configuration des éléments "Récepteur"
 
@@ -225,16 +225,16 @@ Dans le cas contraire, laissez ce champ vide, le widget fera automatiquement la 
 ### Energie quotidienne des récepteurs
 
 Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.<br>
-<img src="../../../images/powerFlow_exemple_load_2.png"/>
+<img src="../../images/powerFlow_exemple_load_2.png"/>
 
 ### Ajout de récepteurs
 
-<img src="../../../images/powerFlow_commande_load_1.png"/><br>
+<img src="../../images/powerFlow_commande_load_1.png"/><br>
 
 #### Paramètres globaux
 Désactiver les animations : Cochez cette case si vous souhaitez masquer les animations des récepteurs.<br>
 Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 récepteurs par colonnes :<br>
-<img src="../../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
+<img src="../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
 >**⚠️** Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
 > Pour chaque récepteur ajouté, le champ "Puissance" est obligatoire.<br>
 
@@ -243,14 +243,14 @@ Il est possible d'afficher l'énergie ainsi qu'une commande personnalisée pour 
 Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
 
 Vous pouvez ajouter jusqu'a 2 icônes ou images par récepteur.<br>
-<img src="../../../images/powerFlow_exemple_load_4.png"/>
+<img src="../../images/powerFlow_exemple_load_4.png"/>
 
 >**Tips**
 >
 > Vous pouvez aussi ajouter des recepteurs "fantômes". Voir section "solaire" pour plus d'informations.
 
 ## Générateur
-<img src="../../../images/powerFlow_exemple_generateur_1.png"/>
+<img src="../../images/powerFlow_exemple_generateur_1.png"/>
 
 ### Configuration des éléments "Générateur"
 
@@ -266,12 +266,12 @@ Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un se
 Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a afficher.
 
 ## Perso
-<img src="../../../images/powerFlow_exemple_perso_1.png"/><br>
+<img src="../../images/powerFlow_exemple_perso_1.png"/><br>
 Cette section vous permet d'ajouter une commande personnalisée a afficher sur le widget a l'emplacement que vous souhaitez.
 
 ### Ajout d'une commande personnalisée
 
-<img src="../../../images/powerFlow_commande_perso_1.png"/><br>
+<img src="../../images/powerFlow_commande_perso_1.png"/><br>
 >**⚠️** Les champs ```commande```, ```X``` et ```Y``` sont obligatoires pour afficher l'élément sur le widget.<br>
 
 #### Emplacement X et Y
@@ -284,6 +284,6 @@ Il faut parfois tâtonner un peu pour cibler l'emplacement souhaité...
 Possibilté de choisir la taille de police d'écriture de la commande ainsi que celle du texte a afficher.
 
 >**⚠️** Si la ```position``` séléctionnée est "En ligne", seul la taille de la commande sera prise en compte.<br>
-<img src="../../../images/powerFlow_exemple_perso_2.png"/><br>
+<img src="../../images/powerFlow_exemple_perso_2.png"/><br>
 
 # FAQ
