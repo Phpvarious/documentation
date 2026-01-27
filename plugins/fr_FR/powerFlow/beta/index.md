@@ -233,7 +233,7 @@ Ajoutez simplement la commande qui contient l'énergie ainsi que le texte a affi
 
 #### Paramètres globals
 Désactiver les animations : Cochez cette case si vous voulez masquer les animations des récepteurs.
-Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 recepteurs par colonnes :<br>
+Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 récepteurs par colonnes :<br>
 <img src="../../../images/powerFlow_exemple_load_3.png" height="250px"/><br>
 >**⚠️** Si vous utilisez plus que 6 panneaux solaires, cette option sera automatiquement désactivée.<br>
 
@@ -242,5 +242,26 @@ Forcer 4 recépteurs par colonne : Permet d'afficher jusqu'a 4 recepteurs par co
 Il est possible d'afficher l'énergie ainsi qu'une commande personnalisée pour chaque récepteurs (pas obligatoire).
 
 Comme les autres catégories, chaque récepteur disposent d'une gauge et d'un seuil d'alerte. (Max et Alerte en w.)
+
+Vous pouvez ajouter jusqu'a 2 icônes ou images par récepteur.<br>
+<img src="../../../images/powerFlow_exemple_load_4.png"/>
+
+>**Tips**
+>
+> Vous pouvez aussi ajouter des recepteurs "fantômes". Voir section "solaire" pour plus d'informations.
+
+## Générateur
+<img src="../../../images/powerFlow_exemple_generateur_1.png"/>
+
+### Configuration des éléments "Récepteur"
+
+Choisissez la couleur par défaut des éléments "Générateur" (violet par défaut).
+
+### Puissance totale instantanée du générateur
+
+⚠️Commande obligatoire pour afficher les éléments "générateur".<br>
+
+## Perso
+
 
 # FAQ
