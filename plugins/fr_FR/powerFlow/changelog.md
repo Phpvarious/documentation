@@ -6,7 +6,7 @@
 
 # 27/01/2026
 
-> Béta vers stable
+> Passage de la version béta vers stable.
 
 ### Amélioration
 
