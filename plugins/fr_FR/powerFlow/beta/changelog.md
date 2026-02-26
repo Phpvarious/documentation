@@ -9,6 +9,7 @@
 <i>Merci Michel_F pour l'idée ;-)</i>
 ### Améliorations
 
+Modification des seuils pour affichage de l’icône batterie :
 - % <= `SOC Shutdown` → 0 barre (vide)
 - `SOC Shutdown` <= % < 25 –> 1 barre clignottante.
 - 25 <= % < 50 –> 1 barre fixe et 1 barre clignottante.
