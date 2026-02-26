@@ -4,6 +4,21 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 26/02/2026
+
+<i>Merci Michel_F pour l'idée ;-)</i>
+### Améliorations
+
+- % <= `SOC Shutdown` → 0 barre (vide)
+- `SOC Shutdown` <= % < 25 –> 1 barre clignottante.
+- 25 <= % < 50 –> 1 barre fixe et 1 barre clignottante.
+- 50 <= % < 75 –> 2 barres fixes et 1 barre clignottante.
+- 75 <= % < 100 –> 3 barres fixes et 1 barre clignottante.
+- % = 100 –> 4 barres fixes (batterie pleine).
+
+`SOC Shutdown` = Pourcentage auquel la batterie passe à l'arrêt (déja configurable dans le plugin).<br>
+<b><i>La gestion des couleurs n'est pas impactée.</i></b>
+
 # 10/02/2026
 
 ### Améliorations
