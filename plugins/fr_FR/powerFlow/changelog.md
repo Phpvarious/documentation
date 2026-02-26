@@ -4,6 +4,23 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 26/02/2026
+
+### Améliorations
+
+- Refresh automatique du widget après sauvegarde de l'équipement.
+- Ajout d'une option permettant de prendre en compte la puissance du mppt dans le calcul du temps de charge/décharge.
+- Modification des seuils pour affichage de l'icône batterie :
+  -  % < 25 --> 0 barre (vide)
+  - 25 <= % < 50 --> 1 barre
+  - 50 <= % < 75 --> 2 barres
+  - 75 <= % < 100 --> 3 barres
+  - % = 100 --> 4 barres (pleine)
+- Modification des seuils pour affichage de la couleur de la batterie (même principe que ci-dessus).
+
+  ### Corrections de bugs
+  - Correction d'une erreur js lors d'utilisation de simple quote (`'`) dans les textes des éléments de catégorie "Perso".
+
 # 27/01/2026
 
 > Passage de la version bêta vers stable.
