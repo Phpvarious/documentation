@@ -4,17 +4,22 @@
 
 # Journal des modifications
 
+## 2026
+
+### 03/03/2026 (06h45)
+
+Suppression compatibilité 4.2
      
 ## 2024
 
-### 01/04/2024 (23h30)
-  - Création.
+### 02/04/2024 (06h45)
+  - Ajout paramètre optionnel horizontal.
 
 ### 02/04/2024 (00h30)
   - Ajout paramètre optionnel radius.
 
-### 02/04/2024 (06h45)
-  - Ajout paramètre optionnel horizontal.
+### 01/04/2024 (23h30)
+  - Création.
 
 
 -------------------------------
