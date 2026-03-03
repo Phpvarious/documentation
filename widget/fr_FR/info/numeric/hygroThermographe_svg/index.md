@@ -3,14 +3,10 @@
 
 ------------
 
-# Widget [HygroThermographe_svg] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg) ![Generic badge](https://img.shields.io/badge/status-beta-orange.svg)
+# Widget [HygroThermographe_svg] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20%7C%20Full%20JS-green.svg)
 
 <center><img src="images/capture1_4.png" width="300px" alt="HygroThermographe_svg" /></center>
 
-> **---- BETA ----**
->
-> - Ce widget est en version béta.
->
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.numeric.HygroThermographe_svg" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
@@ -36,7 +32,7 @@ Il faudra bien enregistrer les génériques pour chaque commandes :
 - Pour l'état de la batterie : Batterie / Batterie
 - Pour l'état de connection : 
   ### 2 choix :
-   1) Si la commande est de type "binaire", utiliser le générique "Autre / Connecté".<br>Si ce générique n'est pas disponible (en 4.3 et <), vous pouvez utiliser "Multimédia / Etat".
+   1) Si la commande est de type "binaire", utiliser le générique "Autre / Connecté".<br>Si ce générique n'est pas disponible (en 4.3 et <), vous pouvez utiliser "Multimédia / Etat".<br>
    2) Si la commande est de type "numérique", utiliser le générique "Generic /  Générique".
 
 - ### Exemple pour Batterie :

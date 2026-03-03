@@ -4,7 +4,12 @@
 
 # Journal des modifications
 
-     
+## 2026
+
+### 03/03/2026 (21h45)
+  - Restructuration du code (#id# -> #uid#)
+  - Suppression compatibilité 4.2
+  
 ## 2023
 
 ### 24/09/2023 (22h00)
