@@ -8,7 +8,7 @@
 
 ### 03/03/2026 (19h45)
 
-Suppression compatibilité 4.2
+- Suppression compatibilité 4.2
      
 ## 2024
 
