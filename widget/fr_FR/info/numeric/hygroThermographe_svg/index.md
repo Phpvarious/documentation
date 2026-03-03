@@ -26,7 +26,7 @@
 ## 2) Application du widget
 
 - Ce widget est a appliqué sur la commande info numérique de votre température.
-- In ne necessite aucune images et autres fichiers, il est entièrement conçu en svg.
+- Il ne nécessite aucune images et autres fichiers, il est entièrement conçu en svg.
 - Il utilise les commandes présentent dans ce même équipement grace aux génériques types.
 
 ## 3) Les génériques :
