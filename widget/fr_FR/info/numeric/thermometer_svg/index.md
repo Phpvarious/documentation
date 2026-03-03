@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Thermometer_svg] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [Thermometer_svg] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
 <center><img src="images/capture1_1.png" alt="thermometer_svg" /></center>
 
