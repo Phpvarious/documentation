@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Battery_state_1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
+# Widget [compteur1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
 <center><img src="images/capture1.png" alt="HygroThermographe_svg" /></center>
 
