@@ -22,8 +22,14 @@
 
 <img src="images/parametre.png" alt="Paramètres" />
 
+------------------------
 
+## 2) Application du widget
 
+- Ce widget est a appliqué sur la commande info numérique de votre température.
+- In ne necessite aucune images et autres fichiers, il est entièrement conçu en svg.
+
+<div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Pour un affichage optimal, ajouter un Min et un Max a votre commande info numérique.</div>
 
 ## Questions :
 - Pourquoi les statistique ne s'affiche pas sur le widget ?
