@@ -3,10 +3,9 @@
 
 ------------
 
-# Widget [Battery_state_1] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [Battery_state_1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
 <center><img src="images/capture1_3.gif" alt="HygroThermographe_svg" /></center>
-
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.numeric.battery_state_1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>

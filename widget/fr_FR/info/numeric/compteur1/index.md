@@ -7,6 +7,7 @@
 
 <center><img src="images/capture1.png" alt="HygroThermographe_svg" /></center>
 
+<div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Conçu en svg, ce compteur ne necessite pas d'image, ni de police d'écriture (font) supplémentaire.</div>
 
 ## 1) Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.info.numeric.compteur1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
