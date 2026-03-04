@@ -3,7 +3,7 @@
 
 ------------
 
-# Widget [Energie Tarification] ![Generic badge](https://img.shields.io/badge/Version-4.3%20%7C%204.4%20Full%20JS-green.svg)
+# Widget [Energie Tarification] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
 <center><img src="./images/capture1_1.png" alt="energie_tarification" /></center>
 <i>version standard.</i>
@@ -43,7 +43,7 @@
 
 ## Paramètres optionnels
 
-<img src="./images/parametres1.png" alt="Paramètres" />
+<img src="./images/parametres2.png" alt="Paramètres" />
 
 
 
@@ -52,6 +52,14 @@
 > - [Comment ajouter des paramètres ?]({{site.url}}/documentation/{{site.help}}/fr_FR/application)
 
 # Changelog
+
+## 2026
+
+### 04/03/2026 (07h00)
+
+- Restructuration du code. (Merci @noodom)
+- Suppression des types, il faut maintenant ajouter timeslots et labels en paramètre optionnel.
+- Suppression compatibilité V4.3
 
 ## 2024
 
