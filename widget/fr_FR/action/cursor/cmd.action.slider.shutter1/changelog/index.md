@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor/shutter1">shutter1</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor/cmd.action.slider.shutter1">shutter1</a> --> [ChangeLog]
 
 --------------------
 
@@ -13,4 +13,4 @@
 
 -------------------------------
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor/shutter1">shutter1</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor/cmd.action.slider.shutter1">shutter1</a> --> [ChangeLog]

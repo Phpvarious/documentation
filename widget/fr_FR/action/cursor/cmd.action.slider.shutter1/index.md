@@ -8,7 +8,7 @@
 
 
 ## Télécharger la source
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.shutter1)
+> - <a href="{{site.url_git}}/WIDGET_cmd.action.slider.shutter1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 
 ## Version dashboard
 
