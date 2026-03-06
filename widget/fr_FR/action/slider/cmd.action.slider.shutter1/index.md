@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> cmd.action.slider.shutter1
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider">Action / Curseur</a> --> cmd.action.slider.shutter1
 
 # Widget [cmd.action.slider.shutter1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
@@ -36,4 +36,4 @@
 
 -------------------
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/cursor">Action / Curseur</a> --> cmd.action.slider.shutter1
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider">Action / Curseur</a> --> cmd.action.slider.shutter1
