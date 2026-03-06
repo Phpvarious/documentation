@@ -19,8 +19,8 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/action/cursor",
 				icon: "fas fa-sliders-h",
-				fr_FR: "Curseur (3)",
-				en_US: "Cursor (3)"
+				fr_FR: "Curseur (4)",
+				en_US: "Cursor (4)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/list",
