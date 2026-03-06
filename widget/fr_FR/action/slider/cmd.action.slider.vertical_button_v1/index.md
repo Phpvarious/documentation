@@ -4,8 +4,8 @@
 # Widget [cmd.action.slider.vertical_button_v1] ![Generic badge](https://img.shields.io/badge/Version-4.3-green.svg)
 
 
-<img src="../../../../images/dashboard/action.slider.vertical_button_v1_visuel.png" alt="cmd.action.slider.vertical_button_v1" />
-<img src="../../../../images/dashboard/action.slider.vertical_button_v1_visuel2.png" alt="cmd.action.slider.vertical_button_v1" />
+<img src="images/visuel.png" alt="cmd.action.slider.vertical_button_v1" />
+<img src="images/visuel2.png" alt="cmd.action.slider.vertical_button_v1" />
 
 
 > **Information**
@@ -19,7 +19,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../../images/dashboard/action.slider.vertical_button_v1_param2.png" alt="Paramètres optionnels" />
+<img src="images/param2.png" alt="Paramètres optionnels" />
 
 ## Changelog
 
