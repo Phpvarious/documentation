@@ -21,19 +21,9 @@
 
 <img src="../../../../images/dashboard/action.slider.vertical_button_v1_param2.png" alt="Paramètres optionnels" />
 
-# Journal des modifications
+## Changelog
 
-## 2024
-### 16/11/2024 (10h20)
-- Correction des nombres flottants (bouton + et -).
-### 06/09/2024 (15h10)
-- Ajout paramètre optionnel "hideButtons" qui permet de masquer les boutons (+) et (-).
-## 2023
-### 15/12/2023 (22h25)
-- Création
-### 20/12/2023 (19h40)
-- Possibilité de passer le slider en horizontal.
-- Possibilité de désactiver le slider.
+<a href="./changelog">Changelog</a>
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
