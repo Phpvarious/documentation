@@ -17,7 +17,7 @@ var docMenu = [
 				en_US: "Default (2)"
 			},
 			{
-				link: "/documentation/widget/#LANG#/action/cursor",
+				link: "/documentation/widget/#LANG#/action/slider",
 				icon: "fas fa-sliders-h",
 				fr_FR: "Curseur (4)",
 				en_US: "Cursor (4)"
