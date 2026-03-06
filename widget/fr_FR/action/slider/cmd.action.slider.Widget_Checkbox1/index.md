@@ -6,7 +6,7 @@
 
 
 
-<img src="../../../../images/dashboard/action.slider.checkbox1_visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="../../../../images/dashboard/action.slider.checkbox1_visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
+<img src="images/visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="images/visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
 
 ## Télécharger la source
 > - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.Checkbox1)
@@ -14,7 +14,7 @@
 
 ## Paramètres optionnels
 
-<img src="../../../../images/dashboard/action.slider.checkbox1_param.png" alt="Paramètres optionnels" />
+<img src="images/param.png" alt="Paramètres optionnels" />
 
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
