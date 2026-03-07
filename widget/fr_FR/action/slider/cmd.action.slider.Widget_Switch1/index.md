@@ -9,8 +9,8 @@
 <img src="images/visuel.png" alt="cmd.action.slider.Widget_Switch1" /> <img src="images/visuel2.png" alt="cmd.action.slider.Widget_Switch1" />
 
 ## Télécharger la source
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.Widget_Switch1)
-
+> - <a href="{{site.url_git}}/WIDGET_cmd.action.slider.Widget_Switch1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
+> - Déposer le fichier <b>cmd.action.slider.Widget_Switch1</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
 ## Paramètres optionnels
 
