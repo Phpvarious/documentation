@@ -10,7 +10,7 @@
 
 ## Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.action.slider.Checkbox1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
-> - Déposer le fichier <b>cmd.action.slider.Widget_Switch1</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
+> - Déposer le fichier <b>cmd.action.slider.Widget_Checkbox1</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
 ## Paramètres optionnels
 
