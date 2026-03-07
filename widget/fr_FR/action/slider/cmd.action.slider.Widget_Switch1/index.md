@@ -16,6 +16,10 @@
 
 <img src="images/param2.png" alt="Paramètres optionnels" />
 
+## Changelog
+
+<a href="./changelog">Changelog</a>
+
 ## Aide
 > - [Comment récupérer les sources ?]({{site.url}}/documentation/{{site.help}}/fr_FR/download)
 > - [Comment ajouter des paramètres ?]({{site.url}}/documentation/{{site.help}}/fr_FR/application)
