@@ -8,13 +8,10 @@
 <img src="images/visuel2.png" alt="cmd.action.slider.vertical_button_v1" />
 
 
-> **Information**
->
-> - Testé en 4.4.19.
->
 
 ## Télécharger la source
-> - [Télécharger les sources du Widget pour le Core V4]({{site.url_git}}/WIDGET_cmd.action.slider.vertical_button_v1)
+> - <a href="{{site.url_git}}/WIDGET_cmd.action.slider.vertical_button_v1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
+> - Déposer le fichier <b>cmd.action.slider.vertical_button_v1</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
 
 
 ## Paramètres optionnels
