@@ -1,4 +1,4 @@
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default">Action / Défaut</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider/cmd.action.other.homekit1">cmd.action.other.homekit1</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default">Action / Défaut</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default/cmd.action.other.homekit1">cmd.action.other.homekit1</a> --> [ChangeLog]
 
 --------------------
 
@@ -7,7 +7,7 @@
 ## 2026
 
 ### 08/03/2026 (19h00)
-- Restructuration du code (#id# -> #uid#).
+- Restructuration du code.
 - Ajout paramètre optionnel `column`, qui permet de mettre le widget en flex-direction column.
 
 
@@ -19,10 +19,10 @@
 
 ## 2023
 
-### 109/03/2023
+### 09/03/2023
 - Création
 
 
 -------------------------------
 
-<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default">Action / Défaut</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/slider/cmd.action.other.homekit1">cmd.action.other.homekit1</a> --> [ChangeLog]
+<a href="{{site.url}}/documentation">Accueil</a> --> <a href="{{site.url}}/documentation/{{site.widget}}">Widget</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default">Action / Défaut</a> --> <a href="{{site.url}}/documentation/{{site.widget}}/fr_FR/action/default/cmd.action.other.homekit1">cmd.action.other.homekit1</a> --> [ChangeLog]
