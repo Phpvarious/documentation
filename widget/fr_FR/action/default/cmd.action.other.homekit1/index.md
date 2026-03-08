@@ -3,6 +3,12 @@
 
 # Widget [cmd.action.other.homekit1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20%7C%20Full%20%20JS-green.svg)
 
+> **Information**
+>
+> Ce widget est de type "Toggle d’icône ON/OFF", il est a appliqué sur les 2 commandes (on / off).
+>
+> Pour plus de renseignement, consulter la documentation du core, section <a href="https://doc.jeedom.com/fr_FR/core/4.2/widgets#Toggle%20d%E2%80%99ic%C3%B4ne%20ON%2FOFF" target="_blank">Toggle d’icône ON/OFF</a>
+>
 
 <img src="images/visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="images/visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
 
