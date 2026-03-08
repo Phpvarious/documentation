@@ -29,16 +29,11 @@
 Il est possible d’ajouter des images personnelles, il suffit d’ajouter les images (png) dans le répertoire <b>data/customTemplates/dashboard/cmd.action.slider.shutter1</b><br>
 Ajouter ensuite le paramètre optionnel `image` en stipulant le nom de l’image sans l’extension.
 
-## Personnalisation
-Il est possible d’ajouter des images personnelles.<br>
-Il suffit d’ajouter les images de votre choix dans le répertoire data/customTemplates/dashboard/cmd.action.slider.ShutterSlider pour les appeler ensuite par leur nom à l’aide du paramètre optionnel image en stipulant le nom de l’image sans l’extension.<br>
-
 Si vous constatez un décalage des volets par rapport a votre image, il est possible de jouer sur ces paramètres optionnels :
 - paramTop : Permet un décalage du volet en partie haute.
 - paramBottom : Permet un décalage du volet en partie basse.
 - paramOffset : Permet de retailler et recentrer le volet.
 - paramRadius : Taille d'arrondi bas du selecteur.
-
 
 ## Changelog
 
