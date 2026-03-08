@@ -4,6 +4,13 @@
 
 # Journal des modifications
 
+## 2026
+
+### 08/03/2026 (11h00)
+- Restructuration du code (#id# -> #uid#).
+- Full JS.
+- Suppression compatibilité 4.2 et 4.3.
+
 ## 2024
 
 ### 16/11/2024 (10h20)
