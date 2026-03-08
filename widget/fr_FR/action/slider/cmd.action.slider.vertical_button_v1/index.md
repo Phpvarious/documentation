@@ -7,12 +7,9 @@
 <img src="images/visuel.png" alt="cmd.action.slider.vertical_button_v1" />
 <img src="images/visuel2.png" alt="cmd.action.slider.vertical_button_v1" />
 
-
-
 ## Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.action.slider.vertical_button_v1" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
 > - Déposer le fichier <b>cmd.action.slider.vertical_button_v1</b> dans le dossier <b>/html/data/customTemplates/dashboard/</b>
-
 
 ## Paramètres optionnels
 
