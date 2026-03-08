@@ -3,8 +3,8 @@
 # Widget [cmd.action.slider.shutter1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
 
-<img src="images/capture1.png" alt="cmd.action.slider.shutter1" />
-<img src="images/capture2.png" alt="cmd.action.slider.shutter1" />
+<img src="images/shutter1.gif" alt="cmd.action.slider.shutter1" />
+<img src="images/shutter1_2.gif" alt="cmd.action.slider.shutter1" />
 
 
 ## Télécharger la source
