@@ -3,9 +3,9 @@
 
 # Widget [cmd.action.other.homekit1] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20%7C%20Full%20%20JS-green.svg)
 
-
-<img src="images/visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="images/visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
-
+<center>
+  <img src="images/visuel.png" alt="cmd.action.slider.Widget_Checkbox1" /> <img src="images/visuel2.png" alt="cmd.action.slider.Widget_Checkbox1" />
+</center>
 
 > **Information**
 >
