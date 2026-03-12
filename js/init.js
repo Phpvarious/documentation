@@ -112,7 +112,8 @@ if (getUrlVars('theme') == 'light' || getUrlVars('theme') == 'dark') {
 
 setTheme();
 
-$('#ul_menu').empty();
+document.getElementById('ul_menu')
+//$('#ul_menu').empty();
 var html = '';
 var lang = 'fr_FR';
 if (window.location.href.indexOf('fr_FR') != -1) {
@@ -203,7 +204,8 @@ for (var i in docMenu) {
 	}
 }
 //html += '<li class="small"><small>Phpvarious Plugins</small></li>'
-$('#ul_menu').empty().html(html);
+document.getElementById('ul_menu').innerHTML = html
+//$('#ul_menu').empty().html(html);
 
 function genText(_menu, _lang) {
 	if (_menu.icon) {
