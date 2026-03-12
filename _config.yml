@@ -10,7 +10,7 @@ permalink: /404.html
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rouge
+highlighter: bleu
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
