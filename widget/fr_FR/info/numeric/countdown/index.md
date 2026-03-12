@@ -7,6 +7,11 @@
 
 <img src="images/capture1.gif" alt="HygroThermographe_svg" />
 
+> [!WARNING]
+> test
+>
+> test 2
+
 <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget a pour but d'afficher simplement un compte a rebours en fonction de la valeur (timestamp) de la commande.</div>
 
 ## Télécharger la source
