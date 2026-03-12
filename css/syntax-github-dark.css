@@ -1,8 +1,8 @@
-html.dark code {
+.dark code {
   background-color: #656c7633;
 }
-html.dark code.language-plaintext {
-
+p img {
+  border: 1px solid #ffffff;
 }
 
 /* Solarized Dark
