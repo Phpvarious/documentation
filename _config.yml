@@ -11,12 +11,10 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-gems:
-  - jekyll-paginate
-  - jekyll-seo-tag
 exclude:
   - vendor
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
 title: "Documentations des widgets de Phpvarious"
 description: "Ceci est la documentation des widgets créés par Phpvarious de la solution domotique Jeedom."
