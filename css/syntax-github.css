@@ -1,3 +1,11 @@
+html.dark code,
+html.dark div.highlighter-rouge pre.highlight {
+  background-color: #818b981f;
+  padding: .2em .4em;
+  font-size: 85%;
+  border-radius: 6px;
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .cm {
