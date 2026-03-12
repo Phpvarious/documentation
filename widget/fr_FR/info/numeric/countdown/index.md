@@ -5,7 +5,7 @@
 
 # Widget [Countdown] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
-<center><img src="images/capture1.png" alt="HygroThermographe_svg" /></center>
+<img src="images/capture1.gif" alt="HygroThermographe_svg" />
 
 <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget a pour but d'afficher simplement un compte a rebours en fonction de la valeur (timestamp) de la commande.</div>
 
@@ -22,14 +22,14 @@
 - Créer un nouveau virtuel.
 - Ajouter une commande info / numérique puis lui appliquer le widget `Countdown`.
 
-<img src="images/virtual1.png" alt="Virtuel 1" />
+<img src="images/virtual1.png" class="border" alt="Virtuel 1" />
 
 ### Ajout des boutons
 
 ####  Bouton reset
 Dans ce même équipement ajoutez une commande action/défaut.<br>
 
-<img src="images/virtual2.png" alt="Virtuel 2" />
+<img src="images/virtual2.png" class="border" alt="Virtuel 2" />
 
 
 - <i>Nom information : nom de la commande info/numerique qui contient le widget (`Décompte` pour mon exemple)</i>
@@ -38,7 +38,7 @@ Dans ce même équipement ajoutez une commande action/défaut.<br>
 ####  Bouton +
 Dans ce même équipement ajoutez une commande action/défaut (Ex : `+10`)<br>
 
-<img src="images/virtual3.png" alt="Virtuel 3" />
+<img src="images/virtual3.png" class="border" alt="Virtuel 3" />
 
 - <i>Nom information : nom de la commande info/numerique qui contient le widget (`Décompte` pour mon exemple)</i>
 - <i>Valeur : `(#timestamp# <= #[Décompte]#) ? (#[Décompte]# + 10) : (#timestamp# + 10)`</i>
@@ -50,7 +50,7 @@ Ex : `(#timestamp# <= #[Décompte]#) ? (#[Décompte]# + 60) : (#timestamp# + 60)
 ####  Bouton -
 Toujours dans ce même équipement ajoutez une commande action/défaut.  (Ex : `-10`)<br>
 
-<img src="images/virtual4.png" alt="Virtuel 4" />
+<img src="images/virtual4.png" class="border" alt="Virtuel 4" />
 
 - <i>Nom information : nom de la commande info/numerique qui contient le widget (`Décompte` pour mon exemple)</i>
 - <i>Valeur :</i> `(#timestamp# >= #[Décompte]# - 10) ? 0 : (#[Décompte]# - 10)`
@@ -62,7 +62,7 @@ Ex : `(#timestamp# >= #[Décompte]# - 60) ? 0 : (#[Décompte]# - 60)`
 
 ## Paramètres optionnels
 
-<img src="images/parametres1.png" alt="Paramètres" />
+<img src="images/parametres1.png" class="border" alt="Paramètres" />
 
 
 ## Changelog
