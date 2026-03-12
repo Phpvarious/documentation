@@ -1,8 +1,7 @@
-code,
-div.highlighter-rouge pre.highlight {
+code {
   background-color: #818b981f;
-  padding: .2em .4em;
-  font-size: 85%;
+  padding: .1em .4em;
+  font-size: 85% !important;
   border-radius: 6px;
 }
 

@@ -1,7 +1,5 @@
-html.dark code,
-html.dark div.highlighter-rouge pre.highlight {
-  background: var(--form-bg-color) !important;
-  color: var(--txt-color);
+html.dark code {
+  background-color: #656c7633;
 }
 html.dark code.language-plaintext {
 
