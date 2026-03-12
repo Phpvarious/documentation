@@ -5,7 +5,7 @@ code {
   border-radius: 6px;
 }
 p img {
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 .highlight table td { padding: 5px; }
