@@ -5,12 +5,13 @@
 
 # Widget [Countdown] ![Generic badge](https://img.shields.io/badge/Version-4.4%20%7C%204.5%20Full%20JS-green.svg)
 
-<img src="images/capture1.gif" alt="HygroThermographe_svg" />
+<img src="images/capture1.gif" alt="HygroThermographe_svg" /><br>
 
-> [!WARNING]
-> test
->
-> test 2
+<blockquote>
+  <p>Ce widget se base sur le travail accompli par @Bad, disponible sur le <a href = "https://community.jeedom.com/t/widget-decompte-a-la-seconde-tps-restant/99012" target="_blank">community</a></p>
+  <p>J'ai simplement réadapté le code en Js, ainsi qu'ajouté des paramètres optionnels.</p>
+</blockquote>
+<br>
 
 <div class="alert alert-warning"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget a pour but d'afficher simplement un compte a rebours en fonction de la valeur (timestamp) de la commande.</div>
 
