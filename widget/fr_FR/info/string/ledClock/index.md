@@ -18,7 +18,7 @@
 
 ## Changement de couleur
 
-Il est possible de changer la couleur de l'horloge en attribuant direct une couleur dans la commande info.<br>
+Il est possible de changer la couleur de l'horloge en attribuant direct une couleur a la commande info.<br>
 Pour cela, ajouter une commande action / couleur dans ce même équipement et ajouter comme nom d'information la commande précédement créée.
 
 <img src="./images/install2.png" alt="exemple" />

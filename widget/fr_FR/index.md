@@ -16,7 +16,7 @@ Ici vous trouverez l'ensemble de mes widgets pour Jeedom.
 
 - [Binaire (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/binary).
 - [Numérique (6)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/numeric).
-- [Autre (1)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
+- [Autre (2)]({{site.url}}/documentation/{{site.widget}}/fr_FR/info/string).
 
 ## Widget Scénario
 

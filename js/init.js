@@ -55,8 +55,8 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/info/string",
 				icon: "fas fa-text-height",
-				fr_FR: "Autre (1)",
-				en_US: "Other (1)"
+				fr_FR: "Autre (2)",
+				en_US: "Other (2)"
 			}
 		]
   },
