@@ -13,8 +13,8 @@ var docMenu = [
 			{
 				link: "/documentation/widget/#LANG#/action/default",
 				icon: "fas fa-power-off ",
-				fr_FR: "Défaut (2)",
-				en_US: "Default (2)"
+				fr_FR: "Défaut (3)",
+				en_US: "Default (3)"
 			},
 			{
 				link: "/documentation/widget/#LANG#/action/slider",
