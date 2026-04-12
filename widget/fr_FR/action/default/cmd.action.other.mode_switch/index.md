@@ -7,7 +7,7 @@
   <img src="images/mode_switch1.gif" alt="cmd.action.other.mode_switch" /> <img src="images/mode_switch2.gif" alt="cmd.action.other.mode_switch" />
 </center>
 <br>
-<div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget est a appliquer sur chaque commande du plugin mode.<br>Dans le cas d'une utilisation dans un virtuel, ne pas oublier de lier chaque commande action a la commande info.</div>
+<div class="alert alert-info"><i class="fas fa-exclamation-circle"></i> <strong>info : </strong> Ce widget est a appliquer sur chaque commande du plugin mode.<br>Dans le cas d'une utilisation dans un virtuel, ne pas oublier de lier chaques commandes action a la commande info et d'appliquer le widget sur chaque commande action.</div>
 
 ## Télécharger la source
 > - <a href="{{site.url_git}}/WIDGET_cmd.action.other.mode_switch" target="_blank">Télécharger les sources du Widget pour le Core V4</a>
