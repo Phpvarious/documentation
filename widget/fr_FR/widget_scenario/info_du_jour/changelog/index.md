@@ -8,6 +8,12 @@
 >
 > N'oubliez pas de reconfigurer le paramètre "$zone" dans le bloc code, si vous mettez à jour le scénario, car celui-ci sera reconfiguré en zone B par défaut.
      
+## 2026
+
+## 03/05/2026
+  - Ajout des dates de vacances jusqu'au 2027/09/01. [scénario]
+  - Ajout du tag `azimut`. [scénario]
+  
 ## 2023
 
 ### 05/05/2024 12h15
