@@ -6,7 +6,7 @@
 
 # 06/05/2026
 
-Possibilité d'utiliser une commande pour `SOC Shutdown` en plus d'une variable > [@Bison Community](https://community.jeedom.com/t/utilisation-dune-commande-pour-soc-shutdown/148912/2)
+Possibilité d'utiliser une commande pour `SOC Shutdown` en plus d'une variable > <a href="https://community.jeedom.com/t/utilisation-dune-commande-pour-soc-shutdown/148912/2" target="_blank">@Bison Community</a>
 
 # 26/02/2026
 
