@@ -4,8 +4,13 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
-# 06/05/2026
+# 27/05/2026
+### Améliorations
+Ajout d'un seuil mini (défaut : 0) pour chaque `Loads` qui permet de ne pas activer l'animation si la puissance est <= a ce seuil.
 
+
+# 06/05/2026
+### Améliorations
 Possibilité d'utiliser une commande pour `SOC Shutdown` en plus d'une variable > <a href="https://community.jeedom.com/t/utilisation-dune-commande-pour-soc-shutdown/148912/2" target="_blank">@Bison Community</a>
 
 # 26/02/2026
