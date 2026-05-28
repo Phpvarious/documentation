@@ -4,10 +4,13 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
 
+# 28/05/2026
+
+Modification de la condition du seuil mini pour chaque `Loads`, activation dès lors que le seuil est atteint.
+
 # 27/05/2026
 ### Améliorations
 Ajout d'un seuil mini (défaut : 0) pour chaque `Loads` qui permet de ne pas activer l'animation si la puissance est <= a ce seuil.
-
 
 # 06/05/2026
 ### Améliorations
